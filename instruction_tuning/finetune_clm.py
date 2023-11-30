@@ -205,8 +205,8 @@ def train():
     model_max_length = data_args.model_max_length
 
     def generate_and_tokenize_prompt(data_point):
-        full_prompt = f'{data_point["input"]} {data_point["targets"]}'
-        user_prompt = f'{data_point["input"]} '
+        full_prompt = f'{data_point["inputs"]} {data_point["targets"]}'
+        user_prompt = f'{data_point["inputs"]} '
         user_prompt_len = len(tokenizer(user_prompt, truncation=True, max_length=model_max_length)["input_ids"])
         tokenized_full_prompt = tokenizer(full_prompt + tokenizer.eos_token, truncation=True, max_length=model_max_length)
         tokenized_full_prompt["labels"] = tokenized_full_prompt["input_ids"]

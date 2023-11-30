@@ -5,8 +5,8 @@ grad_accum=1
 
 # En Only
 CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch finetune_clm.py \
-    --model_name_or_path tiiuae/falcon-7b \
-    --output_dir output/falcon-7b-lang-1 \
+    --model_name_or_path tiiuae/falcon-40b \
+    --output_dir output/falcon-40b-lang-1 \
     --lang en \
     --overwrite_output_dir \
     --learning_rate 2e-4 \
@@ -34,12 +34,12 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch finetune_clm.py \
     --group_by_length \
     --report_to wandb \
     --wandb_project llm_multi \
-    --run_name falcon-7b-lang-1
+    --run_name falcon-40b-lang-1
 
 # En-Fr
 CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch finetune_clm.py \
-    --model_name_or_path tiiuae/falcon-7b \
-    --output_dir output/falcon-7b-lang-2 \
+    --model_name_or_path tiiuae/falcon-40b \
+    --output_dir output/falcon-40b-lang-2 \
     --lang en,fr \
     --overwrite_output_dir \
     --learning_rate 2e-4 \
@@ -67,12 +67,12 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch finetune_clm.py \
     --group_by_length \
     --report_to wandb \
     --wandb_project llm_multi \
-    --run_name falcon-7b-lang-2
+    --run_name falcon-40b-lang-2
 
 # En-Fr-Zh
 CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch finetune_clm.py \
-    --model_name_or_path tiiuae/falcon-7b \
-    --output_dir output/falcon-7b-lang-3 \
+    --model_name_or_path tiiuae/falcon-40b \
+    --output_dir output/falcon-40b-lang-3 \
     --lang en,fr,zh \
     --overwrite_output_dir \
     --learning_rate 2e-4 \
@@ -100,12 +100,12 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch finetune_clm.py \
     --group_by_length \
     --report_to wandb \
     --wandb_project llm_multi \
-    --run_name falcon-7b-lang-3
+    --run_name falcon-40b-lang-3
 
 # En-Fr-Zh-Es-Id
 CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch finetune_clm.py \
-    --model_name_or_path tiiuae/falcon-7b \
-    --output_dir output/falcon-7b-lang-5 \
+    --model_name_or_path tiiuae/falcon-40b \
+    --output_dir output/falcon-40b-lang-5 \
     --lang en,fr,zh,es,id \
     --overwrite_output_dir \
     --learning_rate 2e-4 \
@@ -133,13 +133,13 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch finetune_clm.py \
     --group_by_length \
     --report_to wandb \
     --wandb_project llm_multi \
-    --run_name falcon-7b-lang-5
+    --run_name falcon-40b-lang-5
 
 
 # 10 langs
 CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch finetune_clm.py \
-    --model_name_or_path tiiuae/falcon-7b \
-    --output_dir output/falcon-7b-lang-10 \
+    --model_name_or_path tiiuae/falcon-40b \
+    --output_dir output/falcon-40b-lang-10 \
     --lang en,fr,zh,es,id,ar,vi,hi,sw,ig \
     --overwrite_output_dir \
     --learning_rate 2e-4 \
@@ -167,12 +167,12 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch finetune_clm.py \
     --group_by_length \
     --report_to wandb \
     --wandb_project llm_multi \
-    --run_name falcon-7b-lang-10
+    --run_name falcon-40b-lang-10
 
 # 20 langs
 CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch finetune_clm.py \
-    --model_name_or_path tiiuae/falcon-7b \
-    --output_dir output/falcon-7b-lang-20 \
+    --model_name_or_path tiiuae/falcon-40b \
+    --output_dir output/falcon-40b-lang-20 \
     --lang en,fr,zh,es,id,ar,vi,hi,sw,ig,yo,lg,nso,ny,rw,tn,ts,xh,zu,sn \
     --overwrite_output_dir \
     --learning_rate 2e-4 \
@@ -200,13 +200,13 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch finetune_clm.py \
     --group_by_length \
     --report_to wandb \
     --wandb_project llm_multi \
-    --run_name falcon-7b-lang-20
+    --run_name falcon-40b-lang-20
 
 
 # 45 langs
 CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch finetune_clm.py \
-    --model_name_or_path tiiuae/falcon-7b \
-    --output_dir output/falcon-7b-lang-45 \
+    --model_name_or_path tiiuae/falcon-40b \
+    --output_dir output/falcon-40b-lang-45 \
     --lang en,fr,zh,es,id,ar,vi,hi,sw,ig,yo,lg,nso,ny,rw,tn,ts,xh,zu,sn,ur,te,bn,mr,ta,ln,wo,gu,pa,rn,ne,eu,ca,pt,ml,ak,as,bm,fon,ki,kn,or,st,tum,tw \
     --overwrite_output_dir \
     --learning_rate 2e-4 \
@@ -234,4 +234,4 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch finetune_clm.py \
     --group_by_length \
     --report_to wandb \
     --wandb_project llm_multi \
-    --run_name falcon-7b-lang-45
+    --run_name falcon-40b-lang-45
