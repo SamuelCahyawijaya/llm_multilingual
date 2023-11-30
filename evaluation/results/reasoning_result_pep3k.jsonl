@@ -1,0 +1,60 @@
+{"gen": "Likely Plausible", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: cloth absorb oil"}
+{"gen": "This predicate is likely plausible. Sponges can indeed absorb oil, especially certain types of sponges. However, not all sponges will do so effectively.", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: sponge absorb oil"}
+{"gen": "This predicate is likely plausible. A sponge can indeed absorb rain, as it is designed to absorb liquid.", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: sponge absorb rain"}
+{"gen": "Likely plausible. Certain types of soil, particularly clay and loamy soils, can absorb oil to some extent due to their high organic matter and fine particle size.", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: soil absorb oil"}
+{"gen": "Impausible. While meat can retain or hold water due to its porous nature, it doesn't truly \"absorb\" water like a sponge. Cooking methods can influence how much water is released or retained.", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: meat absorb water"}
+{"gen": "Plausible", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: tape attach sticker"}
+{"gen": "Likely plausible. It is possible for a robot to be designed that has the capability to attach tape.", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: robot attach tape"}
+{"gen": "The predicate \"glue attach sticker\" is likely plausible. The reason being, a sticker can be attached using glue in case its adhesive is not strong enough.", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: glue attach sticker"}
+{"gen": "Plausible", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: glue attach note"}
+{"gen": "Likely plausible. The predicate could refer to a man attaching a letter to an email, a bulletin board, or another item.", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: man attach letter"}
+{"gen": "Implausible", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: axe attack boxer"}
+{"gen": "Implausible", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: rock attack people"}
+{"gen": "Likely plausible", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: boxer attack robber"}
+{"gen": "Plausible", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: man attack cat"}
+{"gen": "Plausible", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: rock attack victim"}
+{"gen": "This predicate is implausible. Sponges do not have the capability to absorb sunlight. They can absorb water and other small particles within the water, but not sunlight.", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: sponge absorb sunlight"}
+{"gen": "This predicate is likely plausible. Soil does absorb rain through a process known as infiltration.", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: soil absorb rain"}
+{"gen": "This predicate is implausible. While paper can absorb liquids due to its porous nature, it is not capable of absorbing solid substances such as sand.", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: paper absorb sand"}
+{"gen": "Implausible", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: cloth absorb concrete"}
+{"gen": "Plausible", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: paper absorb sunlight"}
+{"gen": "I would say this is likely implausible. The term \"map attach string\" is not clear or standard in most contexts, such as in programming. However, it might be plausible in a very specific context, yet it appears to be a combination of terms that doesn't make sense in a generalized way.", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: map attach string"}
+{"gen": "Plausible", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: map attach note"}
+{"gen": "Implausible", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: rope attach letter"}
+{"gen": "Plausible", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: rope attach string"}
+{"gen": "Plausible", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: spider attach rope"}
+{"gen": "Implausible", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: victim attack rock"}
+{"gen": "Implausible", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: boxer attack axe"}
+{"gen": "The predicate \"dog attack feather\" is implausible. Dogs usually don't attack feathers, they would more likely play with them or ignore them.", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: dog attack feather"}
+{"gen": "The predicate \"feather attack air\" is likely implausible. Feathers cannot physically attack as they lack agency or the ability to make intentional actions, and air is not something that can be attacked in a conventional sense.", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: feather attack air"}
+{"gen": "This predicate is likely implausible. Generally, a cord cannot attack air.", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: cord attack air"}
+{"gen": "Likely Plausible", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: cloth absorb oil"}
+{"gen": "This predicate is likely plausible. Sponges do have the ability to absorb oil.", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: sponge absorb oil"}
+{"gen": "Plausible", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: sponge absorb rain"}
+{"gen": "Likely plausible. Certain types of soil, especially those rich in organic materials, can absorb oil to some extent. However, the effectiveness varies depending on the type of soil and oil.", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: soil absorb oil"}
+{"gen": "It is plausible. Meat can absorb water to some extent, especially during processes like marinating or brining, which aim to make the meat more tender and flavorful.", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: meat absorb water"}
+{"gen": "Plausible", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: tape attach sticker"}
+{"gen": "Plausible", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: robot attach tape"}
+{"gen": "This predicate is likely plausible. It is common to use glue to attach a sticker.", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: glue attach sticker"}
+{"gen": "Plausible", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: glue attach note"}
+{"gen": "Likely plausible. A man can attach a letter to an email or other items such as a package or a notice board, although the context is not specified.", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: man attach letter"}
+{"gen": "Implausible", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: axe attack boxer"}
+{"gen": "This predicate is likely implausible. Rocks are inanimate objects and do not have the ability to attack people on their own.", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: rock attack people"}
+{"gen": "Likely Plausible", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: boxer attack robber"}
+{"gen": "Plausible", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: man attack cat"}
+{"gen": "Plausible", "tgt": 1, "prompt": "Please judge if this predicate is (likely) plausible or implausible: rock attack victim"}
+{"gen": "This predicate is likely implausible. While sponges can tolerate sunlight, they do not have the ability to absorb sunlight in the way plants do for photosynthesis. Therefore, the statement \"sponge absorb sunlight\" is not typically accurate.", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: sponge absorb sunlight"}
+{"gen": "This predicate is likely plausible. Soil does indeed absorb rain in the process known as infiltration.", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: soil absorb rain"}
+{"gen": "Implausible", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: paper absorb sand"}
+{"gen": "Impausible", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: cloth absorb concrete"}
+{"gen": "Likely plausible", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: paper absorb sunlight"}
+{"gen": "Implausible", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: map attach string"}
+{"gen": "Plausible. In many mapping or organizational software applications, users can attach notes to specific locations or elements on maps.", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: map attach note"}
+{"gen": "Impausible", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: rope attach letter"}
+{"gen": "Plausible", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: rope attach string"}
+{"gen": "Implausible. While a spider does produce silk, which could perhaps be likened to a rope, it technically cannot \"attach a rope.\"", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: spider attach rope"}
+{"gen": "Implausible", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: victim attack rock"}
+{"gen": "Implausible", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: boxer attack axe"}
+{"gen": "Implausible", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: dog attack feather"}
+{"gen": "This predicate is likely implausible. Feathers don't have the capacity to attack anything, including air.", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: feather attack air"}
+{"gen": "The predicate \"cord attack air\" is implausible. It does not form a coherent or logical action or situation.", "tgt": 0, "prompt": "Please judge if this predicate is (likely) plausible or implausible: cord attack air"}
