@@ -17,7 +17,7 @@ from sklearn.metrics import classification_report, precision_recall_fscore_suppo
 import torch
 import torch.nn.functional as F
 
-from peft import PeftModel
+#from peft import PeftModel
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForCausalLM, set_seed
 
 from prompt_utils import get_prompt, get_label_mapping
@@ -42,6 +42,24 @@ def to_prompt_indo_story_cloze(input, prompt, labels, prompt_lang):
     prompt = prompt.replace('[PREMISE]', input['premise'])
     return prompt
 
+def to_prompt_sst2(input, prompt, labels, prompt_lang):
+    prompt = prompt.replace('[PREMISE]', input['sentence'])
+    return prompt
+
+def to_prompt_qnli(input, prompt, labels, prompt_lang):
+    prompt = prompt.replace('[ANSWER]', input['text2'])
+    prompt = prompt.replace('[QUESTION]', input['text1'])
+    return prompt
+
+def to_prompt_wnli(input, prompt, labels, prompt_lang):
+    prompt = prompt.replace('[SENTENCE2]', input['text2'])
+    prompt = prompt.replace('[SENTENCE1]', input['text1'])
+    return prompt
+
+def to_prompt_tweet_topic_single(input, prompt, labels, prompt_lang):
+    prompt = prompt.replace('[TWEET]', input['text'])
+    return prompt
+
 @torch.inference_mode()
 def get_logprobs(model, tokenizer, inputs, label_ids=None, label_attn=None):
     inputs = tokenizer(inputs, return_tensors="pt", padding=True, truncation=True, max_length=1024).to('cuda')    
@@ -49,7 +67,7 @@ def get_logprobs(model, tokenizer, inputs, label_ids=None, label_attn=None):
         label_ids = label_ids.repeat((inputs['input_ids'].shape[0],1))
         label_attn = label_attn.repeat((inputs['input_ids'].shape[0],1))
         logits = model(**inputs, labels=label_ids).logits
-        logprobs = torch.gather(F.log_softmax(logits, dim=-1), 2, label_ids.unsqueeze(2)).squeeze(dim=-1) * label_attn
+        logprobs = torch.gather(F.log_softmax(logits, dim=-1), 2, label_ids.unsqueeze(2)).squeeze(dim=-1) * label_attn # Info for decoder to generate label token(s)
         return logprobs.sum(dim=-1).cpu()
     else:
         logits = model(**inputs).logits
@@ -96,7 +114,7 @@ if __name__ == '__main__':
     # Load Dataset
     print('Load NLU Datasets...')
     nlu_datasets = load_nlu_datasets()
-
+    #print("NLU: ", nlu_datasets)
     print(f'Loaded {len(nlu_datasets)} NLU datasets')
     for i, dset_subset in enumerate(nlu_datasets.keys()):
         print(f'{i} {dset_subset}')
@@ -106,7 +124,7 @@ if __name__ == '__main__':
 
     # Load Model
     tokenizer = AutoTokenizer.from_pretrained(MODEL, truncation_side='left', padding_side='right')
-    if "bloom" in MODEL or "xglm" in MODEL or "gpt2" in MODEL:
+    if "bloom" in MODEL or "xglm" in MODEL or "gpt2" in MODEL or "Llama" in MODEL:
         model = AutoModelForCausalLM.from_pretrained(MODEL, device_map="auto", load_in_8bit=False)
     else:
         model = AutoModelForSeq2SeqLM.from_pretrained(MODEL, device_map="auto", load_in_8bit=False)
@@ -125,15 +143,29 @@ if __name__ == '__main__':
             continue
 
         # Retrieve metadata
-        split = 'test'
-        if 'test' in nlu_dset.keys():
-            test_dset = nlu_dset['test']
+        if dset_subset == 'haryoaw/COPAL' or dset_subset == 'IndoStoryCloze':
+            split = 'test'
+            if 'test' in nlu_dset.keys():
+                test_dset = nlu_dset['test']
+            else:
+                test_dset = nlu_dset['train']
+                split = 'train'
+
+        elif dset_subset == 'cardiffnlp/tweet_topic_single':
+            split = "test"
+            if 'test_coling2022' in nlu_dset.keys():
+                test_dset = nlu_dset['test_coling2022']               
+
         else:
-            test_dset = nlu_dset['train']
-            split = 'train'
-        print(f'Processing {dset_subset}')
+            split = 'validation'
+            if 'validation' in nlu_dset.keys():
+                test_dset = nlu_dset['validation']
+            else:
+                test_dset = nlu_dset['train']
+                split = 'train'
 
         # Retrieve & preprocess labels
+        
         try:
             label_names = test_dset.features['label'].names
         except:
@@ -141,7 +173,7 @@ if __name__ == '__main__':
             
         # normalize some labels for more natural prompt:
         label_mapping = get_label_mapping(dset_subset, prompt_lang)
-        label_names = sorted(list(map(lambda x: label_mapping[x], label_mapping)))
+        label_names = sorted(list(map(lambda x: label_mapping[x], label_mapping))) # Why? This makes Try Except statement above useless
 
         label_to_id_dict = { l : i for i, l in enumerate(label_names)}
         
@@ -167,11 +199,21 @@ if __name__ == '__main__':
                 print(to_prompt_copa(test_dset[0], prompt_template, label_names, prompt_lang))
             elif 'IndoStoryCloze' in dset_subset:
                 print(to_prompt_indo_story_cloze(test_dset[0], prompt_template, label_names, prompt_lang))
-            print("\n")
+            elif 'sst2' in dset_subset:
+                print(to_prompt_sst2(test_dset[0], prompt_template, label_names, prompt_lang))
+            elif 'qnli' in dset_subset:
+                print(to_prompt_qnli(test_dset[0], prompt_template, label_names, prompt_lang))
+            elif 'wnli' in dset_subset:
+                print(to_prompt_wnli(test_dset[0], prompt_template, label_names, prompt_lang))
+            elif 'tweet_topic_single' in dset_subset:
+                print(to_prompt_tweet_topic_single(test_dset[0], prompt_template, label_names, prompt_lang))
+                
+            print("\n")            
 
             # zero-shot inference
             prompts, labels = [], []
             count = 0
+
             with torch.inference_mode():
                 for e, sample in tqdm(enumerate(test_dset)):
                     if e < len(preds):
@@ -179,12 +221,32 @@ if __name__ == '__main__':
 
                     # Add to buffer
                     if 'COPAL' in dset_subset:
-                        label_names = [sample['choice1'], sample['choice2']] # COPAL label is dynamic
                         prompt_text = to_prompt_copa(sample, prompt_template, label_names, prompt_lang)
                         label = int(sample['label'])
                     elif 'IndoStoryCloze' in dset_subset:
                         label_names = [sample['choice1'], sample['choice2']] # IndoStoryCloze label is dynamic
                         prompt_text = to_prompt_indo_story_cloze(sample, prompt_template, label_names, prompt_lang)
+                        label = sample['label']
+                    elif 'sst2' in dset_subset:
+                        label_names = ['negative', 'positive'] # double check. Note: not dynamic
+                        prompt_text = to_prompt_sst2(sample, prompt_template, label_names, prompt_lang)
+                        label = sample['label']
+                        
+                    elif 'qnli' in dset_subset:
+                        label_names = ['yes', 'no'] # double check
+                        prompt_text = to_prompt_qnli(sample, prompt_template, label_names, prompt_lang)
+                        label = sample['label']
+                        
+                    elif 'wnli' in dset_subset:
+                        label_names = ['no', 'yes'] # double check
+                        prompt_text = to_prompt_wnli(sample, prompt_template, label_names, prompt_lang)
+                        label = sample['label']
+                        
+                    elif 'tweet_topic_single' in dset_subset:
+                        #label_names = [sample['label_name']] # double check
+                        label_names = test_dset.features['label'].names
+                        label_names = [item.replace('_', ' ') for item in label_names]
+                        prompt_text = to_prompt_tweet_topic_single(sample, prompt_template, label_names, prompt_lang)
                         label = sample['label']
                     
                     prompts.append(prompt_text)
