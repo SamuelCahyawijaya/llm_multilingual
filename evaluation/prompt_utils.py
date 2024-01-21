@@ -12,6 +12,31 @@ TASK_TO_PROMPT = {
             '[PREMISE]. [LABELS_CHOICE]',
             'Continue the following paragraph:\n[PREMISE]. [LABELS_CHOICE]',
         ],
+        # sst2 
+        'sst2': [
+            '[PREMISE]. [LABELS_CHOICE]',
+            'Determine whether phrase is of positive or negative sentiment:\n[PREMISE]. [LABELS_CHOICE]',
+            'The folowing sentence: [PREMISE] is positive or negative?\n[LABELS_CHOICE]', # make new prompt - done
+        ],
+        #qnli
+        'qnli': ['Determine whether the sentence [ANSWER] contains the information required to answer the question [QUESTION]\n[LABELS_CHOICE]',
+                 'Given the following question: [QUESTION]. Does the sentence: [ANSWER] answer it?\n[LABELS_CHOICE]',
+                 'Given the following sentence: [ANSWER]. Has the question: [QUESTION] been answered?\n[LABELS_CHOICE]',
+            
+        ],
+        
+        #wnli
+        'wnli': ['Determine whether the sentence [SENTENCE2] contains is an entailment of the following sentence: [SENTENCE1]\n[LABELS_CHOICE]',
+                 'Given the following sentence: [SENTENCE1]. Does it follow that [SENTENCE2]?\n[LABELS_CHOICE]',
+                 'Suppose [SENTENCE1]. Can we infer that [SENTENCE2]?\n[LABELS_CHOICE]',
+        ],
+        
+        #tweet_topic_single
+        'tweet_topic_single': [
+            '[TWEET]. [LABELS_CHOICE]',
+            'Categorise the following tweets: \n[TWEET]. \nCategory: [LABELS_CHOICE]',
+            'The following tweet: [TWEET] belongs to the following category: [LABELS_CHOICE]',
+        ],
     },
 }
 
@@ -21,7 +46,20 @@ LABEL_LANG_MAP ={
     },
     'IndoStoryCloze': {
         'eng': {0: '0', 1: '1'}
+    },
+    'sst2': {
+        'eng': {0: '0', 1: '1'}
+    },
+    'SetFit/qnli': {
+        'eng': {0: '0', 1: '1'} # Check because labelling is 'flipped'
+    },
+    'SetFit/wnli': {
+        'eng': {0: '0', 1: '1'}
+    },
+    'cardiffnlp/tweet_topic_single': {
+        'eng': {0: '0', 1: '1', 2: '2', 3: '3', 4: '4', 5: '5'}
     }
+        
 }
 
 LANG_MAP = {
