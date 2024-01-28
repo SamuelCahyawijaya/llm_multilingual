@@ -124,10 +124,10 @@ if __name__ == '__main__':
 
     # Load Model
     tokenizer = AutoTokenizer.from_pretrained(MODEL, truncation_side='left', padding_side='right')
-    if "bloom" in MODEL or "xglm" in MODEL or "gpt2" in MODEL or "Llama" in MODEL:
-        model = AutoModelForCausalLM.from_pretrained(MODEL, device_map="auto", load_in_8bit=False)
+    if "bloom" in MODEL or "xglm" in MODEL or "gpt2" in MODEL or "Llama" in MODEL or 'falcon' in MODEL:
+        model = AutoModelForCausalLM.from_pretrained(MODEL, device_map="auto", load_in_8bit=True)
     else:
-        model = AutoModelForSeq2SeqLM.from_pretrained(MODEL, device_map="auto", load_in_8bit=False)
+        model = AutoModelForSeq2SeqLM.from_pretrained(MODEL, device_map="auto", load_in_8bit=True)
         tokenizer.pad_token = tokenizer.eos_token # Use EOS to pad label
         
     model.eval()
@@ -181,9 +181,9 @@ if __name__ == '__main__':
         for prompt_id, prompt_template in enumerate(TASK_TYPE_TO_PROMPT[task_type.value]):
             inputs, preds, golds = [], [], []
             # Check saved data
-            if exists(f'{out_dir}/{dset_subset_std}_{prompt_lang}_{prompt_id}_{MODEL.split("/")[-1]}.csv'):
+            if exists(f'{out_dir}/{dset_subset_std}_{prompt_lang}_{prompt_id}_{MODEL.split("/")[-2]}.csv'):
                 print("Output exist, use partial log instead")
-                with open(f'{out_dir}/{dset_subset_std}_{prompt_lang}_{prompt_id}_{MODEL.split("/")[-1]}.csv') as csvfile:
+                with open(f'{out_dir}/{dset_subset_std}_{prompt_lang}_{prompt_id}_{MODEL.split("/")[-2]}.csv') as csvfile:
                     reader = csv.DictReader(csvfile)
                     for row in reader:
                         inputs.append(row["Input"])
@@ -266,7 +266,7 @@ if __name__ == '__main__':
                     if count == SAVE_EVERY:
                         # partial saving
                         inference_df = pd.DataFrame(list(zip(inputs, preds, golds)), columns =["Input", 'Pred', 'Gold'])
-                        inference_df.to_csv(f'{out_dir}/{dset_subset_std}_{prompt_lang}_{prompt_id}_{MODEL.split("/")[-1]}.csv', index=False)
+                        inference_df.to_csv(f'{out_dir}/{dset_subset_std}_{prompt_lang}_{prompt_id}_{MODEL.split("/")[-2]}.csv', index=False)
                         count = 0
                         
                 if len(prompts) > 0:
@@ -280,7 +280,7 @@ if __name__ == '__main__':
 
             # partial saving
             inference_df = pd.DataFrame(list(zip(inputs, preds, golds)), columns =["Input", 'Pred', 'Gold'])
-            inference_df.to_csv(f'{out_dir}/{dset_subset_std}_{prompt_lang}_{prompt_id}_{MODEL.split("/")[-1]}.csv', index=False)
+            inference_df.to_csv(f'{out_dir}/{dset_subset_std}_{prompt_lang}_{prompt_id}_{MODEL.split("/")[-2]}.csv', index=False)
 
             cls_report = classification_report(golds, preds, output_dict=True)
             micro_f1, micro_prec, micro_rec, _ = precision_recall_fscore_support(golds, preds, average='micro')
@@ -307,4 +307,4 @@ if __name__ == '__main__':
                 'weighted_f1_score': cls_report['weighted avg']['f1-score'],
             })
 
-    pd.DataFrame(metrics).reset_index().to_csv(f'{metric_dir}/results_{prompt_lang}_{MODEL.split("/")[-1]}.csv', index=False)
+    pd.DataFrame(metrics).reset_index().to_csv(f'{metric_dir}/results_{prompt_lang}_{MODEL.split("/")[-2]}.csv', index=False)

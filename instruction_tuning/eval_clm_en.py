@@ -162,7 +162,7 @@ def eval():
     model = AutoModelForCausalLM.from_pretrained(
         model_args.base_model_name_or_path,
         load_in_8bit=model_args.load_in_8bit,
-#         device_map=device_map if model_args.load_in_8bit else None,
+        device_map='auto' if model_args.load_in_8bit else None,
     )
 
     if model_args.model_name_or_path != 'none':

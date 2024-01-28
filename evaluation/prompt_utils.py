@@ -14,26 +14,27 @@ TASK_TO_PROMPT = {
         ],
         # sst2 
         'sst2': [
-            '[PREMISE]. [LABELS_CHOICE]',
+            'Text: [PREMISE]. Sentence: [LABELS_CHOICE]',
             'Determine whether phrase is of positive or negative sentiment:\n[PREMISE]. [LABELS_CHOICE]',
             'The folowing sentence: [PREMISE] is positive or negative?\n[LABELS_CHOICE]', # make new prompt - done
         ],
         #qnli
-        'qnli': ['Determine whether the sentence [ANSWER] contains the information required to answer the question [QUESTION]\n[LABELS_CHOICE]',
-                 'Given the following question: [QUESTION]. Does the sentence: [ANSWER] answer it?\n[LABELS_CHOICE]',
-                 'Given the following sentence: [ANSWER]. Has the question: [QUESTION] been answered?\n[LABELS_CHOICE]',
-            
+        'qnli': [
+            'Determine whether the sentence [ANSWER] contains the information required to answer the question [QUESTION]\n[LABELS_CHOICE]',
+             'Given the following question: [QUESTION]. Does the sentence: [ANSWER] answer it?\n[LABELS_CHOICE]',
+             'Given the following sentence: [ANSWER]. Has the question: [QUESTION] been answered?\n[LABELS_CHOICE]',
         ],
         
         #wnli
-        'wnli': ['Determine whether the sentence [SENTENCE2] contains is an entailment of the following sentence: [SENTENCE1]\n[LABELS_CHOICE]',
-                 'Given the following sentence: [SENTENCE1]. Does it follow that [SENTENCE2]?\n[LABELS_CHOICE]',
-                 'Suppose [SENTENCE1]. Can we infer that [SENTENCE2]?\n[LABELS_CHOICE]',
+        'wnli': [
+            'Determine whether the sentence [SENTENCE2] contains is an entailment of the following sentence: [SENTENCE1]\n[LABELS_CHOICE]',
+             'Given the following sentence: [SENTENCE1]. Does it follow that [SENTENCE2]?\n[LABELS_CHOICE]',
+             'Suppose [SENTENCE1]. Can we infer that [SENTENCE2]?\n[LABELS_CHOICE]',
         ],
         
         #tweet_topic_single
         'tweet_topic_single': [
-            '[TWEET]. [LABELS_CHOICE]',
+            'Text: [TWEET]. Topic: [LABELS_CHOICE]',
             'Categorise the following tweets: \n[TWEET]. \nCategory: [LABELS_CHOICE]',
             'The following tweet: [TWEET] belongs to the following category: [LABELS_CHOICE]',
         ],
