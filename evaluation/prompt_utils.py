@@ -1,21 +1,9 @@
 TASK_TO_PROMPT = {
     'eng': {
-        # COPA-style (no nusacrowd Tasks yet)
-        'COPA': [
-            {'cause': '[PREMISE] This happened because...\nHelp me pick the more plausible option: - choice1: [OPTION_1], choice2: [OPTION_2]\n\n[LABELS_CHOICE]',
-             'effect': '[PREMISE] As a consequence...\nHelp me pick the more plausible option: - choice1: [OPTION_1], choice2: [OPTION_2]\n\n[LABELS_CHOICE]'},
-            {'cause': '[PREMISE]\n\nselect the most plausible cause:\n - [OPTION_1]\n - [OPTION_2]\n\n[LABELS_CHOICE]',
-             'effect': '[PREMISE]\n\nselect the most plausible effect:\n - [OPTION_1]\n - [OPTION_2]\n\n[LABELS_CHOICE]'},
-        ],
-        # IndoStoryCloze-style (no nusacrowd Tasks yet)
-        'IndoStoryCloze': [
-            '[PREMISE]. [LABELS_CHOICE]',
-            'Continue the following paragraph:\n[PREMISE]. [LABELS_CHOICE]',
-        ],
         # sst2 
         'sst2': [
-            'Text: [PREMISE]. Sentence: [LABELS_CHOICE]',
-            'Determine whether phrase is of positive or negative sentiment:\n[PREMISE]. [LABELS_CHOICE]',
+            'Write a sentence with [LABELS_CHOICE] sentiment: [PREMISE].',
+            'Determine whether phrase is of positive or negative sentiment:\n[PREMISE]. Sentiment: [LABELS_CHOICE]',
             'The folowing sentence: [PREMISE] is positive or negative?\n[LABELS_CHOICE]', # make new prompt - done
         ],
         #qnli
@@ -34,9 +22,9 @@ TASK_TO_PROMPT = {
         
         #tweet_topic_single
         'tweet_topic_single': [
-            'Text: [TWEET]. Topic: [LABELS_CHOICE]',
-            'Categorise the following tweets: \n[TWEET]. \nCategory: [LABELS_CHOICE]',
-            'The following tweet: [TWEET] belongs to the following category: [LABELS_CHOICE]',
+            'Write a sentence about [LABELS_CHOICE]: [PREMISE].'
+            'Categorise the following tweets: \n[TWEET]. \nTopic: [LABELS_CHOICE]',
+            'The following tweet: [TWEET] belongs to the [LABELS_CHOICE] category',
         ],
     },
 }

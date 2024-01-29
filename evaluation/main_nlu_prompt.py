@@ -22,6 +22,7 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForCausa
 
 from prompt_utils import get_prompt, get_label_mapping
 from data_utils import load_nlu_datasets
+from peft import PeftModel
 
 #!pip install git+https://github.com/IndoNLP/nusa-crowd.git@release_exp
 #!pip install transformers
@@ -123,13 +124,24 @@ if __name__ == '__main__':
     set_seed(42)
 
     # Load Model
-    tokenizer = AutoTokenizer.from_pretrained(MODEL, truncation_side='left', padding_side='right')
-    if "bloom" in MODEL or "xglm" in MODEL or "gpt2" in MODEL or "Llama" in MODEL or 'falcon' in MODEL:
+    if MODEL in ['tiiuae/falcon-7b', 'tiiuae/falcon-40b']:
+        tokenizer = AutoTokenizer.from_pretrained(MODEL, truncation_side='right', padding_side='right')
+        tokenizer.pad_token = tokenizer.eos_token
         model = AutoModelForCausalLM.from_pretrained(MODEL, device_map="auto", load_in_8bit=True)
+        ADAPTER = f'{MODEL}/baseline'
     else:
-        model = AutoModelForSeq2SeqLM.from_pretrained(MODEL, device_map="auto", load_in_8bit=True)
-        tokenizer.pad_token = tokenizer.eos_token # Use EOS to pad label
-        
+        ADAPTER = MODEL
+        if '7b' in ADAPTER:
+            MODEL = 'tiiuae/falcon-7b'
+        else:
+            MODEL = 'tiiuae/falcon-40b'
+            
+        tokenizer = AutoTokenizer.from_pretrained(MODEL, truncation_side='left', padding_side='left')
+        tokenizer.pad_token = tokenizer.eos_token
+        model = AutoModelForCausalLM.from_pretrained(MODEL, device_map="auto", load_in_8bit=True)
+        model = PeftModel.from_pretrained(model, ADAPTER)
+        model = model.merge_and_unload()
+    
     model.eval()
     torch.no_grad()
 
@@ -143,15 +155,7 @@ if __name__ == '__main__':
             continue
 
         # Retrieve metadata
-        if dset_subset == 'haryoaw/COPAL' or dset_subset == 'IndoStoryCloze':
-            split = 'test'
-            if 'test' in nlu_dset.keys():
-                test_dset = nlu_dset['test']
-            else:
-                test_dset = nlu_dset['train']
-                split = 'train'
-
-        elif dset_subset == 'cardiffnlp/tweet_topic_single':
+        if dset_subset == 'cardiffnlp/tweet_topic_single':
             split = "test"
             if 'test_coling2022' in nlu_dset.keys():
                 test_dset = nlu_dset['test_coling2022']               
@@ -181,9 +185,9 @@ if __name__ == '__main__':
         for prompt_id, prompt_template in enumerate(TASK_TYPE_TO_PROMPT[task_type.value]):
             inputs, preds, golds = [], [], []
             # Check saved data
-            if exists(f'{out_dir}/{dset_subset_std}_{prompt_lang}_{prompt_id}_{MODEL.split("/")[-2]}.csv'):
+            if exists(f'{out_dir}/{dset_subset_std}_{prompt_lang}_{prompt_id}_{ADAPTER.split("/")[-2]}.csv'):
                 print("Output exist, use partial log instead")
-                with open(f'{out_dir}/{dset_subset_std}_{prompt_lang}_{prompt_id}_{MODEL.split("/")[-2]}.csv') as csvfile:
+                with open(f'{out_dir}/{dset_subset_std}_{prompt_lang}_{prompt_id}_{ADAPTER.split("/")[-2]}.csv') as csvfile:
                     reader = csv.DictReader(csvfile)
                     for row in reader:
                         inputs.append(row["Input"])
@@ -195,11 +199,7 @@ if __name__ == '__main__':
             print("= LABEL NAME =")
             print(label_names)
             print("= SAMPLE PROMPT =")
-            if 'COPAL' in dset_subset:
-                print(to_prompt_copa(test_dset[0], prompt_template, label_names, prompt_lang))
-            elif 'IndoStoryCloze' in dset_subset:
-                print(to_prompt_indo_story_cloze(test_dset[0], prompt_template, label_names, prompt_lang))
-            elif 'sst2' in dset_subset:
+            if 'sst2' in dset_subset:
                 print(to_prompt_sst2(test_dset[0], prompt_template, label_names, prompt_lang))
             elif 'qnli' in dset_subset:
                 print(to_prompt_qnli(test_dset[0], prompt_template, label_names, prompt_lang))
@@ -220,14 +220,7 @@ if __name__ == '__main__':
                         continue
 
                     # Add to buffer
-                    if 'COPAL' in dset_subset:
-                        prompt_text = to_prompt_copa(sample, prompt_template, label_names, prompt_lang)
-                        label = int(sample['label'])
-                    elif 'IndoStoryCloze' in dset_subset:
-                        label_names = [sample['choice1'], sample['choice2']] # IndoStoryCloze label is dynamic
-                        prompt_text = to_prompt_indo_story_cloze(sample, prompt_template, label_names, prompt_lang)
-                        label = sample['label']
-                    elif 'sst2' in dset_subset:
+                    if 'sst2' in dset_subset:
                         label_names = ['negative', 'positive'] # double check. Note: not dynamic
                         prompt_text = to_prompt_sst2(sample, prompt_template, label_names, prompt_lang)
                         label = sample['label']
@@ -266,7 +259,7 @@ if __name__ == '__main__':
                     if count == SAVE_EVERY:
                         # partial saving
                         inference_df = pd.DataFrame(list(zip(inputs, preds, golds)), columns =["Input", 'Pred', 'Gold'])
-                        inference_df.to_csv(f'{out_dir}/{dset_subset_std}_{prompt_lang}_{prompt_id}_{MODEL.split("/")[-2]}.csv', index=False)
+                        inference_df.to_csv(f'{out_dir}/{dset_subset_std}_{prompt_lang}_{prompt_id}_{ADAPTER.split("/")[-2]}.csv', index=False)
                         count = 0
                         
                 if len(prompts) > 0:
@@ -280,7 +273,7 @@ if __name__ == '__main__':
 
             # partial saving
             inference_df = pd.DataFrame(list(zip(inputs, preds, golds)), columns =["Input", 'Pred', 'Gold'])
-            inference_df.to_csv(f'{out_dir}/{dset_subset_std}_{prompt_lang}_{prompt_id}_{MODEL.split("/")[-2]}.csv', index=False)
+            inference_df.to_csv(f'{out_dir}/{dset_subset_std}_{prompt_lang}_{prompt_id}_{ADAPTER.split("/")[-2]}.csv', index=False)
 
             cls_report = classification_report(golds, preds, output_dict=True)
             micro_f1, micro_prec, micro_rec, _ = precision_recall_fscore_support(golds, preds, average='micro')
@@ -307,4 +300,4 @@ if __name__ == '__main__':
                 'weighted_f1_score': cls_report['weighted avg']['f1-score'],
             })
 
-    pd.DataFrame(metrics).reset_index().to_csv(f'{metric_dir}/results_{prompt_lang}_{MODEL.split("/")[-2]}.csv', index=False)
+    pd.DataFrame(metrics).reset_index().to_csv(f'{metric_dir}/results_{prompt_lang}_{ADAPTER.split("/")[-2]}.csv', index=False)
