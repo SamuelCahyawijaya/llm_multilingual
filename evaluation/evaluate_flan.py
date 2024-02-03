@@ -132,8 +132,8 @@ def eval_decoder_only(args, subject, model, tokenizer, dev_df, test_df):
         prompt_end = format_example(test_df, i, include_answer=False)
         train_prompt = gen_prompt(dev_df, subject, k)
         prompt = train_prompt + prompt_end
-        print("$%$%$%%$%$$$%$%$%$%$%$%")
-        print("prompt: ", prompt)
+        #print("$%$%$%%$%$$$%$%$%$%$%$%")
+        #print("prompt: ", prompt)
         input = tokenizer(prompt, return_tensors="pt", padding = True, truncation = True, max_length=1024).to('cuda') 
 
         # while input_ids.shape[-1] > 2048:
@@ -150,7 +150,7 @@ def eval_decoder_only(args, subject, model, tokenizer, dev_df, test_df):
 
         logits = model(**input).logits
         #logits = model(input_ids=input_ids).logits[0,-1,:].flatten()
-        print("logits: ", logits)
+        #print("logits: ", logits)
         output_ids = input["input_ids"][:, 1:]
         logprobs = torch.gather(F.log_softmax(logits, dim=-1), 2, output_ids.unsqueeze(2)).squeeze(dim=-1)
         logprobs[input["attention_mask"][:, :-1] == 0] = 0
