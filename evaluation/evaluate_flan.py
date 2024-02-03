@@ -7,6 +7,9 @@ from categories import subcategories, categories
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, AutoModelForCausalLM
 import time
 
+import torch.nn.functional as F
+
+
 choices = ["A", "B", "C", "D"]
 
 
@@ -149,7 +152,7 @@ def eval_decoder_only(args, subject, model, tokenizer, dev_df, test_df):
         print("logits: ", logits)
         output_ids = input["input_ids"][:, 1:]
         logprobs = torch.gather(F.log_softmax(logits, dim=-1), 2, output_ids.unsqueeze(2)).squeeze(dim=-1)
-        logprobs[input_ids["attention_mask"][:, :-1] == 0] = 0
+        logprobs[input["attention_mask"][:, :-1] == 0] = 0
         prob = logprobs.sum(dim=1).cpu()
         pred = argmax(stack(prob, axis=-1), axis=-1).tolist()
 
