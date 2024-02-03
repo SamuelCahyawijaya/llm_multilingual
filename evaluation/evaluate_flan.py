@@ -164,10 +164,13 @@ def eval_decoder_only(args, subject, model, tokenizer, dev_df, test_df):
             probs.append(prob)
 
         
-        pred = argmax(stack(probs, axis=-1), axis=-1).tolist()
-        print(probs)
+        pred_int = argmax(stack(probs, axis=-1), axis=-1).tolist()
+        # print(probs)
+        # print(pred_int, type(pred_int), pred_int[0])
+        # print(type(pred_int[0]))
+        
+        pred = chr(ord('@')+pred_int[0]+1)
         print(pred)
-        print(label)
         cor = pred == label
         cors.append(cor)
         all_probs.append(prob)
