@@ -139,38 +139,26 @@ def eval_decoder_only(args, subject, model, tokenizer, dev_df, test_df):
         prompt_end = format_example(test_df, i, include_answer=False)
         train_prompt = gen_prompt(dev_df, subject, k)
         prompt = train_prompt + prompt_end
-        #print("$%$%$%%$%$$$%$%$%$%$%$%")
-        #print("prompt: ", prompt)
-
-        # while input_ids.shape[-1] > 2048:
-            
-        #     k -= 1
-        #     train_prompt = gen_prompt(dev_df, subject, k)
-        #     prompt = train_prompt + prompt_end
-        #     print("train prompt: ", train_prompt)
-        #     print("prompt end: ", prompt_end)
-        #     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-        #     input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
-
         label = test_df.iloc[i, test_df.shape[1] - 1]
-        # for choice in choices:
-        prompt_input = prompt
-        input = tokenizer(prompt_input, return_tensors="pt", padding = True, truncation = True, max_length=1024).to('cuda') 
+        
+        input = tokenizer(prompt, return_tensors="pt", padding = True, truncation = True, max_length=1024).to('cuda') 
         logits = model(**input).logits
         probs = torch.softmax(logits[0, -1,label_indices], dim=-1).cpu().numpy()
-            # logprobs = torch.gather(F.log_softmax(logits, dim=-1), 2, output_ids.unsqueeze(2)).squeeze(dim=-1)
-            # print('attn_mask', input["attention_mask"][:, :-1])
-            # logprobs[input["attention_mask"][:, :-1] == 0] = 0
-            # prob = logprobs.sum(dim=1).cpu()
-            # probs.append(prob)
-        
         pred_int = argmax(probs, axis=-1).tolist()
-        # print(probs)
-        # print(pred_int, type(pred_int), pred_int[0])
-        # print(type(pred_int[0]))
-        
         pred = chr(ord('A')+pred_int)
-        print(pred_int, pred, probs)
+        
+        # probs = []
+        # for choice in choices:
+        #     prompt_input = f'{prompt} {choice}'
+        #     input = tokenizer(prompt_input, return_tensors="pt", padding = True, truncation = True, max_length=1024).to('cuda') 
+        #     logits = model(**input).logits
+        #     output_ids = input['input_ids'][:,1:]
+        #     logprobs = torch.gather(F.log_softmax(logits, dim=-1), 2, output_ids.unsqueeze(2)).squeeze(dim=-1)
+        #     logprobs[input["attention_mask"][:, :-1] == 0] = 0
+        #     prob = logprobs.mean(dim=1).cpu()
+        #     probs.append(prob)
+        # pred_int = argmax(stack(probs, axis=-1), axis=-1).tolist()      
+        # pred = chr(ord('A')+pred_int[0])
         cor = pred == label
         cors.append(cor)
         all_probs.append(probs)
