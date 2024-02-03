@@ -128,24 +128,26 @@ def eval_decoder_only(args, subject, model, tokenizer, dev_df, test_df):
         prompt_end = format_example(test_df, i, include_answer=False)
         train_prompt = gen_prompt(dev_df, subject, k)
         prompt = train_prompt + prompt_end
+        print("$%$%$%%$%$$$%$%$%$%$%$%")
+        print("prompt: ", prompt)
+        input = tokenizer(prompt, return_tensors="pt", padding = True, truncation = True, max_length=1024).to('cuda') 
 
-        input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
-
-        while input_ids.shape[-1] > 2048:
+        # while input_ids.shape[-1] > 2048:
             
-            k -= 1
-            train_prompt = gen_prompt(dev_df, subject, k)
-            prompt = train_prompt + prompt_end
-            print("train prompt: ", train_prompt)
-            print("prompt end: ", prompt_end)
-            print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-            input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
+        #     k -= 1
+        #     train_prompt = gen_prompt(dev_df, subject, k)
+        #     prompt = train_prompt + prompt_end
+        #     print("train prompt: ", train_prompt)
+        #     print("prompt end: ", prompt_end)
+        #     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+        #     input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
 
         label = test_df.iloc[i, test_df.shape[1] - 1]
 
-        #logits = model(**input_ids).logits
-        logits = model(input_ids=input_ids).logits[0,-1,:].flatten()
-        output_ids = input_ids["input_ids"][:, 1:]
+        logits = model(**input).logits
+        #logits = model(input_ids=input_ids).logits[0,-1,:].flatten()
+        print("logits: ", logits)
+        output_ids = input["input_ids"][:, 1:]
         logprobs = torch.gather(F.log_softmax(logits, dim=-1), 2, output_ids.unsqueeze(2)).squeeze(dim=-1)
         logprobs[input_ids["attention_mask"][:, :-1] == 0] = 0
         prob = logprobs.sum(dim=1).cpu()
