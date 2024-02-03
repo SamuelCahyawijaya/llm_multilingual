@@ -165,7 +165,7 @@ def eval_decoder_only(args, subject, model, tokenizer, dev_df, test_df):
 
         
         pred = argmax(stack(probs, axis=-1), axis=-1).tolist()
-        print(prob)
+        print(probs)
         print(pred)
         print(label)
         cor = pred == label
