@@ -121,11 +121,18 @@ def eval(args, subject, model, tokenizer, dev_df, test_df):
 #             probs.append(get_logprobs(model, tokenizer, inputs))
 #     return probs
 
-@torch.no_grad()
+@torch.inference_mode()
 def eval_decoder_only(args, subject, model, tokenizer, dev_df, test_df):
     cors = []
     all_probs = []
     answers = choices[: test_df.shape[1] - 2]
+
+    label_indices = [
+        tokenizer("A").input_ids[0],
+        tokenizer("B").input_ids[0],
+        tokenizer("C").input_ids[0],
+        tokenizer("D").input_ids[0]
+    ]
 
     for i in range(test_df.shape[0]):
         k = args.ntrain
@@ -146,34 +153,27 @@ def eval_decoder_only(args, subject, model, tokenizer, dev_df, test_df):
         #     input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
 
         label = test_df.iloc[i, test_df.shape[1] - 1]
-
-
-        probs = []
-        for choice in choices:
-            prompt_input = prompt + choice
-            
-            input = tokenizer(prompt_input, return_tensors="pt", padding = True, truncation = True, max_length=1024).to('cuda') 
-
-            logits = model(**input).logits
-            #logits = model(input_ids=input_ids).logits[0,-1,:].flatten()
-            #print("logits: ", logits)
-            output_ids = input["input_ids"][:, 1:]
-            logprobs = torch.gather(F.log_softmax(logits, dim=-1), 2, output_ids.unsqueeze(2)).squeeze(dim=-1)
-            logprobs[input["attention_mask"][:, :-1] == 0] = 0
-            prob = logprobs.sum(dim=1).cpu()
-            probs.append(prob)
-
+        # for choice in choices:
+        prompt_input = prompt
+        input = tokenizer(prompt_input, return_tensors="pt", padding = True, truncation = True, max_length=1024).to('cuda') 
+        logits = model(**input).logits
+        probs = torch.softmax(logits[0, -1,label_indices], dim=-1).cpu().numpy()
+            # logprobs = torch.gather(F.log_softmax(logits, dim=-1), 2, output_ids.unsqueeze(2)).squeeze(dim=-1)
+            # print('attn_mask', input["attention_mask"][:, :-1])
+            # logprobs[input["attention_mask"][:, :-1] == 0] = 0
+            # prob = logprobs.sum(dim=1).cpu()
+            # probs.append(prob)
         
-        pred_int = argmax(stack(probs, axis=-1), axis=-1).tolist()
+        pred_int = argmax(probs, axis=-1).tolist()
         # print(probs)
         # print(pred_int, type(pred_int), pred_int[0])
         # print(type(pred_int[0]))
         
-        pred = chr(ord('@')+pred_int[0]+1)
-        print(pred)
+        pred = chr(ord('A')+pred_int)
+        print(pred_int, pred, probs)
         cor = pred == label
         cors.append(cor)
-        all_probs.append(prob)
+        all_probs.append(probs)
 
     acc = np.mean(cors)
     cors = np.array(cors)
@@ -186,7 +186,10 @@ def eval_decoder_only(args, subject, model, tokenizer, dev_df, test_df):
 def main(args):
     
     tokenizer = AutoTokenizer.from_pretrained(args.model, truncation_side='left', padding_side='right')
-    if "bloom" in args.model:
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+
+    if "bloom" in args.model or "llama" in args.model.lower() or "falcon" in args.model.lower():
         print("bloom")
         model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", load_in_8bit=False)
         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
