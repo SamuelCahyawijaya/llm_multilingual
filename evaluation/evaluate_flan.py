@@ -10,6 +10,7 @@ import time
 import torch.nn.functional as F
 from numpy import argmax, stack
 
+
 choices = ["A", "B", "C", "D"]
 
 
@@ -158,7 +159,7 @@ def eval_decoder_only(args, subject, model, tokenizer, dev_df, test_df):
 
         cor = pred == label
         cors.append(cor)
-        all_probs.append(probs)
+        all_probs.append(prob)
 
     acc = np.mean(cors)
     cors = np.array(cors)
