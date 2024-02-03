@@ -8,7 +8,7 @@ from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, AutoModelForCausa
 import time
 
 import torch.nn.functional as F
-
+from numpy import argmax, stack
 
 choices = ["A", "B", "C", "D"]
 
