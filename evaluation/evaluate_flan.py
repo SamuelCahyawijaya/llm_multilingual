@@ -134,7 +134,6 @@ def eval_decoder_only(args, subject, model, tokenizer, dev_df, test_df):
         prompt = train_prompt + prompt_end
         #print("$%$%$%%$%$$$%$%$%$%$%$%")
         #print("prompt: ", prompt)
-        input = tokenizer(prompt, return_tensors="pt", padding = True, truncation = True, max_length=1024).to('cuda') 
 
         # while input_ids.shape[-1] > 2048:
             
@@ -148,15 +147,27 @@ def eval_decoder_only(args, subject, model, tokenizer, dev_df, test_df):
 
         label = test_df.iloc[i, test_df.shape[1] - 1]
 
-        logits = model(**input).logits
-        #logits = model(input_ids=input_ids).logits[0,-1,:].flatten()
-        #print("logits: ", logits)
-        output_ids = input["input_ids"][:, 1:]
-        logprobs = torch.gather(F.log_softmax(logits, dim=-1), 2, output_ids.unsqueeze(2)).squeeze(dim=-1)
-        logprobs[input["attention_mask"][:, :-1] == 0] = 0
-        prob = logprobs.sum(dim=1).cpu()
-        pred = argmax(stack(prob, axis=-1), axis=-1).tolist()
 
+        probs = []
+        for choice in choices:
+            prompt_input = prompt + choice
+            
+            input = tokenizer(prompt_input, return_tensors="pt", padding = True, truncation = True, max_length=1024).to('cuda') 
+
+            logits = model(**input).logits
+            #logits = model(input_ids=input_ids).logits[0,-1,:].flatten()
+            #print("logits: ", logits)
+            output_ids = input["input_ids"][:, 1:]
+            logprobs = torch.gather(F.log_softmax(logits, dim=-1), 2, output_ids.unsqueeze(2)).squeeze(dim=-1)
+            logprobs[input["attention_mask"][:, :-1] == 0] = 0
+            prob = logprobs.sum(dim=1).cpu()
+            probs.append(prob)
+
+        
+        pred = argmax(stack(probs, axis=-1), axis=-1).tolist()
+        print(prob)
+        print(pred)
+        print(label)
         cor = pred == label
         cors.append(cor)
         all_probs.append(prob)
