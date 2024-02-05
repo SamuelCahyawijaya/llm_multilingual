@@ -9,7 +9,7 @@ import time
 
 import torch.nn.functional as F
 from numpy import argmax, stack
-
+from peft import PeftModel
 
 choices = ["A", "B", "C", "D"]
 
@@ -172,31 +172,52 @@ def eval_decoder_only(args, subject, model, tokenizer, dev_df, test_df):
     return cors, acc, all_probs
 
 def main(args):
-    
-    tokenizer = AutoTokenizer.from_pretrained(args.model, truncation_side='left', padding_side='right')
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
 
-    if "bloom" in args.model or "llama" in args.model.lower() or "falcon" in args.model.lower():
-        print("bloom")
-        model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", load_in_8bit=False)
-        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-        model = model.to(device)
+    # Load Model
+    if args.model in ['tiiuae/falcon-7b', 'tiiuae/falcon-40b']:
+        tokenizer = AutoTokenizer.from_pretrained(args.model, truncation_side='left', padding_side='left')
+        tokenizer.pad_token = tokenizer.eos_token
+        model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", load_in_8bit=True)
+        args.model = args.model.split("/")[-1] + '-baseline'
     else:
-        model = AutoModelForSeq2SeqLM.from_pretrained(args.model)
-        tokenizer = AutoTokenizer.from_pretrained(args.model)
+        ADAPTER = args.model
+        if '7b' in ADAPTER:
+            args.model = 'tiiuae/falcon-7b'
+        else:
+            args.model = 'tiiuae/falcon-40b'
+            
+        tokenizer = AutoTokenizer.from_pretrained(args.model, truncation_side='left', padding_side='left')
+        tokenizer.pad_token = tokenizer.eos_token
+        model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", load_in_8bit=True)
+        model = PeftModel.from_pretrained(model, ADAPTER)
+        model = model.merge_and_unload()     
+        args.model = ADAPTER.split("/")[-2]
         
-        heads_per_gpu = len(model.encoder.block) // args.ngpu
-        device_map = {
-            gpu: list(
-                range(
-                    0 + (gpu * heads_per_gpu),
-                    (0 + (gpu * heads_per_gpu)) + heads_per_gpu,
-                )
-            )
-            for gpu in range(args.ngpu)
-        }
-        model.parallelize(device_map)
+    
+#     tokenizer = AutoTokenizer.from_pretrained(args.model, truncation_side='left', padding_side='right')
+#     if tokenizer.pad_token is None:
+#         tokenizer.pad_token = tokenizer.eos_token
+        
+#     if "bloom" in args.model or "llama" in args.model.lower():
+#         print("bloom")
+#         model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", load_in_8bit=False)
+#         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+#         model = model.to(device)        
+#     else:
+#         model = AutoModelForSeq2SeqLM.from_pretrained(args.model)
+#         tokenizer = AutoTokenizer.from_pretrained(args.model)
+        
+#         heads_per_gpu = len(model.encoder.block) // args.ngpu
+#         device_map = {
+#             gpu: list(
+#                 range(
+#                     0 + (gpu * heads_per_gpu),
+#                     (0 + (gpu * heads_per_gpu)) + heads_per_gpu,
+#                 )
+#             )
+#             for gpu in range(args.ngpu)
+#         }
+#         model.parallelize(device_map)
     model.eval()
     subjects = sorted(
         [
