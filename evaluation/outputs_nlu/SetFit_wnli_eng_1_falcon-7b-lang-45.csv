@@ -1,0 +1,143 @@
+Input,Pred,Gold
+"Given the following sentence: The drain is clogged with hair. It has to be cleaned.. Does it follow that The hair has to be cleaned.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: Jane knocked on Susan's door but she did not answer.. Does it follow that Susan did not answer.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: Beth didn't get angry with Sally, who had cut her off, because she stopped and counted to ten.. Does it follow that Sally stopped and counted to ten.?
+[LABELS_CHOICE]",0,0
+"Given the following sentence: No one joins Facebook to be sad and lonely. But a new study from the University of Wisconsin psychologist George Lincoln argues that that's exactly how it makes us feel.. Does it follow that That's exactly how Facebook makes us feel.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: The man couldn't lift his son because he was so heavy.. Does it follow that The son was so heavy.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: Susan knew that Ann's son had been in a car accident, so she told her about it.. Does it follow that Ann told her about it.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: When Tommy dropped his ice cream, Timmy giggled, so father gave him a stern look.. Does it follow that Father gave Timmy a stern look.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: There is a pillar between me and the stage, and I can't see around it.. Does it follow that I can't see around the pillar.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: Look! There is a minnow swimming right below that duck! It had better get away to safety fast!. Does it follow that The duck had better get away to safety fast!?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: Bernard, who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything dishonest. Still, anyone who knew that he was 19 years old could take his claim away from him.. Does it follow that Anyone who knew that he was 19 years old could take his claim away from anyone.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: When the sponsors of the bill got to the town hall, they were surprised to find that the room was full of opponents. They were very much in the majority.. Does it follow that The sponsors were very much in the majority.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: I can't cut that tree down with that axe; it is too thick.. Does it follow that The tree is too thick.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: The large ball crashed right through the table because it was made of styrofoam.. Does it follow that The large ball was made of styrofoam.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: I tried to paint a picture of an orchard, with lemons in the lemon trees, but they came out looking more like light bulbs.. Does it follow that The lemon trees came out looking more like light bulbs.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: Madonna fired her trainer because she slept with her boyfriend.. Does it follow that Madonna slept with her boyfriend.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: If the con artist has succeeded in fooling Sam, he would have gotten a lot of money.. Does it follow that Sam would have gotten a lot of money.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: The lawyer asked the witness a question, but he was reluctant to repeat it.. Does it follow that The lawyer was reluctant to repeat it.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: Everyone really loved the oatmeal cookies; only a few people liked the chocolate chip cookies. Next time, we should make fewer of them.. Does it follow that We should make fewer of the oatmeal cookies.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: Bob collapsed on the sidewalk. Soon he saw Carl coming to help. He was very ill.. Does it follow that Carl was very ill.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: Mr. Moncrieff visited Chester's luxurious New York apartment, thinking that it belonged to his son Edward. The result was that Mr. Moncrieff has decided to cancel Edward's allowance on the ground that he no longer requires his financial support.. Does it follow that He no longer requires Chester's financial support.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: Tatyana knew that Grandma always enjoyed serving an abundance of food to her guests. Now Tatyana watched as Grandma gathered Tatyana's small mother into a wide, scrawny embrace and then propelled her to the table, lifting her shawl from her shoulders, seating her in the place of honor, and saying simply: ""There's plenty."". Does it follow that Grandma gathered Tatyana's small mother into a wide, scrawny embrace and then propelled Tatyana to the table.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: Ann asked Mary what time the library closes, because she had forgotten.. Does it follow that Mary had forgotten.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: George got free tickets to the play, but he gave them to Eric, even though he was particularly eager to see it.. Does it follow that Eric was particularly eager to see it.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: The delivery truck zoomed by the school bus because it was going so slow.. Does it follow that The school bus was going so slow.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: Jane gave Joan candy because she was hungry.. Does it follow that Jane was hungry.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: Mark heard Steve's feet going down the ladder. The door of the shop closed after him. He ran to look out the window.. Does it follow that Mark ran to look out the window.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: Although they ran at about the same speed, Sue beat Sally because she had such a good start.. Does it follow that Sally had such a good start.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: Fred is the only man still alive who remembers my great-grandfather. He is a remarkable man.. Does it follow that Fred is a remarkable man.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: Always before, Larry had helped Dad with his work. But he could not help him now, for Dad said that his boss at the railroad company would not want anyone but him to work in the office.. Does it follow that Larry could not help him now.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: George got free tickets to the play, but he gave them to Eric, because he was particularly eager to see it.. Does it follow that Eric was particularly eager to see it.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: They broadcast an announcement, but a subway came into the station and I couldn't hear over it.. Does it follow that I couldn't hear the subway.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: Grant worked hard to harvest his beans so he and his family would have enough to eat that winter, His friend Henry let him stack them in his barn where they would dry. Later, he and Tatyana would shell them and cook them for their Sunday dinners.. Does it follow that Later, he and Tatyana would shell them and cook them for the beans' Sunday dinners.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: Beth didn't get angry with Sally, who had cut her off, because she stopped and apologized.. Does it follow that Sally stopped and apologized.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: There is a pillar between me and the stage, and I can't see it.. Does it follow that I can't see around the stage.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: The older students were bullying the younger ones, so we rescued them.. Does it follow that We rescued the older students.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: I'm sure that my map will show this building; it is very famous.. Does it follow that The building is very famous.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: I tried to paint a picture of an orchard, with lemons in the lemon trees, but they came out looking more like telephone poles.. Does it follow that The lemons came out looking more like telephone poles.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: Always before, Larry had helped Dad with his work. But he could not help him now, for Dad said that his boss at the railroad company would not want anyone but him to work in the office.. Does it follow that He could not help Larry now.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: Bernard, who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything dishonest. Still, anyone who knew that he was 19 years old could take his claim away from him.. Does it follow that Bernard was less than 21 when he filed for a homestead claim.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: The drain is clogged with hair. It has to be cleaned.. Does it follow that The drain has to be cleaned.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: The drain is clogged with hair. It has to be removed.. Does it follow that The drain has to be removed.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: Emma did not pass the ball to Janie although she was open.. Does it follow that She saw that Emma was open.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: John was doing research in the library when he heard a man humming and whistling. He was very annoying.. Does it follow that John was very annoying.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: The city councilmen refused the demonstrators a permit because they advocated violence.. Does it follow that The demonstrators advocated violence.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: I couldn't put the pot on the shelf because it was too high.. Does it follow that The pot was too high.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: The police arrested all of the gang members. They were trying to run the drug trade in the neighborhood.. Does it follow that The police were trying to run the drug trade in the neighborhood.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: The cat was lying by the mouse hole waiting for the mouse, but it was too cautious.. Does it follow that The mouse was too cautious.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: Sam tried to paint a picture of shepherds with sheep, but they ended up looking more like golfers.. Does it follow that The sheep ended up looking more like golfers.?
+[LABELS_CHOICE]",0,0
+"Given the following sentence: Fred covered his eyes with his hands, because the wind was blowing sand around. He opened them when the wind stopped.. Does it follow that He opened his eyes when the wind stopped.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: When they had eventually calmed down a bit, and had gotten home, Mr. Farley put the magic pebble in an iron safe. Some day they might want to use it , but really for now, what more could they wish for?. Does it follow that Some day they might want to use the safe.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: The cat was lying by the mouse hole waiting for the mouse, but it was too cautious.. Does it follow that The cat was too cautious.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: By rolling over in her upper berth, Tatyana could look over the edge of it and see her mother plainly. How very small and straight and rigid she lay in the bunk below! Her eyes were closed, but Tatyana doubted if she slept.. Does it follow that How very small and straight and rigid her mother lay in the bunk below!?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: Fred was supposed to run the dishwasher, but he put it off, because he wanted to watch TV. But the show turned out to be boring, so he changed his mind and turned it off.. Does it follow that He changed his mind and turned the dishwasher off.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: Sam's drawing was hung just above Tina's and it did look much better with another one below it.. Does it follow that Tina's drawing did look much better with another one below it.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: Papa looked down at the children's faces, so puzzled and sad now. It was bad enough that they had to be denied so many things because he couldn't afford them.. Does it follow that He couldn't afford the things.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: Sam took French classes from Adam, because he was known to speak it fluently.. Does it follow that Sam was known to speak it fluently.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: The journalists interviewed the stars of the new movie. They were very persistent, so the interview lasted for a long time.. Does it follow that The journalists were very persistent, so the interview lasted for a long time.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: They broadcast an announcement, but a subway came into the station and I couldn't hear it.. Does it follow that I couldn't hear the subway.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: Fred and Alice had very warm down coats, but they were not enough for the cold in Alaska.. Does it follow that coats were not enough for the cold in Alaska.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: The father carried the sleeping boy in his arms.. Does it follow that The father carried the sleeping boy in the father's arms.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: Madonna fired her trainer because she slept with her boyfriend.. Does it follow that She slept with the trainer's boyfriend.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: Papa looked down at the children's faces, so puzzled and sad now. It was bad enough that they had to be denied so many things because he couldn't afford them.. Does it follow that He couldn't afford the children.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: If the con artist has succeeded in fooling Sam, he would have gotten a lot of money.. Does it follow that The con artist would have gotten a lot of money.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: Mr. Taylor was a man of uncertain temper and his general tendency was to think that David was a poor chump and that whatever step he took in any direction on his own account was just another proof of his innate idiocy.. Does it follow that Any direction on his own account was just another proof of David's innate idiocy.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: This morning, Joey built a sand castle on the beach, and put a toy flag in the highest tower, but this afternoon the wind knocked it down.. Does it follow that This afternoon the wind knocked The sand castle down.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get it repaired.. Does it follow that Now I have to get The roof repaired.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: I poured water from the bottle into the cup until it was empty.. Does it follow that The bottle was empty.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: Alice looked for her friend Jade in the crowd. Since she always wears a red turban, Alice spotted her quickly.. Does it follow that Since Alice always wears a red turban, Alice spotted her quickly.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: The dog chased the cat, which ran up a tree. It waited at the top.. Does it follow that The cat waited at the top.?
+[LABELS_CHOICE]",1,1
+"Given the following sentence: It was a summer afternoon, and the dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because it was hot.. Does it follow that The spot under the tree was hot.?
+[LABELS_CHOICE]",1,0
+"Given the following sentence: George got free tickets to the play, but he gave them to Eric, because he was not particularly eager to see it.. Does it follow that Eric was not particularly eager to see it.?
+[LABELS_CHOICE]",1,0

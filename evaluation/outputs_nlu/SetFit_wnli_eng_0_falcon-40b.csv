@@ -1,0 +1,143 @@
+Input,Pred,Gold
+"Determine whether the sentence The hair has to be cleaned. contains is an entailment of the following sentence: The drain is clogged with hair. It has to be cleaned.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence Susan did not answer. contains is an entailment of the following sentence: Jane knocked on Susan's door but she did not answer.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence Sally stopped and counted to ten. contains is an entailment of the following sentence: Beth didn't get angry with Sally, who had cut her off, because she stopped and counted to ten.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence That's exactly how Facebook makes us feel. contains is an entailment of the following sentence: No one joins Facebook to be sad and lonely. But a new study from the University of Wisconsin psychologist George Lincoln argues that that's exactly how it makes us feel.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence The son was so heavy. contains is an entailment of the following sentence: The man couldn't lift his son because he was so heavy.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence Ann told her about it. contains is an entailment of the following sentence: Susan knew that Ann's son had been in a car accident, so she told her about it.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence Father gave Timmy a stern look. contains is an entailment of the following sentence: When Tommy dropped his ice cream, Timmy giggled, so father gave him a stern look.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence I can't see around the pillar. contains is an entailment of the following sentence: There is a pillar between me and the stage, and I can't see around it.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence The duck had better get away to safety fast! contains is an entailment of the following sentence: Look! There is a minnow swimming right below that duck! It had better get away to safety fast!
+[LABELS_CHOICE]",0,0
+"Determine whether the sentence Anyone who knew that he was 19 years old could take his claim away from anyone. contains is an entailment of the following sentence: Bernard, who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything dishonest. Still, anyone who knew that he was 19 years old could take his claim away from him.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence The sponsors were very much in the majority. contains is an entailment of the following sentence: When the sponsors of the bill got to the town hall, they were surprised to find that the room was full of opponents. They were very much in the majority.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence The tree is too thick. contains is an entailment of the following sentence: I can't cut that tree down with that axe; it is too thick.
+[LABELS_CHOICE]",0,1
+"Determine whether the sentence The large ball was made of styrofoam. contains is an entailment of the following sentence: The large ball crashed right through the table because it was made of styrofoam.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence The lemon trees came out looking more like light bulbs. contains is an entailment of the following sentence: I tried to paint a picture of an orchard, with lemons in the lemon trees, but they came out looking more like light bulbs.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence Madonna slept with her boyfriend. contains is an entailment of the following sentence: Madonna fired her trainer because she slept with her boyfriend.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence Sam would have gotten a lot of money. contains is an entailment of the following sentence: If the con artist has succeeded in fooling Sam, he would have gotten a lot of money.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence The lawyer was reluctant to repeat it. contains is an entailment of the following sentence: The lawyer asked the witness a question, but he was reluctant to repeat it.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence We should make fewer of the oatmeal cookies. contains is an entailment of the following sentence: Everyone really loved the oatmeal cookies; only a few people liked the chocolate chip cookies. Next time, we should make fewer of them.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence Carl was very ill. contains is an entailment of the following sentence: Bob collapsed on the sidewalk. Soon he saw Carl coming to help. He was very ill.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence He no longer requires Chester's financial support. contains is an entailment of the following sentence: Mr. Moncrieff visited Chester's luxurious New York apartment, thinking that it belonged to his son Edward. The result was that Mr. Moncrieff has decided to cancel Edward's allowance on the ground that he no longer requires his financial support.
+[LABELS_CHOICE]",0,0
+"Determine whether the sentence Grandma gathered Tatyana's small mother into a wide, scrawny embrace and then propelled Tatyana to the table. contains is an entailment of the following sentence: Tatyana knew that Grandma always enjoyed serving an abundance of food to her guests. Now Tatyana watched as Grandma gathered Tatyana's small mother into a wide, scrawny embrace and then propelled her to the table, lifting her shawl from her shoulders, seating her in the place of honor, and saying simply: ""There's plenty.""
+[LABELS_CHOICE]",0,0
+"Determine whether the sentence Mary had forgotten. contains is an entailment of the following sentence: Ann asked Mary what time the library closes, because she had forgotten.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence Eric was particularly eager to see it. contains is an entailment of the following sentence: George got free tickets to the play, but he gave them to Eric, even though he was particularly eager to see it.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence The school bus was going so slow. contains is an entailment of the following sentence: The delivery truck zoomed by the school bus because it was going so slow.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence Jane was hungry. contains is an entailment of the following sentence: Jane gave Joan candy because she was hungry.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence Mark ran to look out the window. contains is an entailment of the following sentence: Mark heard Steve's feet going down the ladder. The door of the shop closed after him. He ran to look out the window.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence Sally had such a good start. contains is an entailment of the following sentence: Although they ran at about the same speed, Sue beat Sally because she had such a good start.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence Fred is a remarkable man. contains is an entailment of the following sentence: Fred is the only man still alive who remembers my great-grandfather. He is a remarkable man.
+[LABELS_CHOICE]",0,1
+"Determine whether the sentence Larry could not help him now. contains is an entailment of the following sentence: Always before, Larry had helped Dad with his work. But he could not help him now, for Dad said that his boss at the railroad company would not want anyone but him to work in the office.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence Eric was particularly eager to see it. contains is an entailment of the following sentence: George got free tickets to the play, but he gave them to Eric, because he was particularly eager to see it.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence I couldn't hear the subway. contains is an entailment of the following sentence: They broadcast an announcement, but a subway came into the station and I couldn't hear over it.
+[LABELS_CHOICE]",0,1
+"Determine whether the sentence Later, he and Tatyana would shell them and cook them for the beans' Sunday dinners. contains is an entailment of the following sentence: Grant worked hard to harvest his beans so he and his family would have enough to eat that winter, His friend Henry let him stack them in his barn where they would dry. Later, he and Tatyana would shell them and cook them for their Sunday dinners.
+[LABELS_CHOICE]",0,0
+"Determine whether the sentence Sally stopped and apologized. contains is an entailment of the following sentence: Beth didn't get angry with Sally, who had cut her off, because she stopped and apologized.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence I can't see around the stage. contains is an entailment of the following sentence: There is a pillar between me and the stage, and I can't see it.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence We rescued the older students. contains is an entailment of the following sentence: The older students were bullying the younger ones, so we rescued them.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence The building is very famous. contains is an entailment of the following sentence: I'm sure that my map will show this building; it is very famous.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence The lemons came out looking more like telephone poles. contains is an entailment of the following sentence: I tried to paint a picture of an orchard, with lemons in the lemon trees, but they came out looking more like telephone poles.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence He could not help Larry now. contains is an entailment of the following sentence: Always before, Larry had helped Dad with his work. But he could not help him now, for Dad said that his boss at the railroad company would not want anyone but him to work in the office.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence Bernard was less than 21 when he filed for a homestead claim. contains is an entailment of the following sentence: Bernard, who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything dishonest. Still, anyone who knew that he was 19 years old could take his claim away from him.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence The drain has to be cleaned. contains is an entailment of the following sentence: The drain is clogged with hair. It has to be cleaned.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence The drain has to be removed. contains is an entailment of the following sentence: The drain is clogged with hair. It has to be removed.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence She saw that Emma was open. contains is an entailment of the following sentence: Emma did not pass the ball to Janie although she was open.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence John was very annoying. contains is an entailment of the following sentence: John was doing research in the library when he heard a man humming and whistling. He was very annoying.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence The demonstrators advocated violence. contains is an entailment of the following sentence: The city councilmen refused the demonstrators a permit because they advocated violence.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence The pot was too high. contains is an entailment of the following sentence: I couldn't put the pot on the shelf because it was too high.
+[LABELS_CHOICE]",0,0
+"Determine whether the sentence The police were trying to run the drug trade in the neighborhood. contains is an entailment of the following sentence: The police arrested all of the gang members. They were trying to run the drug trade in the neighborhood.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence The mouse was too cautious. contains is an entailment of the following sentence: The cat was lying by the mouse hole waiting for the mouse, but it was too cautious.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence The sheep ended up looking more like golfers. contains is an entailment of the following sentence: Sam tried to paint a picture of shepherds with sheep, but they ended up looking more like golfers.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence He opened his eyes when the wind stopped. contains is an entailment of the following sentence: Fred covered his eyes with his hands, because the wind was blowing sand around. He opened them when the wind stopped.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence Some day they might want to use the safe. contains is an entailment of the following sentence: When they had eventually calmed down a bit, and had gotten home, Mr. Farley put the magic pebble in an iron safe. Some day they might want to use it , but really for now, what more could they wish for?
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence The cat was too cautious. contains is an entailment of the following sentence: The cat was lying by the mouse hole waiting for the mouse, but it was too cautious.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence How very small and straight and rigid her mother lay in the bunk below! contains is an entailment of the following sentence: By rolling over in her upper berth, Tatyana could look over the edge of it and see her mother plainly. How very small and straight and rigid she lay in the bunk below! Her eyes were closed, but Tatyana doubted if she slept.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence He changed his mind and turned the dishwasher off. contains is an entailment of the following sentence: Fred was supposed to run the dishwasher, but he put it off, because he wanted to watch TV. But the show turned out to be boring, so he changed his mind and turned it off.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence Tina's drawing did look much better with another one below it. contains is an entailment of the following sentence: Sam's drawing was hung just above Tina's and it did look much better with another one below it.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence He couldn't afford the things. contains is an entailment of the following sentence: Papa looked down at the children's faces, so puzzled and sad now. It was bad enough that they had to be denied so many things because he couldn't afford them.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence Sam was known to speak it fluently. contains is an entailment of the following sentence: Sam took French classes from Adam, because he was known to speak it fluently.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence The journalists were very persistent, so the interview lasted for a long time. contains is an entailment of the following sentence: The journalists interviewed the stars of the new movie. They were very persistent, so the interview lasted for a long time.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence I couldn't hear the subway. contains is an entailment of the following sentence: They broadcast an announcement, but a subway came into the station and I couldn't hear it.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence coats were not enough for the cold in Alaska. contains is an entailment of the following sentence: Fred and Alice had very warm down coats, but they were not enough for the cold in Alaska.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence The father carried the sleeping boy in the father's arms. contains is an entailment of the following sentence: The father carried the sleeping boy in his arms.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence She slept with the trainer's boyfriend. contains is an entailment of the following sentence: Madonna fired her trainer because she slept with her boyfriend.
+[LABELS_CHOICE]",0,0
+"Determine whether the sentence He couldn't afford the children. contains is an entailment of the following sentence: Papa looked down at the children's faces, so puzzled and sad now. It was bad enough that they had to be denied so many things because he couldn't afford them.
+[LABELS_CHOICE]",0,0
+"Determine whether the sentence The con artist would have gotten a lot of money. contains is an entailment of the following sentence: If the con artist has succeeded in fooling Sam, he would have gotten a lot of money.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence Any direction on his own account was just another proof of David's innate idiocy. contains is an entailment of the following sentence: Mr. Taylor was a man of uncertain temper and his general tendency was to think that David was a poor chump and that whatever step he took in any direction on his own account was just another proof of his innate idiocy.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence This afternoon the wind knocked The sand castle down. contains is an entailment of the following sentence: This morning, Joey built a sand castle on the beach, and put a toy flag in the highest tower, but this afternoon the wind knocked it down.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence Now I have to get The roof repaired. contains is an entailment of the following sentence: In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get it repaired.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence The bottle was empty. contains is an entailment of the following sentence: I poured water from the bottle into the cup until it was empty.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence Since Alice always wears a red turban, Alice spotted her quickly. contains is an entailment of the following sentence: Alice looked for her friend Jade in the crowd. Since she always wears a red turban, Alice spotted her quickly.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence The cat waited at the top. contains is an entailment of the following sentence: The dog chased the cat, which ran up a tree. It waited at the top.
+[LABELS_CHOICE]",1,1
+"Determine whether the sentence The spot under the tree was hot. contains is an entailment of the following sentence: It was a summer afternoon, and the dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because it was hot.
+[LABELS_CHOICE]",1,0
+"Determine whether the sentence Eric was not particularly eager to see it. contains is an entailment of the following sentence: George got free tickets to the play, but he gave them to Eric, because he was not particularly eager to see it.
+[LABELS_CHOICE]",1,0

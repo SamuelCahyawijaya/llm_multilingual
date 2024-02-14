@@ -1,0 +1,560 @@
+Input,Pred,Gold
+Pria itu memangku tasnya saat menaiki angkutan umum because [LABELS_CHOICE],1,0
+Kulitnya bentol-bentol because [LABELS_CHOICE],0,0
+Bapak saya masuk angin because [LABELS_CHOICE],0,1
+Jari bocah itu sakit because [LABELS_CHOICE],1,1
+Dia sedih because [LABELS_CHOICE],0,0
+Ibu itu begitu bahagia because [LABELS_CHOICE],0,0
+Orang itu makan nasi porsi kuli because [LABELS_CHOICE],0,1
+Ia merasa geli because [LABELS_CHOICE],1,0
+Ia tidak naik kelas because [LABELS_CHOICE],0,0
+Pria itu baru saja selesai solat berjamaah. Ia terkejut because [LABELS_CHOICE],1,1
+Gadis itu ikut latihan saman because [LABELS_CHOICE],1,1
+Pemuda itu makan di warteg because [LABELS_CHOICE],1,1
+KPR bapak macet because [LABELS_CHOICE],0,0
+Kakak menjuarai lomba gurindam because [LABELS_CHOICE],1,1
+Bapak itu memesan ojek because [LABELS_CHOICE],0,1
+Ibu kos datang because [LABELS_CHOICE],0,1
+Mahasiswa itu terlihat gugup because [LABELS_CHOICE],0,1
+Ia berlatih gerakan kuda-kuda because [LABELS_CHOICE],1,0
+Kakinya kapalan because [LABELS_CHOICE],1,1
+Pengusaha kelas kakap itu akhirnya jatuh juga because [LABELS_CHOICE],1,0
+Wanita itu sangat ingin menjadi artis therefore [LABELS_CHOICE],0,1
+Mahasiswa itu ketahuan titip absen therefore [LABELS_CHOICE],0,1
+Siswa SMA itu rambutnya gondrong therefore [LABELS_CHOICE],0,0
+Pak ogah membantu mobilnya putar balik therefore [LABELS_CHOICE],0,0
+Pengunjung itu memberikan tip 5% ke pelayan therefore [LABELS_CHOICE],0,1
+Banyak sekali pungli sepanjang perjalanan therefore [LABELS_CHOICE],1,0
+Ia ingin memberbaharui SIM-C miliknya therefore [LABELS_CHOICE],1,0
+Sopir truk jarak jauh itu bosan therefore [LABELS_CHOICE],1,0
+Pemuda tersebut berlatih angklung setiap hari therefore [LABELS_CHOICE],0,0
+Segerombolan pemuda sedang menjelajah Kalimantan therefore [LABELS_CHOICE],0,0
+Saya minum air kobokan therefore [LABELS_CHOICE],0,1
+Got di komplek perumahaan itu tersumbat therefore [LABELS_CHOICE],0,1
+"Hari senin, anak SD itu bangun jam 6 pagi therefore [LABELS_CHOICE]",1,0
+Ia didatangi pengamen therefore [LABELS_CHOICE],1,0
+Banyak pembegalan di sekitar komplek therefore [LABELS_CHOICE],0,1
+Pelajar itu ingin menembak temannya di sekolah therefore [LABELS_CHOICE],0,0
+Anak itu ingin sekali makan nasi dan ayam goreng tepung therefore [LABELS_CHOICE],1,1
+Ada kasus demam berdarah di komplek itu therefore [LABELS_CHOICE],1,0
+Kakinya terkilir therefore [LABELS_CHOICE],0,0
+Terlihat layang-layang putus therefore [LABELS_CHOICE],1,1
+Alergi kacangnya kumat dan ia gatal-gatal because [LABELS_CHOICE],0,1
+Orang itu menangis kepedasan because [LABELS_CHOICE],0,0
+Listrik di rumahnya padam because [LABELS_CHOICE],0,0
+Ia kehabisan tinta kuning because [LABELS_CHOICE],0,1
+Anak kecil itu menjerit ketakutan because [LABELS_CHOICE],0,1
+Bapak itu merantau ke Jakarta because [LABELS_CHOICE],0,1
+Pemuda itu dilarikan ke rumah sakit because [LABELS_CHOICE],0,0
+Ia masuk ke Indomaret because [LABELS_CHOICE],1,1
+Ibu pergi ke Pasar Minggu because [LABELS_CHOICE],1,0
+Ia merasa gelisah because [LABELS_CHOICE],0,0
+Ibu beli beras ketan because [LABELS_CHOICE],0,1
+Perempuan itu pergi ke Gambir because [LABELS_CHOICE],0,1
+Wanita itu pergi ke Puncak because [LABELS_CHOICE],0,0
+Bapak itu senang sekali because [LABELS_CHOICE],0,0
+Ia rajin angkat beban because [LABELS_CHOICE],1,0
+Ia pergi ke Soekarno Hatta because [LABELS_CHOICE],1,1
+Anak itu ketakutan because [LABELS_CHOICE],0,1
+Anak itu menjerit histeris because [LABELS_CHOICE],0,0
+Ia berurusan dengan polisi because [LABELS_CHOICE],0,1
+Pria itu memperbaharui KK miliknya because [LABELS_CHOICE],1,1
+Dokternya menyarankannya untuk mengurangi konsumsi karbohidrat therefore [LABELS_CHOICE],0,0
+Ia ingin pergi jalan-jalan ke Ancol therefore [LABELS_CHOICE],1,1
+Ia ingin mencari buku bacaan baru therefore [LABELS_CHOICE],1,1
+Orang itu sangat mengidolakan Gatot Kaca therefore [LABELS_CHOICE],1,1
+Ia diminta membuat laporan tentang pahlawan nasional therefore [LABELS_CHOICE],1,0
+Saya tidak sengaja menumpahkan kuah gulai therefore [LABELS_CHOICE],0,1
+Hari ini adalah hari libur Idul Fitri therefore [LABELS_CHOICE],0,0
+Diadakan acara keroncong di kampung therefore [LABELS_CHOICE],0,1
+Kakakku mengidolakan Joko Anwar therefore [LABELS_CHOICE],0,1
+Kakakku mengidolakan Joko Widodo therefore [LABELS_CHOICE],0,0
+Siswa SMA itu ingin sekali melanjutkan pendidikan di ITB therefore [LABELS_CHOICE],0,1
+Bapak terlalu banyak mengonsumsi Gudang Garam therefore [LABELS_CHOICE],1,0
+Sekumpulan anak melompat-lompat di TransJakarta therefore [LABELS_CHOICE],0,0
+Sekumpulan anak melompat-lompat di Trans Studio therefore [LABELS_CHOICE],0,1
+Ia makan es teler setiap hari therefore [LABELS_CHOICE],0,0
+Aplikasi QRIS-nya rusak therefore [LABELS_CHOICE],0,1
+Ia ingin mendapatkan kursi DPR therefore [LABELS_CHOICE],0,0
+Pemudi itu ingin sekali makan nasi padang therefore [LABELS_CHOICE],1,1
+Anak itu berjalan kaki mengelilingi Taman Mini therefore [LABELS_CHOICE],0,1
+Ia ganteng therefore [LABELS_CHOICE],1,1
+Polisi mengamankan stadion because [LABELS_CHOICE],1,0
+Mereka sekeluarga sehari-hari makan raskin because [LABELS_CHOICE],0,0
+Rambut gadis itu seperti mak lampir because [LABELS_CHOICE],0,0
+Laporan BMKG membuat warga panik because [LABELS_CHOICE],1,1
+Ia senang tinggal di Kebon Jeruk because [LABELS_CHOICE],1,0
+Ia tidak suka tinggal di Kelapa Gading because [LABELS_CHOICE],0,1
+Mahasiswa sedang mengumpulkan dana untuk kegiatan mahasiswa because [LABELS_CHOICE],1,0
+Tiba-tiba bapak didatangi rentenir because [LABELS_CHOICE],1,0
+Dia dibawa ke rumah sakit because [LABELS_CHOICE],1,0
+Ia dirujak teman-temannya because [LABELS_CHOICE],0,1
+Anak itu diterima masuk UI therefore [LABELS_CHOICE],1,1
+Ibu belanja di pasar therefore [LABELS_CHOICE],1,1
+Anak itu ingin merantau therefore [LABELS_CHOICE],1,0
+Kelakuannya seperti dajjal therefore [LABELS_CHOICE],1,0
+Orang itu mengalami kecelakaan mobil therefore [LABELS_CHOICE],0,0
+"Ibu menyampurkan gula, garam, dan jeruk di masakannya therefore [LABELS_CHOICE]",0,0
+Aku sedang berhemat therefore [LABELS_CHOICE],0,0
+Saya terlambat masuk kantor therefore [LABELS_CHOICE],0,1
+Ia suka berjemur therefore [LABELS_CHOICE],0,0
+Ada pesta makan rengginang therefore [LABELS_CHOICE],1,0
+Ia dikenal sebagai kembang desa because [LABELS_CHOICE],0,0
+Air seninya bening because [LABELS_CHOICE],0,0
+Dirinya dijuluki bermuka badak because [LABELS_CHOICE],0,0
+Rumahnya dimakan si jago merah because [LABELS_CHOICE],1,0
+Jalanan macet because [LABELS_CHOICE],1,1
+Ia mengadu domba tetangganya therefore [LABELS_CHOICE],1,0
+Anak itu ingin sekali menuntut ilmu di negeri sakura therefore [LABELS_CHOICE],1,1
+Ia selalu jadi mahasiswi kupu-kupu therefore [LABELS_CHOICE],0,1
+Ia selalu jadi mahasiswa kura-kura therefore [LABELS_CHOICE],0,0
+Orang itu sudah bau tanah therefore [LABELS_CHOICE],1,1
+"Gadis itu berjalan melewati tukang bakso, tiba-tiba tukang baksonya senyum because [LABELS_CHOICE]",1,1
+Mertua mendapatkan menantu idaman because [LABELS_CHOICE],0,1
+Di malam hari jalanan sangat ramai because [LABELS_CHOICE],1,0
+Anak muda itu pakai baju seragam SMA yang sudah dicoret-coret because [LABELS_CHOICE],0,0
+Hari minggu pagi warga kompleks berkumpul bersama because [LABELS_CHOICE],1,1
+Murid itu bisa membangun tenda because [LABELS_CHOICE],0,1
+Penonton berjoget bersama di lapangan because [LABELS_CHOICE],1,0
+"Malam ini orang-orang membakar jagung, sosis, dan ikan because [LABELS_CHOICE]",0,0
+"Paman sedang sarungan, kokoan, dan pecian because [LABELS_CHOICE]",1,0
+Malin kundang jadi batu because [LABELS_CHOICE],1,1
+Bawang putih disiksa ibunya because [LABELS_CHOICE],1,0
+"Saat lebaran, suasana kota Jakarta sangat sepi because [LABELS_CHOICE]",0,1
+Laki-laki bugis perlu menabung uang banyak sebelum menikah because [LABELS_CHOICE],0,0
+Lantai rumah jarang berdebu because [LABELS_CHOICE],1,0
+Sepupuku pakai jaket di siang hari because [LABELS_CHOICE],0,1
+Saya makan lalapan pakai tangan because [LABELS_CHOICE],0,0
+Kakak sedang membuat sambal terasi because [LABELS_CHOICE],1,0
+Pelajar jogja dilarang keluar rumah diatas jam 10 malam because [LABELS_CHOICE],0,1
+Aku tidak diperbolehkan menonton pertandingan Persib melawan Persija oleh ibu because [LABELS_CHOICE],1,1
+Papa mendapat gaji tambahan di hari raya because [LABELS_CHOICE],1,1
+"Tahun ini, ujian sekolah pakai LJK therefore [LABELS_CHOICE]",0,0
+"Tiap awal bulan, ibu pergi ke warung therefore [LABELS_CHOICE]",1,0
+Orang itu suka bersantai pakai kaos dalam dan sarung therefore [LABELS_CHOICE],0,1
+Punggung pakde sedang dikerok therefore [LABELS_CHOICE],1,1
+Bendahara kelas hari ini ulang tahun therefore [LABELS_CHOICE],0,1
+Kami menghormati pengorbanan para pahlawan therefore [LABELS_CHOICE],0,0
+Hari ini hari raya nyepi di Bali therefore [LABELS_CHOICE],1,0
+Bibi lagi liburan ke Lombok therefore [LABELS_CHOICE],0,0
+Teman saya tinggal di sekitaran SCBD therefore [LABELS_CHOICE],0,1
+Kakak menjaga kebersihan tubuh therefore [LABELS_CHOICE],1,1
+Aku mendadak lapar saat malam hari therefore [LABELS_CHOICE],0,0
+Adik menyapu lantai tidak bersih therefore [LABELS_CHOICE],0,1
+Keluarga Pak Kades selesai makan di restoran therefore [LABELS_CHOICE],1,1
+Dosenku membeli nasi padang untuk dibawa pulang therefore [LABELS_CHOICE],1,1
+Hari ini hari raya kartini therefore [LABELS_CHOICE],1,0
+Adik yang masih TK akan berangkat ke sekolah therefore [LABELS_CHOICE],0,1
+Keluarga kami mau buka puasa therefore [LABELS_CHOICE],0,0
+Adik makan ayam tidak pakai nasi therefore [LABELS_CHOICE],1,0
+Keluarga yang percaya mitos itu punya banyak anak therefore [LABELS_CHOICE],0,1
+Warung kami tidak punya uang pecahan therefore [LABELS_CHOICE],1,1
+Paman tidak mau diajak ke Malang because [LABELS_CHOICE],1,0
+Aku datang ke acara Mamah Dedeh because [LABELS_CHOICE],0,1
+Pak Jokowi menjadi lebih dekat dengan masyarakat because [LABELS_CHOICE],1,0
+Cewek itu baru saja makan Seblak because [LABELS_CHOICE],0,0
+Keluargaku kehabisan gas because [LABELS_CHOICE],1,1
+"Setelah upacara, saya minum cendol because [LABELS_CHOICE]",0,0
+Banyak rombongan study tour mampir ke Monas because [LABELS_CHOICE],0,0
+Aku membawa baju renang sebelum berangkat because [LABELS_CHOICE],1,1
+Andi F Noya melakukan hal yang gila because [LABELS_CHOICE],0,1
+Iwan Fals banyak disukai orang orang because [LABELS_CHOICE],0,1
+Bos saya tidak banyak makan nasi saat kerja di Papua because [LABELS_CHOICE],0,0
+Bakpia cocok jadi cemilan because [LABELS_CHOICE],1,0
+Mata paman berkunang-kunang because [LABELS_CHOICE],0,0
+Raja Ampat memberikan pesona yang luar biasa because [LABELS_CHOICE],0,0
+Pak Raden menggerakkan boneka si Unyil because [LABELS_CHOICE],0,1
+Raul Lemos dan Krisdayanti hidup bersama because [LABELS_CHOICE],0,0
+Sate Madura rasanya manis because [LABELS_CHOICE],1,0
+Mama tidak suka menonton topeng monyet because [LABELS_CHOICE],1,0
+Bapak mampir ke pom bensin untuk buang air besar because [LABELS_CHOICE],0,0
+Aku ke bundaran HI untuk cuci mata because [LABELS_CHOICE],0,0
+"Di acara TV, Chef Bondan baru saja selesai memasak  therefore [LABELS_CHOICE]",0,0
+Bung Tomo berpidato di Surabaya therefore [LABELS_CHOICE],0,0
+Sore ini cuaca berangin therefore [LABELS_CHOICE],0,1
+Biji kopinya berasal dari luwak therefore [LABELS_CHOICE],0,0
+Wisatawan pakai kaos hijau ke Pantai Parangtritis therefore [LABELS_CHOICE],0,1
+Nenek beli pempek kapal selam therefore [LABELS_CHOICE],0,0
+Aku berangkat sekolah pakai motor bebek therefore [LABELS_CHOICE],1,1
+Tutup kaleng kerupuk tidak ditutup dengan rapat therefore [LABELS_CHOICE],1,0
+Aku mau berhemat  therefore [LABELS_CHOICE],1,0
+Giring Nidji pergi ke atas panggung therefore [LABELS_CHOICE],1,0
+Pak Tarno menepuk tangannya therefore [LABELS_CHOICE],0,1
+Anak kompleks sedang bermain gobak sodor therefore [LABELS_CHOICE],1,1
+Bapak ingin ber-swafoto therefore [LABELS_CHOICE],1,1
+Pedagang itu menjual Kerak Telor therefore [LABELS_CHOICE],1,0
+Istriku ingin beli ikan mas therefore [LABELS_CHOICE],1,1
+Pak Kumis orang Sukabumi therefore [LABELS_CHOICE],0,1
+Abangku sedang di Palu therefore [LABELS_CHOICE],0,0
+Mbah Surip tiba-tiba mengangkat saya therefore [LABELS_CHOICE],0,1
+Ariel dan Peterpan sedang naik daun therefore [LABELS_CHOICE],1,1
+Sapi itu sedang tidak enak badan therefore [LABELS_CHOICE],1,1
+Kakak kecewa ketika membuka kaleng biskuit because [LABELS_CHOICE],1,0
+Ibu membeli daun janur menjelang lebaran because [LABELS_CHOICE],1,0
+Ada museum bencana alam di Aceh because [LABELS_CHOICE],1,1
+Pemuda itu berjalan bungkuk ketika lewat depan orang tua because [LABELS_CHOICE],1,0
+Pamanku suka memberi cendol di internet because [LABELS_CHOICE],1,1
+Kepolisian angkat tangan menangani kasus Novel Baswedan because [LABELS_CHOICE],1,1
+Adik kesemutan setelah tadarusan di masjid because [LABELS_CHOICE],1,1
+Kami akan sholat di langgar because [LABELS_CHOICE],0,0
+Kota Bandung disebut sebagai kota lautan api because [LABELS_CHOICE],0,0
+Jalan raya didepan rumah orang tersebut ditutup because [LABELS_CHOICE],1,0
+Istriku sudah lama tidak datang bulan therefore [LABELS_CHOICE],1,1
+Lampu merah pancoran terlalu lama therefore [LABELS_CHOICE],0,1
+Motor matic temanku mogok di jalan therefore [LABELS_CHOICE],1,0
+Anak pejabat punya orang dalam therefore [LABELS_CHOICE],1,0
+Kami melewati simpang empat tanpa lampu merah therefore [LABELS_CHOICE],0,1
+Banyak orang memasukkan nama Pak SBY ke kotak suara therefore [LABELS_CHOICE],0,0
+Acara wisuda ITS dipenuhi dengan arak arakan therefore [LABELS_CHOICE],0,1
+Aku disuruh membeli beras di supermarket dengan ukuran paling kecil therefore [LABELS_CHOICE],1,1
+Nasi kemarin malam tidak habis therefore [LABELS_CHOICE],1,1
+Sangkuriang menendang perahu therefore [LABELS_CHOICE],0,0
+Hari ini mall sedang sepi pengunjung because [LABELS_CHOICE],1,0
+Anak itu hidup sebatang kara because [LABELS_CHOICE],1,0
+Para pemuda rela mati demi berjuang pada zaman penjajahan because [LABELS_CHOICE],1,0
+Anak SD itu sering sekali pergi ke perpustakaan kota because [LABELS_CHOICE],0,1
+Klien angkat kaki dari rapat because [LABELS_CHOICE],1,1
+Adik terus membangkang perintah bapak therefore [LABELS_CHOICE],0,1
+Aku gagal menjadi polisi therefore [LABELS_CHOICE],0,1
+Rumah tetangga saya baru saja dibobol maling therefore [LABELS_CHOICE],0,1
+Orang itu menjadi kaki tangan teroris therefore [LABELS_CHOICE],1,0
+Perusahaan tersebut terus merugi selama 1 tahun terakhir therefore [LABELS_CHOICE],1,0
+Orang dari eropa terkena diare because [LABELS_CHOICE],0,0
+Ada anak kecil mual dan muntah because [LABELS_CHOICE],0,0
+Motor itu berlawanan arah jalan because [LABELS_CHOICE],1,0
+Murid sekolah berkumpul di lapangan sekolah setiap jam 7 pagi hari senin because [LABELS_CHOICE],1,1
+Anak itu dimarahi orang tuanya because [LABELS_CHOICE],1,0
+"Menjelang lebaran, langit terlihat tidak kosong dan terdengar bunyi bising because [LABELS_CHOICE]",0,0
+Ibu itu dilarang tawar menawar harga because [LABELS_CHOICE],1,0
+Ibu itu punggungnya merah because [LABELS_CHOICE],0,0
+Kucing itu terkenal sangat ganas because [LABELS_CHOICE],0,1
+Warga kampung Jakarta bahu membahu membersihkan got kampung mereka because [LABELS_CHOICE],0,0
+Siswa-siswa baru SMA sedang dimarahi oleh kakak kelasnya because [LABELS_CHOICE],0,1
+Seorang pemuda laki-laki memakai baju batik because [LABELS_CHOICE],0,0
+Di sekolah tadi saya berada dalam bahaya because [LABELS_CHOICE],0,1
+Ada lomba makan kerupuk because [LABELS_CHOICE],1,0
+Anak-anak itu menggambar kotak-kotak menggunakan kapur di jalan because [LABELS_CHOICE],0,1
+Orang itu ditangkap polisi because [LABELS_CHOICE],0,0
+Ada bendera warna kuning polos di dekat rumah tetangga because [LABELS_CHOICE],0,0
+Orang itu terlalu banyak minum air because [LABELS_CHOICE],0,0
+Orang itu pergi ke McD because [LABELS_CHOICE],1,1
+Orang itu memakai kopiah because [LABELS_CHOICE],0,0
+Seseorang mengenakan sepatu saat ingin masuk ke rumah mertua therefore [LABELS_CHOICE],0,1
+Kita diberikan suatu hadiah therefore [LABELS_CHOICE],0,1
+Penumpang angkutan umum ingin turun di jalan therefore [LABELS_CHOICE],0,1
+Orang itu akan menyebrang jalan raya therefore [LABELS_CHOICE],0,0
+Pembuat gedung 20 lantai penganut ajaran fengshui therefore [LABELS_CHOICE],1,1
+Pemuda Indonesia tersebut selesai membuang air besar therefore [LABELS_CHOICE],1,1
+Anak-anak kampung melihat orang Eropa paruh baya therefore [LABELS_CHOICE],0,1
+Saat bulan ramadhan ada tambahan upah diberikan ke karyawan therefore [LABELS_CHOICE],1,1
+Sekelompok wisatawan pergi ke Bunaken therefore [LABELS_CHOICE],0,1
+Satu keluarga yang tidak mampu ingin menyekolahkan anaknya therefore [LABELS_CHOICE],0,1
+40 hari setelah wafatnya seorang muslim di suatu perumahan therefore [LABELS_CHOICE],0,1
+Seorang karyawan perusahaan berangkat jam 7 pagi menuju Jakarta Pusat therefore [LABELS_CHOICE],0,0
+Orang itu bernama Haryo therefore [LABELS_CHOICE],1,1
+Hari ini tanggal 31 Oktober therefore [LABELS_CHOICE],1,0
+Guru masuk di awal pelajaran siswa sekolah dasar therefore [LABELS_CHOICE],1,0
+Orang itu parkir motor di depan indomaret therefore [LABELS_CHOICE],0,0
+Ayah penyayang binatang therefore [LABELS_CHOICE],1,0
+Anak kecil itu menaruh tangan ke kepala orang tuanya therefore [LABELS_CHOICE],0,1
+Orang itu ingin makan rendang therefore [LABELS_CHOICE],0,0
+Anak itu pengecut dalam menghadapi masalah therefore [LABELS_CHOICE],1,0
+Siswa-siswa pergi ke Taman Banteng because [LABELS_CHOICE],0,1
+Menkominfo tersangkut korupsi BTS because [LABELS_CHOICE],1,1
+Ada kemacetan di Jalan Pantura di Jawa because [LABELS_CHOICE],1,0
+Siswa SMA dihukum oleh guru sekolah because [LABELS_CHOICE],0,1
+Orang itu menonton video Cak Lontong because [LABELS_CHOICE],0,1
+Keluaga itu belangganan PAM because [LABELS_CHOICE],1,0
+Banyak ondel-ondel di suatu lapangan because [LABELS_CHOICE],0,0
+Orang itu punya alergi ketan because [LABELS_CHOICE],1,0
+Kendaraan tersebut melambatkan jalannya because [LABELS_CHOICE],1,1
+Mahasiswa itu memakai jaket kuning because [LABELS_CHOICE],0,0
+Dosen itu kolestrolnya naik because [LABELS_CHOICE],1,1
+Orang itu disebut tinggal di luar planet because [LABELS_CHOICE],1,1
+Orang itu memilih untuk ke Bandara Halim dibandingkan Bandara Soekarno Hatta because [LABELS_CHOICE],0,1
+Orang itu meminum Tolak Angin because [LABELS_CHOICE],0,0
+Ada kendaraan memutar audio digoreng dadakan because [LABELS_CHOICE],1,0
+Orang itu membutuhkan KBBI because [LABELS_CHOICE],1,0
+Buah itu disemuti oleh semut hitam because [LABELS_CHOICE],1,0
+Orang itu berdagang secara online di Indonesia because [LABELS_CHOICE],0,1
+Seorang kontestan Masterchef dimarahi because [LABELS_CHOICE],0,1
+Langit jakarta sangat gelap because [LABELS_CHOICE],1,1
+Mahasiswa itu ingin berhemat therefore [LABELS_CHOICE],0,1
+Sekelompok orang tua ingin merayakan keberhasilan promosinya dengan makanan nuansa lokal therefore [LABELS_CHOICE],0,1
+Seorang pemuda pergi ke Pasar Senen di Jakarta therefore [LABELS_CHOICE],1,0
+Orang itu masuk angin therefore [LABELS_CHOICE],1,0
+Pemuda itu punggungnya pegal therefore [LABELS_CHOICE],0,1
+Seorang direktur utama di BUMN membuat postingan di grup WhatsApp therefore [LABELS_CHOICE],0,1
+Orang Jakarta itu membeli tisu roll therefore [LABELS_CHOICE],1,1
+Kelompok supporter itu mendukung Persija therefore [LABELS_CHOICE],0,1
+Warga Indonesia itu bekerja di Indonesia therefore [LABELS_CHOICE],0,0
+Anak itu ingin melihat jenis-jenis binatang therefore [LABELS_CHOICE],1,1
+Pemuda itu suka lagu dangdut therefore [LABELS_CHOICE],0,0
+Orang itu tidak boleh makanan dingin therefore [LABELS_CHOICE],1,0
+"Di hari lebaran, laki-laki itu pergi ke puncak di Bogor therefore [LABELS_CHOICE]",0,0
+Perempuan itu pergi ke Gramedia therefore [LABELS_CHOICE],0,0
+Bapak-bapak membuat grup komunitas untuk chatting therefore [LABELS_CHOICE],1,1
+Orang itu perlu memeluk sesuatu saat tidur therefore [LABELS_CHOICE],0,1
+Orang itu mementingkan keselematan diri therefore [LABELS_CHOICE],0,0
+Masakan itu berasal dari Jawa Tengah therefore [LABELS_CHOICE],0,1
+Orang itu bepergian therefore [LABELS_CHOICE],1,0
+Piring itu kotor therefore [LABELS_CHOICE],1,1
+Anak itu memakan Nasi Padang because [LABELS_CHOICE],1,1
+Pemerintah bagi-bagi sembako LPG ke orang miskin because [LABELS_CHOICE],0,1
+Seorang pengemudi ojek online ingin menurunkan penumpang because [LABELS_CHOICE],1,1
+Orang Muslim Indonesia merasa aman memakan suatu makanan di restoran because [LABELS_CHOICE],1,0
+Orang itu tiba-tiba berkata 'mari pak' because [LABELS_CHOICE],0,0
+Ibu itu memilih untuk tidak berbelanja bahan baku di Indomart because [LABELS_CHOICE],1,0
+Orang itu pergi ke pijat refleksi because [LABELS_CHOICE],0,1
+Orang Jakarta berbaju warna oren datang ke stadium gelora bung karno  because [LABELS_CHOICE],0,0
+Transjakarta biayanya menjadi RP 1 because [LABELS_CHOICE],1,1
+Paman ingin lebaran dan memilih pesawat Super Jet because [LABELS_CHOICE],0,0
+Orang muslim tersebut ingin minum yang hangat-hangat therefore [LABELS_CHOICE],0,1
+Anak itu dimarahi ibunya therefore [LABELS_CHOICE],0,1
+Bapak Jokowi datang ke suatu pertemuan therefore [LABELS_CHOICE],1,1
+Hari ini lebaran idul adha therefore [LABELS_CHOICE],0,1
+Ibu itu ingin merayakan kelulusan dengan nuansa padang therefore [LABELS_CHOICE],0,0
+Saat ini berlangsung jam Istirahat Kerja kantor therefore [LABELS_CHOICE],0,1
+Anak itu mengisi acara Festival Seni Budaya Bandung therefore [LABELS_CHOICE],1,1
+Pegawai PNS sedang beristirahat therefore [LABELS_CHOICE],1,1
+Ayam itu berkokok therefore [LABELS_CHOICE],1,0
+Orang itu butuh kehangatan di badan therefore [LABELS_CHOICE],1,1
+Bos perusahaan itu kebakaran Jenggot because [LABELS_CHOICE],0,1
+Anak itu melakukan apel pagi because [LABELS_CHOICE],1,1
+Berita itu digoreng di media sosial because [LABELS_CHOICE],1,1
+Orang itu masih hijau di dunia karir because [LABELS_CHOICE],1,1
+Professor itu viral di Indonesia because [LABELS_CHOICE],0,0
+Orang itu keras kepala therefore [LABELS_CHOICE],1,0
+Anak itu sangat aneh gerak-geriknya therefore [LABELS_CHOICE],0,1
+Kita berdua memilih untuk empat mata therefore [LABELS_CHOICE],0,1
+Karyawan itu ingin mendapatkan promosi therefore [LABELS_CHOICE],1,0
+Pria itu berhidung belang therefore [LABELS_CHOICE],0,1
+Banyak orang segan membeli rumah tersebut because [LABELS_CHOICE],1,0
+mereka berjanji untuk bertemu sebelum magrib because [LABELS_CHOICE],0,1
+Dia membuat lontong because [LABELS_CHOICE],1,1
+Di depan rumahnya terpasang bedera kuning because [LABELS_CHOICE],1,1
+"Di depan gedung itu, terpasang janur kuning yang melengkung because [LABELS_CHOICE]",0,0
+Dia nyeker di pasar because [LABELS_CHOICE],0,1
+"Kemarin malam, ia baru selesai jaga lilin because [LABELS_CHOICE]",1,1
+Nama belakangnya adalah Hutabarat because [LABELS_CHOICE],0,0
+Wanita berhijab itu baru saja meninggal therefore [LABELS_CHOICE],1,0
+laki-laki itu dikenal sebagai buaya darat because [LABELS_CHOICE],0,1
+Dia dikenal sebagai orang yang ngaret because [LABELS_CHOICE],0,1
+Wanita itu sedang datang bulan because [LABELS_CHOICE],0,0
+Ia memakai masker because [LABELS_CHOICE],1,0
+Ia berusaha menjadi orang yang tidak serakah because [LABELS_CHOICE],1,1
+Namanya keluar di arisan therefore [LABELS_CHOICE],0,0
+Banyak orang mulai flu saat ini because [LABELS_CHOICE],0,1
+Mereka ingin bermain cangkulan therefore [LABELS_CHOICE],1,1
+Petani mulai menanam padi because [LABELS_CHOICE],0,0
+Ia mengikuti remedial because [LABELS_CHOICE],1,1
+Polisi menutup jalan di kawasan tersebut because [LABELS_CHOICE],0,0
+Mereka mencium bau melati di koridor sekolah sore itu therefore [LABELS_CHOICE],0,1
+Dia merasa masuk angin therefore [LABELS_CHOICE],1,1
+Lembaga pemerintah dipenuhi dengan tikus berdasi therefore [LABELS_CHOICE],0,0
+sekelompok pria keluar gedung pada Jumat siang therefore [LABELS_CHOICE],0,0
+Kristian hendak beribadah pada hari minggu therefore [LABELS_CHOICE],1,1
+Ia tidak mau menjadi Malin Kundang therefore [LABELS_CHOICE],1,0
+BMKG mengumumkan Merapi siaga 4 therefore [LABELS_CHOICE],0,1
+Hari ini akan diadakan apel pagi therefore [LABELS_CHOICE],0,1
+Rumah makan itu menyajikan makanan dengan air koborkan therefore [LABELS_CHOICE],1,1
+Hari ini tanggal tujuh belas Agustus therefore [LABELS_CHOICE],1,0
+Pasangan itu baru saja melahirkan seorang bayi therefore [LABELS_CHOICE],0,0
+Ia pergi mudik ke kampung halaman therefore [LABELS_CHOICE],0,1
+Ia pulang dengan penuh keringat therefore [LABELS_CHOICE],0,0
+Terdapat banyak nilai merah di rapot nya therefore [LABELS_CHOICE],1,0
+Mereka akan mendaftarkan pernikahannya therefore [LABELS_CHOICE],0,1
+Ia pergi berlibur because [LABELS_CHOICE],0,1
+Ia melihat polisi tidur therefore [LABELS_CHOICE],1,0
+Kepala desa membuat jadwal siskamling therefore [LABELS_CHOICE],1,1
+Adik tidak ingin nasinya menangis therefore [LABELS_CHOICE],0,1
+Mereka merayakan lebaran therefore [LABELS_CHOICE],1,0
+Ibu menyalakan keran dan selang because [LABELS_CHOICE],0,1
+Mereka merayakan tahun baru dua jam lebih cepat dariku because [LABELS_CHOICE],0,1
+Hari ini ia pergi ke sekolah menggunakan seragam berwarna coklat because [LABELS_CHOICE],0,1
+Dia memakai seragam merah putih because [LABELS_CHOICE],1,0
+Ia memesan taxi untuk pergi ke Soekarno-Hatta because [LABELS_CHOICE],0,0
+Ia mengeluarkan uang kertas berwarna pink because [LABELS_CHOICE],0,0
+Ayah membeli bidet baru because [LABELS_CHOICE],0,0
+Mereka membeli kelereng because [LABELS_CHOICE],0,0
+Mereka membeli karet gelang because [LABELS_CHOICE],0,0
+Ia akan membuat sate bakar because [LABELS_CHOICE],0,1
+Ia berfoto di depan monumen hiu dan buaya because [LABELS_CHOICE],0,0
+Dia ingin makan manis because [LABELS_CHOICE],0,0
+Dia ingin makan babi panggang because [LABELS_CHOICE],1,0
+Banyak mobil dengan plat B memenuhi jalanan Bogor because [LABELS_CHOICE],1,1
+Ia pergi menggunakan kendaraan beroda tiga because [LABELS_CHOICE],0,1
+Ia membeli tempe because [LABELS_CHOICE],0,0
+Ia memesan gado-gado because [LABELS_CHOICE],1,1
+Ia pergi ke Semeru because [LABELS_CHOICE],0,1
+Ia membeli sekoteng because [LABELS_CHOICE],0,1
+BJ Habibi adalah idolanya therefore [LABELS_CHOICE],1,0
+Langit-langit rumah terlihat sangat berdebu therefore [LABELS_CHOICE],1,0
+Ayah memiliki kakaktua therefore [LABELS_CHOICE],0,0
+Bank itu memberi bunga yang tinggi therefore [LABELS_CHOICE],0,1
+"Setiap akhir pekan, kakak bekerja sebagai tukang ojek therefore [LABELS_CHOICE]",1,1
+Ia ingin mengikuti jejak Susi Susanti therefore [LABELS_CHOICE],1,0
+Ia masuk ke gang buntu therefore [LABELS_CHOICE],1,1
+Ia ingin mendaki Gunung Bromo therefore [LABELS_CHOICE],1,1
+Dia memesan menu internet di warkop therefore [LABELS_CHOICE],0,1
+Perilaku orang tersebut seperti anjing therefore [LABELS_CHOICE],0,1
+"Pagi ini, ia memakai pakaian putih abu-abu therefore [LABELS_CHOICE]",1,1
+Ia akan memasak ketupat therefore [LABELS_CHOICE],1,1
+Mereka pakai obat anti nyamuk because [LABELS_CHOICE],1,1
+Ia ingin melihat terumbu karang therefore [LABELS_CHOICE],0,0
+Ia kecopetan therefore [LABELS_CHOICE],1,1
+Ia ingin melihat padi therefore [LABELS_CHOICE],1,0
+Ia ingin melihat kuda therefore [LABELS_CHOICE],0,1
+Ia ingin berenang di laut therefore [LABELS_CHOICE],1,1
+Mereka akan memasak rawon therefore [LABELS_CHOICE],1,0
+Mereka ingin melihat api biru therefore [LABELS_CHOICE],1,0
+Tsunami 2004 menghancurkan rumahnya because [LABELS_CHOICE],0,1
+Jari kelingkingnya dilumuri tinta because [LABELS_CHOICE],0,0
+Pria itu tidak percaya mitos Pantai Selatan because [LABELS_CHOICE],1,1
+Ia berangkat bekerja menggunakan seragam berwarna coklat because [LABELS_CHOICE],0,1
+Ia memasak ketupat dan opor ayam because [LABELS_CHOICE],1,0
+Mereka menyanyikan lagu Indonesia Raya because [LABELS_CHOICE],1,0
+Mereka masuk ke jalan tikus because [LABELS_CHOICE],1,0
+Mereka memasang bendera merah putih di rumah because [LABELS_CHOICE],0,1
+Perempuan itu membawa mukena because [LABELS_CHOICE],1,0
+Mereka pergi ke Gunung Tangkuban Perahu because [LABELS_CHOICE],0,0
+Ia ingin sarapan therefore [LABELS_CHOICE],1,1
+Pelayan menaruh mangkuk kecil berisi air dengan potongan limau therefore [LABELS_CHOICE],0,0
+Mereka akan pergi ke Kota Tua siang ini therefore [LABELS_CHOICE],0,0
+Mereka ingin belajar musik tradisional Indonesia therefore [LABELS_CHOICE],0,0
+Perempuan Jawa itu akan menikah therefore [LABELS_CHOICE],1,1
+Adzan Magrib mulai dikumandangkan  therefore [LABELS_CHOICE],1,1
+"Dari Jakarta, ia ingin ke Surabaya dengan cepat therefore [LABELS_CHOICE]",0,1
+Ia membeli tiket bus because [LABELS_CHOICE],0,0
+Jalanan becek akibar hujan therefore [LABELS_CHOICE],1,0
+Ia mencari oleh-oleh kain khas Indonesia therefore [LABELS_CHOICE],1,1
+ia buang air besar because [LABELS_CHOICE],0,0
+Ia pergi ke salon untuk sulam alis because [LABELS_CHOICE],1,1
+Kakak kesal karena adik terus membeo because [LABELS_CHOICE],0,1
+Ia dibawa ke kantor polisi akibat mencuri televisi because [LABELS_CHOICE],1,0
+ia memiliki banyak teman because [LABELS_CHOICE],0,0
+Ia menyelesaikan konflik tersebut dengan kepala dingin therefore [LABELS_CHOICE],0,1
+Ia melihat pedagang kaki lima di pinggir jalan therefore [LABELS_CHOICE],1,1
+Rumahnya ditelan si jago merah therefore [LABELS_CHOICE],0,0
+kasus perceraian tersebut didiskusikan di meja hijau therefore [LABELS_CHOICE],1,1
+perempuan itu pulang kampung setelah berbadan dua therefore [LABELS_CHOICE],1,1
+"Sepulang sekolah, anak itu dimarahi oleh ayahnya because [LABELS_CHOICE]",1,1
+Laki-laki itu masuk rumah sakit karena kakinya tersayat pisau dan luka parah because [LABELS_CHOICE],0,1
+Pagi ini ada bus antarkota lewat di depan rumahku therefore [LABELS_CHOICE],0,1
+Tetangga sebelah tiba-tiba kaya therefore [LABELS_CHOICE],1,0
+Laki-laki itu dianggap sebagai preman di kampung ini because [LABELS_CHOICE],0,0
+Orang itu suka sekali membeli kretek therefore [LABELS_CHOICE],0,1
+Dia dijuluki genderuwo di sekolah because [LABELS_CHOICE],0,0
+Nenek telah lama bekerja sebagai tukang urut therefore [LABELS_CHOICE],1,0
+Bibi kesulitan menggendong si adik bayi because [LABELS_CHOICE],0,1
+Gigi kakek patah saat makan nasi because [LABELS_CHOICE],1,0
+Perempuan itu sangat malas naik angkot because [LABELS_CHOICE],1,0
+Kolesterol pak haji naik parah because [LABELS_CHOICE],0,0
+Hari ini kami merayakan lebaran haji therefore [LABELS_CHOICE],0,0
+Kakinya diperban karena luka bakar because [LABELS_CHOICE],1,0
+"Adik menangis karena, setelah diperiksa, handphonenya diambil ayah because [LABELS_CHOICE]",0,0
+Ia adalah anak yang paling pendek di kelas therefore [LABELS_CHOICE],0,0
+"Saat menyetir, Bapak terkena jebakan batman therefore [LABELS_CHOICE]",1,0
+"Setelah melahirkan, ibu itu bingung karena dia tinggal di apartemen because [LABELS_CHOICE]",0,1
+Aku dan istriku sedang terjebak macet therefore [LABELS_CHOICE],1,1
+Pelayan itu membawakan bejana berisi air dengan irisan jeruk nipis therefore [LABELS_CHOICE],0,1
+Tanteku sedang butuh uang dengan cepat therefore [LABELS_CHOICE],0,1
+"Seorang ibu-ibu pemotor tidak berhelm, tanpa lampu sen, menabrak sebuah mobil therefore [LABELS_CHOICE]",0,0
+Dia mengikuti kompetisi penyampaian kuliah tujuh menit because [LABELS_CHOICE],1,0
+"Di musim penghujan ini, kampungku sedang mengadakan fogging because [LABELS_CHOICE]",1,0
+Seorang ahli nujum memperkirakan rumah sakit ini dihantui oleh suster ngesot because [LABELS_CHOICE],0,1
+Ayah gundah apakah ia harus membawa mobilnya ke tempat cuci sekarang because [LABELS_CHOICE],1,1
+Kakaknya tertangkap basah saat ujian because [LABELS_CHOICE],1,1
+Kakak mengikuti kompetisi olahraga gerak jalan therefore [LABELS_CHOICE],1,0
+Ibu takut sakit saat melahirkan therefore [LABELS_CHOICE],0,1
+Seorang satpam sedang lapar saat berjaga therefore [LABELS_CHOICE],0,1
+Seorang tukang jamu digerebek oleh polisi because [LABELS_CHOICE],0,1
+Tarkam di daerah ini dilarang oleh polisi because [LABELS_CHOICE],1,1
+Ia terkenal sebagai mahasiswa yang kuliah pulang kuliah pulang therefore [LABELS_CHOICE],0,1
+Ibu-ibu desa itu mengomel-omel setelah pulang dari restoran steak yang mahal ini because [LABELS_CHOICE],1,0
+Kakak perempuanku yang berumur 25 tahun pergi ke pernikahan sepupunya therefore [LABELS_CHOICE],1,0
+Dia adalah anak anggota rohis kampus therefore [LABELS_CHOICE],0,1
+Dia adalah anak yang rajin ke gereja therefore [LABELS_CHOICE],1,1
+Saldo e-money-nya habis therefore [LABELS_CHOICE],0,1
+Almarhumah dikenal sebagai pejuang agama yang baik therefore [LABELS_CHOICE],1,1
+Adikku dan teman-temannya mengenakan pakaian adat di sekolahnya because [LABELS_CHOICE],1,1
+Listrik di rumah mati because [LABELS_CHOICE],0,1
+Kakak pergi ke bengkel Yamaha because [LABELS_CHOICE],1,1
+Malam-malam begini saya kelaparan therefore [LABELS_CHOICE],1,1
+Ia dijuluki sebagai budak kapitalis because [LABELS_CHOICE],1,0
+Kakak sangat senang olahraga murah di Senayan therefore [LABELS_CHOICE],1,1
+Adik dihukum di sekolah because [LABELS_CHOICE],0,1
+Sate kambing yang saya beli tadi rasanya hambar because [LABELS_CHOICE],0,0
+Dia sering mendapatkan nilai jelek di kelasnya therefore [LABELS_CHOICE],1,0
+Adik pergi ke dokter karena sakit gigi because [LABELS_CHOICE],0,1
+Pak RT dianggap sebagai orang yang cukup kaya because [LABELS_CHOICE],0,1
+Pak RW adalah seorang hipster therefore [LABELS_CHOICE],0,1
+Besok adik akan mengikuti SNMPTN therefore [LABELS_CHOICE],0,0
+"Di lampu merah, ada mas-mas yang berjualan Kompas therefore [LABELS_CHOICE]",1,1
+Ibu tengah menyemprot rumah dengan anti nyamuk therefore [LABELS_CHOICE],1,0
+Pegawai kantor itu tidak punya BPJS therefore [LABELS_CHOICE],0,1
+Pandemi COVID-19 menyebabkan banyak ASN bekerja dari rumah therefore [LABELS_CHOICE],0,0
+Rumah paman banyak dipasang gambar hewan bermoncong putih because [LABELS_CHOICE],0,1
+Di ruas jalan itu sedang diberlakukan contraflow because [LABELS_CHOICE],1,1
+Anak itu tidak lulus ujian praktek Penjaskes because [LABELS_CHOICE],0,0
+Kakak malas mengurus STNK sendiri therefore [LABELS_CHOICE],0,0
+Majapahit adalah kerajaan terbesar dalam sejarah Indonesia because [LABELS_CHOICE],1,1
+Anak itu sering sekali makan Indomie therefore [LABELS_CHOICE],0,1
+Perempuan itu sampai ke puncak Gunung Ijen therefore [LABELS_CHOICE],1,1
+Ia sedang ingin makanan Jepang therefore [LABELS_CHOICE],0,1
+Banyak orang yang suka berbelanja di Shopee because [LABELS_CHOICE],1,1
+Toko ini kehabisan stok ayam because [LABELS_CHOICE],0,0
+Toko ini menjual alkohol therefore [LABELS_CHOICE],0,1
+Adik tinggal di bawah SUTET therefore [LABELS_CHOICE],1,0
+Budi kecewa saat membeli tahu sumedang di toko itu because [LABELS_CHOICE],0,0
+Ibu membeli santan di pasar because [LABELS_CHOICE],1,0
+Saya mau beli salonpas because [LABELS_CHOICE],1,1
+Bapak ingin menjalani hidup yang halal therefore [LABELS_CHOICE],1,0
+Pak Haji bertanya-tanya apakah makanan hari ini halal because [LABELS_CHOICE],0,0
+Nenek tidak suka makan sashimi because [LABELS_CHOICE],0,1
+Ia gatal-gatal setelah makan sup asparagus because [LABELS_CHOICE],1,0
+Temanku sehari minum kopi banyak sekali therefore [LABELS_CHOICE],1,0
+Saya ingin naik taksi online mercy therefore [LABELS_CHOICE],0,0
+Kerja SAMSAT tersendat dalam memroses banyaknya pembelian mobil pribadi baru because [LABELS_CHOICE],0,1
+Aksi damai mengenang pahlawan reformasi menghambat lalu lintas di lokasi therefore [LABELS_CHOICE],1,0
+Pada tanggal 4 Juni kemarin restoran di mall banyak yang ramai because [LABELS_CHOICE],1,1
+Adik sedih setelah membeli telur gulung di depan sekolah therefore [LABELS_CHOICE],1,0
+Air minum di rumah habis therefore [LABELS_CHOICE],0,0
+Adik senang makanan hari ini because [LABELS_CHOICE],1,0
+Paman hobi main domino therefore [LABELS_CHOICE],1,1
+Kakak maju menjadi calon ketua OSIS because [LABELS_CHOICE],1,0
+"Walaupun murah, warung bakso itu sepi pembeli because [LABELS_CHOICE]",0,0
+Warung soto di pojokan selalu ramai dan rasanya sangat enak therefore [LABELS_CHOICE],0,1
+"Adik sedang memesan bakso, tapi dia sedang ingin hidup sehat therefore [LABELS_CHOICE]",1,0
+Bapak hendak berangkat sholat Jumat therefore [LABELS_CHOICE],0,0
+Kakak sedang latihan Paskibra because [LABELS_CHOICE],0,1
+Kakek adalah alumni 212 therefore [LABELS_CHOICE],0,0
+Paman suka mengoleksi replika kapak 212 therefore [LABELS_CHOICE],0,1
+Anak SMA itu membawa sabit di dalam tasnya because [LABELS_CHOICE],1,0
+Anak SD Negeri itu berangkat sekolah di hari senin therefore [LABELS_CHOICE],1,1
+"Setiap tahun, seringkali tetanggaku merayakan Idul Qurban sehari lebih awal because [LABELS_CHOICE]",0,0
+Ayah pulang malam selepas main karambol therefore [LABELS_CHOICE],1,1
+"Setelah pulang, sang suami dimarahi oleh sang istri because [LABELS_CHOICE]",1,0
+"Di tengah Ospek, para mahasiswa baru dimarahi oleh seniornya because [LABELS_CHOICE]",1,0
+"Pada 17 Juli, aku mengendarai mobil dengan plat nomor N9EWE ke jalanan utama Jakarta because [LABELS_CHOICE]",0,0
+Lebaran haji sudah dekat therefore [LABELS_CHOICE],0,1
+Ayah sedang kebakaran jenggot therefore [LABELS_CHOICE],0,1
+"Tahun lalu, kambing di peternakan paman ada 6 ekor, tapi hari ini sudah 10 ekor saja because [LABELS_CHOICE]",0,0
+Ia ragu-ragu saat ingin membeli komputer bekas secara daring tanpa foto ataupun video yang jelas because [LABELS_CHOICE],1,0
+Pekerjaannya terasa seperti menegakkan benang basah therefore [LABELS_CHOICE],1,0
+Aku sedang membantu kakek yang kesulitan mengurus sumur dan ladangnya yang kotor therefore [LABELS_CHOICE],0,0
+Ia malu karena merasa dia dan kakaknya bagaikan bumi dan langit because [LABELS_CHOICE],0,0
+Paman membayar temannya untuk mencarikan kambing hitam untuk peristiwa itu because [LABELS_CHOICE],0,0
+Kakak sedang mencari tambatan hati therefore [LABELS_CHOICE],0,0
+Di hari yang kelabu ini seluruh warga tengah berkumpul untuk memberikan penghormatan therefore [LABELS_CHOICE],1,1
+Adik hari ini tengah mengikuti reuni sekolahnya therefore [LABELS_CHOICE],0,0
+Adik menggunakan rumus abc because [LABELS_CHOICE],1,1
+Kakek suka sambil menyelam minum air therefore [LABELS_CHOICE],1,0
+Papa dimarahi mama karena terlalu boros because [LABELS_CHOICE],0,0
+Adik mendengar petir di siang bolong therefore [LABELS_CHOICE],0,0
+Ia adalah penyelam yang memiliki jam terbang yang tinggi because [LABELS_CHOICE],1,0
+"Akibat cedera, dengan sedih hati pemain bola itu memikirkan untuk mengakhiri karirnya therefore [LABELS_CHOICE]",0,1
+Kakak berberat hati mendonorkan hatinya untuk ayah because [LABELS_CHOICE],1,1
+Kampung ini penuh dengan sampah masyarakat because [LABELS_CHOICE],1,0
+Dia adalah preman yang bolak-balik masuk penjara therefore [LABELS_CHOICE],0,1
+Pertemuan ini sudah berjalan lama sekali because [LABELS_CHOICE],0,0

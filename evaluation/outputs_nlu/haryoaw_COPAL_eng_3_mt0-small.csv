@@ -1,0 +1,560 @@
+Input,Pred,Gold
+Pria itu memangku tasnya saat menaiki angkutan umum. What was the cause? [LABELS_CHOICE],1,0
+Kulitnya bentol-bentol. What was the cause? [LABELS_CHOICE],0,0
+Bapak saya masuk angin. What was the cause? [LABELS_CHOICE],0,1
+Jari bocah itu sakit. What was the cause? [LABELS_CHOICE],1,1
+Dia sedih. What was the cause? [LABELS_CHOICE],0,0
+Ibu itu begitu bahagia. What was the cause? [LABELS_CHOICE],0,0
+Orang itu makan nasi porsi kuli. What was the cause? [LABELS_CHOICE],0,1
+Ia merasa geli. What was the cause? [LABELS_CHOICE],1,0
+Ia tidak naik kelas. What was the cause? [LABELS_CHOICE],0,0
+Pria itu baru saja selesai solat berjamaah. Ia terkejut. What was the cause? [LABELS_CHOICE],1,1
+Gadis itu ikut latihan saman. What was the cause? [LABELS_CHOICE],1,1
+Pemuda itu makan di warteg. What was the cause? [LABELS_CHOICE],1,1
+KPR bapak macet. What was the cause? [LABELS_CHOICE],0,0
+Kakak menjuarai lomba gurindam. What was the cause? [LABELS_CHOICE],1,1
+Bapak itu memesan ojek. What was the cause? [LABELS_CHOICE],0,1
+Ibu kos datang. What was the cause? [LABELS_CHOICE],0,1
+Mahasiswa itu terlihat gugup. What was the cause? [LABELS_CHOICE],0,1
+Ia berlatih gerakan kuda-kuda. What was the cause? [LABELS_CHOICE],1,0
+Kakinya kapalan. What was the cause? [LABELS_CHOICE],1,1
+Pengusaha kelas kakap itu akhirnya jatuh juga. What was the cause? [LABELS_CHOICE],1,0
+Wanita itu sangat ingin menjadi artis. What happened as a result? [LABELS_CHOICE],0,1
+Mahasiswa itu ketahuan titip absen. What happened as a result? [LABELS_CHOICE],0,1
+Siswa SMA itu rambutnya gondrong. What happened as a result? [LABELS_CHOICE],0,0
+Pak ogah membantu mobilnya putar balik. What happened as a result? [LABELS_CHOICE],0,0
+Pengunjung itu memberikan tip 5% ke pelayan. What happened as a result? [LABELS_CHOICE],0,1
+Banyak sekali pungli sepanjang perjalanan. What happened as a result? [LABELS_CHOICE],1,0
+Ia ingin memberbaharui SIM-C miliknya. What happened as a result? [LABELS_CHOICE],1,0
+Sopir truk jarak jauh itu bosan. What happened as a result? [LABELS_CHOICE],1,0
+Pemuda tersebut berlatih angklung setiap hari. What happened as a result? [LABELS_CHOICE],0,0
+Segerombolan pemuda sedang menjelajah Kalimantan. What happened as a result? [LABELS_CHOICE],0,0
+Saya minum air kobokan. What happened as a result? [LABELS_CHOICE],0,1
+Got di komplek perumahaan itu tersumbat. What happened as a result? [LABELS_CHOICE],0,1
+"Hari senin, anak SD itu bangun jam 6 pagi. What happened as a result? [LABELS_CHOICE]",1,0
+Ia didatangi pengamen. What happened as a result? [LABELS_CHOICE],1,0
+Banyak pembegalan di sekitar komplek. What happened as a result? [LABELS_CHOICE],0,1
+Pelajar itu ingin menembak temannya di sekolah. What happened as a result? [LABELS_CHOICE],0,0
+Anak itu ingin sekali makan nasi dan ayam goreng tepung. What happened as a result? [LABELS_CHOICE],1,1
+Ada kasus demam berdarah di komplek itu. What happened as a result? [LABELS_CHOICE],1,0
+Kakinya terkilir. What happened as a result? [LABELS_CHOICE],0,0
+Terlihat layang-layang putus. What happened as a result? [LABELS_CHOICE],1,1
+Alergi kacangnya kumat dan ia gatal-gatal. What was the cause? [LABELS_CHOICE],0,1
+Orang itu menangis kepedasan. What was the cause? [LABELS_CHOICE],0,0
+Listrik di rumahnya padam. What was the cause? [LABELS_CHOICE],0,0
+Ia kehabisan tinta kuning. What was the cause? [LABELS_CHOICE],0,1
+Anak kecil itu menjerit ketakutan. What was the cause? [LABELS_CHOICE],0,1
+Bapak itu merantau ke Jakarta. What was the cause? [LABELS_CHOICE],0,1
+Pemuda itu dilarikan ke rumah sakit. What was the cause? [LABELS_CHOICE],1,0
+Ia masuk ke Indomaret. What was the cause? [LABELS_CHOICE],1,1
+Ibu pergi ke Pasar Minggu. What was the cause? [LABELS_CHOICE],1,0
+Ia merasa gelisah. What was the cause? [LABELS_CHOICE],0,0
+Ibu beli beras ketan. What was the cause? [LABELS_CHOICE],0,1
+Perempuan itu pergi ke Gambir. What was the cause? [LABELS_CHOICE],0,1
+Wanita itu pergi ke Puncak. What was the cause? [LABELS_CHOICE],0,0
+Bapak itu senang sekali. What was the cause? [LABELS_CHOICE],0,0
+Ia rajin angkat beban. What was the cause? [LABELS_CHOICE],1,0
+Ia pergi ke Soekarno Hatta. What was the cause? [LABELS_CHOICE],1,1
+Anak itu ketakutan. What was the cause? [LABELS_CHOICE],0,1
+Anak itu menjerit histeris. What was the cause? [LABELS_CHOICE],0,0
+Ia berurusan dengan polisi. What was the cause? [LABELS_CHOICE],0,1
+Pria itu memperbaharui KK miliknya. What was the cause? [LABELS_CHOICE],1,1
+Dokternya menyarankannya untuk mengurangi konsumsi karbohidrat. What happened as a result? [LABELS_CHOICE],1,0
+Ia ingin pergi jalan-jalan ke Ancol. What happened as a result? [LABELS_CHOICE],1,1
+Ia ingin mencari buku bacaan baru. What happened as a result? [LABELS_CHOICE],1,1
+Orang itu sangat mengidolakan Gatot Kaca. What happened as a result? [LABELS_CHOICE],1,1
+Ia diminta membuat laporan tentang pahlawan nasional. What happened as a result? [LABELS_CHOICE],1,0
+Saya tidak sengaja menumpahkan kuah gulai. What happened as a result? [LABELS_CHOICE],0,1
+Hari ini adalah hari libur Idul Fitri. What happened as a result? [LABELS_CHOICE],0,0
+Diadakan acara keroncong di kampung. What happened as a result? [LABELS_CHOICE],0,1
+Kakakku mengidolakan Joko Anwar. What happened as a result? [LABELS_CHOICE],0,1
+Kakakku mengidolakan Joko Widodo. What happened as a result? [LABELS_CHOICE],0,0
+Siswa SMA itu ingin sekali melanjutkan pendidikan di ITB. What happened as a result? [LABELS_CHOICE],0,1
+Bapak terlalu banyak mengonsumsi Gudang Garam. What happened as a result? [LABELS_CHOICE],0,0
+Sekumpulan anak melompat-lompat di TransJakarta. What happened as a result? [LABELS_CHOICE],0,0
+Sekumpulan anak melompat-lompat di Trans Studio. What happened as a result? [LABELS_CHOICE],0,1
+Ia makan es teler setiap hari. What happened as a result? [LABELS_CHOICE],0,0
+Aplikasi QRIS-nya rusak. What happened as a result? [LABELS_CHOICE],1,1
+Ia ingin mendapatkan kursi DPR. What happened as a result? [LABELS_CHOICE],0,0
+Pemudi itu ingin sekali makan nasi padang. What happened as a result? [LABELS_CHOICE],1,1
+Anak itu berjalan kaki mengelilingi Taman Mini. What happened as a result? [LABELS_CHOICE],1,1
+Ia ganteng. What happened as a result? [LABELS_CHOICE],1,1
+Polisi mengamankan stadion. What was the cause? [LABELS_CHOICE],1,0
+Mereka sekeluarga sehari-hari makan raskin. What was the cause? [LABELS_CHOICE],0,0
+Rambut gadis itu seperti mak lampir. What was the cause? [LABELS_CHOICE],0,0
+Laporan BMKG membuat warga panik. What was the cause? [LABELS_CHOICE],1,1
+Ia senang tinggal di Kebon Jeruk. What was the cause? [LABELS_CHOICE],1,0
+Ia tidak suka tinggal di Kelapa Gading. What was the cause? [LABELS_CHOICE],1,1
+Mahasiswa sedang mengumpulkan dana untuk kegiatan mahasiswa. What was the cause? [LABELS_CHOICE],1,0
+Tiba-tiba bapak didatangi rentenir. What was the cause? [LABELS_CHOICE],1,0
+Dia dibawa ke rumah sakit. What was the cause? [LABELS_CHOICE],1,0
+Ia dirujak teman-temannya. What was the cause? [LABELS_CHOICE],0,1
+Anak itu diterima masuk UI. What happened as a result? [LABELS_CHOICE],1,1
+Ibu belanja di pasar. What happened as a result? [LABELS_CHOICE],1,1
+Anak itu ingin merantau. What happened as a result? [LABELS_CHOICE],1,0
+Kelakuannya seperti dajjal. What happened as a result? [LABELS_CHOICE],1,0
+Orang itu mengalami kecelakaan mobil. What happened as a result? [LABELS_CHOICE],0,0
+"Ibu menyampurkan gula, garam, dan jeruk di masakannya. What happened as a result? [LABELS_CHOICE]",0,0
+Aku sedang berhemat. What happened as a result? [LABELS_CHOICE],0,0
+Saya terlambat masuk kantor. What happened as a result? [LABELS_CHOICE],0,1
+Ia suka berjemur. What happened as a result? [LABELS_CHOICE],0,0
+Ada pesta makan rengginang. What happened as a result? [LABELS_CHOICE],1,0
+Ia dikenal sebagai kembang desa. What was the cause? [LABELS_CHOICE],0,0
+Air seninya bening. What was the cause? [LABELS_CHOICE],0,0
+Dirinya dijuluki bermuka badak. What was the cause? [LABELS_CHOICE],0,0
+Rumahnya dimakan si jago merah. What was the cause? [LABELS_CHOICE],1,0
+Jalanan macet. What was the cause? [LABELS_CHOICE],1,1
+Ia mengadu domba tetangganya. What happened as a result? [LABELS_CHOICE],1,0
+Anak itu ingin sekali menuntut ilmu di negeri sakura. What happened as a result? [LABELS_CHOICE],1,1
+Ia selalu jadi mahasiswi kupu-kupu. What happened as a result? [LABELS_CHOICE],0,1
+Ia selalu jadi mahasiswa kura-kura. What happened as a result? [LABELS_CHOICE],0,0
+Orang itu sudah bau tanah. What happened as a result? [LABELS_CHOICE],1,1
+"Gadis itu berjalan melewati tukang bakso, tiba-tiba tukang baksonya senyum. What was the cause? [LABELS_CHOICE]",1,1
+Mertua mendapatkan menantu idaman. What was the cause? [LABELS_CHOICE],0,1
+Di malam hari jalanan sangat ramai. What was the cause? [LABELS_CHOICE],1,0
+Anak muda itu pakai baju seragam SMA yang sudah dicoret-coret. What was the cause? [LABELS_CHOICE],0,0
+Hari minggu pagi warga kompleks berkumpul bersama. What was the cause? [LABELS_CHOICE],1,1
+Murid itu bisa membangun tenda. What was the cause? [LABELS_CHOICE],0,1
+Penonton berjoget bersama di lapangan. What was the cause? [LABELS_CHOICE],1,0
+"Malam ini orang-orang membakar jagung, sosis, dan ikan. What was the cause? [LABELS_CHOICE]",0,0
+"Paman sedang sarungan, kokoan, dan pecian. What was the cause? [LABELS_CHOICE]",0,0
+Malin kundang jadi batu. What was the cause? [LABELS_CHOICE],0,1
+Bawang putih disiksa ibunya. What was the cause? [LABELS_CHOICE],1,0
+"Saat lebaran, suasana kota Jakarta sangat sepi. What was the cause? [LABELS_CHOICE]",0,1
+Laki-laki bugis perlu menabung uang banyak sebelum menikah. What was the cause? [LABELS_CHOICE],0,0
+Lantai rumah jarang berdebu. What was the cause? [LABELS_CHOICE],1,0
+Sepupuku pakai jaket di siang hari. What was the cause? [LABELS_CHOICE],0,1
+Saya makan lalapan pakai tangan. What was the cause? [LABELS_CHOICE],0,0
+Kakak sedang membuat sambal terasi. What was the cause? [LABELS_CHOICE],1,0
+Pelajar jogja dilarang keluar rumah diatas jam 10 malam. What was the cause? [LABELS_CHOICE],0,1
+Aku tidak diperbolehkan menonton pertandingan Persib melawan Persija oleh ibu. What was the cause? [LABELS_CHOICE],1,1
+Papa mendapat gaji tambahan di hari raya. What was the cause? [LABELS_CHOICE],1,1
+"Tahun ini, ujian sekolah pakai LJK. What happened as a result? [LABELS_CHOICE]",0,0
+"Tiap awal bulan, ibu pergi ke warung. What happened as a result? [LABELS_CHOICE]",1,0
+Orang itu suka bersantai pakai kaos dalam dan sarung. What happened as a result? [LABELS_CHOICE],0,1
+Punggung pakde sedang dikerok. What happened as a result? [LABELS_CHOICE],1,1
+Bendahara kelas hari ini ulang tahun. What happened as a result? [LABELS_CHOICE],0,1
+Kami menghormati pengorbanan para pahlawan. What happened as a result? [LABELS_CHOICE],0,0
+Hari ini hari raya nyepi di Bali. What happened as a result? [LABELS_CHOICE],1,0
+Bibi lagi liburan ke Lombok. What happened as a result? [LABELS_CHOICE],0,0
+Teman saya tinggal di sekitaran SCBD. What happened as a result? [LABELS_CHOICE],1,1
+Kakak menjaga kebersihan tubuh. What happened as a result? [LABELS_CHOICE],1,1
+Aku mendadak lapar saat malam hari. What happened as a result? [LABELS_CHOICE],0,0
+Adik menyapu lantai tidak bersih. What happened as a result? [LABELS_CHOICE],0,1
+Keluarga Pak Kades selesai makan di restoran. What happened as a result? [LABELS_CHOICE],1,1
+Dosenku membeli nasi padang untuk dibawa pulang. What happened as a result? [LABELS_CHOICE],1,1
+Hari ini hari raya kartini. What happened as a result? [LABELS_CHOICE],1,0
+Adik yang masih TK akan berangkat ke sekolah. What happened as a result? [LABELS_CHOICE],0,1
+Keluarga kami mau buka puasa. What happened as a result? [LABELS_CHOICE],0,0
+Adik makan ayam tidak pakai nasi. What happened as a result? [LABELS_CHOICE],1,0
+Keluarga yang percaya mitos itu punya banyak anak. What happened as a result? [LABELS_CHOICE],0,1
+Warung kami tidak punya uang pecahan. What happened as a result? [LABELS_CHOICE],1,1
+Paman tidak mau diajak ke Malang. What was the cause? [LABELS_CHOICE],1,0
+Aku datang ke acara Mamah Dedeh. What was the cause? [LABELS_CHOICE],0,1
+Pak Jokowi menjadi lebih dekat dengan masyarakat. What was the cause? [LABELS_CHOICE],1,0
+Cewek itu baru saja makan Seblak. What was the cause? [LABELS_CHOICE],0,0
+Keluargaku kehabisan gas. What was the cause? [LABELS_CHOICE],1,1
+"Setelah upacara, saya minum cendol. What was the cause? [LABELS_CHOICE]",1,0
+Banyak rombongan study tour mampir ke Monas. What was the cause? [LABELS_CHOICE],0,0
+Aku membawa baju renang sebelum berangkat. What was the cause? [LABELS_CHOICE],1,1
+Andi F Noya melakukan hal yang gila. What was the cause? [LABELS_CHOICE],0,1
+Iwan Fals banyak disukai orang orang. What was the cause? [LABELS_CHOICE],0,1
+Bos saya tidak banyak makan nasi saat kerja di Papua. What was the cause? [LABELS_CHOICE],1,0
+Bakpia cocok jadi cemilan. What was the cause? [LABELS_CHOICE],1,0
+Mata paman berkunang-kunang. What was the cause? [LABELS_CHOICE],0,0
+Raja Ampat memberikan pesona yang luar biasa. What was the cause? [LABELS_CHOICE],0,0
+Pak Raden menggerakkan boneka si Unyil. What was the cause? [LABELS_CHOICE],0,1
+Raul Lemos dan Krisdayanti hidup bersama. What was the cause? [LABELS_CHOICE],0,0
+Sate Madura rasanya manis. What was the cause? [LABELS_CHOICE],1,0
+Mama tidak suka menonton topeng monyet. What was the cause? [LABELS_CHOICE],1,0
+Bapak mampir ke pom bensin untuk buang air besar. What was the cause? [LABELS_CHOICE],0,0
+Aku ke bundaran HI untuk cuci mata. What was the cause? [LABELS_CHOICE],0,0
+"Di acara TV, Chef Bondan baru saja selesai memasak . What happened as a result? [LABELS_CHOICE]",0,0
+Bung Tomo berpidato di Surabaya. What happened as a result? [LABELS_CHOICE],0,0
+Sore ini cuaca berangin. What happened as a result? [LABELS_CHOICE],1,1
+Biji kopinya berasal dari luwak. What happened as a result? [LABELS_CHOICE],0,0
+Wisatawan pakai kaos hijau ke Pantai Parangtritis. What happened as a result? [LABELS_CHOICE],1,1
+Nenek beli pempek kapal selam. What happened as a result? [LABELS_CHOICE],0,0
+Aku berangkat sekolah pakai motor bebek. What happened as a result? [LABELS_CHOICE],1,1
+Tutup kaleng kerupuk tidak ditutup dengan rapat. What happened as a result? [LABELS_CHOICE],1,0
+Aku mau berhemat . What happened as a result? [LABELS_CHOICE],1,0
+Giring Nidji pergi ke atas panggung. What happened as a result? [LABELS_CHOICE],1,0
+Pak Tarno menepuk tangannya. What happened as a result? [LABELS_CHOICE],0,1
+Anak kompleks sedang bermain gobak sodor. What happened as a result? [LABELS_CHOICE],1,1
+Bapak ingin ber-swafoto. What happened as a result? [LABELS_CHOICE],1,1
+Pedagang itu menjual Kerak Telor. What happened as a result? [LABELS_CHOICE],0,0
+Istriku ingin beli ikan mas. What happened as a result? [LABELS_CHOICE],1,1
+Pak Kumis orang Sukabumi. What happened as a result? [LABELS_CHOICE],0,1
+Abangku sedang di Palu. What happened as a result? [LABELS_CHOICE],0,0
+Mbah Surip tiba-tiba mengangkat saya. What happened as a result? [LABELS_CHOICE],0,1
+Ariel dan Peterpan sedang naik daun. What happened as a result? [LABELS_CHOICE],1,1
+Sapi itu sedang tidak enak badan. What happened as a result? [LABELS_CHOICE],0,1
+Kakak kecewa ketika membuka kaleng biskuit. What was the cause? [LABELS_CHOICE],1,0
+Ibu membeli daun janur menjelang lebaran. What was the cause? [LABELS_CHOICE],1,0
+Ada museum bencana alam di Aceh. What was the cause? [LABELS_CHOICE],1,1
+Pemuda itu berjalan bungkuk ketika lewat depan orang tua. What was the cause? [LABELS_CHOICE],1,0
+Pamanku suka memberi cendol di internet. What was the cause? [LABELS_CHOICE],1,1
+Kepolisian angkat tangan menangani kasus Novel Baswedan. What was the cause? [LABELS_CHOICE],1,1
+Adik kesemutan setelah tadarusan di masjid. What was the cause? [LABELS_CHOICE],1,1
+Kami akan sholat di langgar. What was the cause? [LABELS_CHOICE],0,0
+Kota Bandung disebut sebagai kota lautan api. What was the cause? [LABELS_CHOICE],0,0
+Jalan raya didepan rumah orang tersebut ditutup. What was the cause? [LABELS_CHOICE],1,0
+Istriku sudah lama tidak datang bulan. What happened as a result? [LABELS_CHOICE],1,1
+Lampu merah pancoran terlalu lama. What happened as a result? [LABELS_CHOICE],0,1
+Motor matic temanku mogok di jalan. What happened as a result? [LABELS_CHOICE],1,0
+Anak pejabat punya orang dalam. What happened as a result? [LABELS_CHOICE],1,0
+Kami melewati simpang empat tanpa lampu merah. What happened as a result? [LABELS_CHOICE],0,1
+Banyak orang memasukkan nama Pak SBY ke kotak suara. What happened as a result? [LABELS_CHOICE],0,0
+Acara wisuda ITS dipenuhi dengan arak arakan. What happened as a result? [LABELS_CHOICE],0,1
+Aku disuruh membeli beras di supermarket dengan ukuran paling kecil. What happened as a result? [LABELS_CHOICE],1,1
+Nasi kemarin malam tidak habis. What happened as a result? [LABELS_CHOICE],1,1
+Sangkuriang menendang perahu. What happened as a result? [LABELS_CHOICE],0,0
+Hari ini mall sedang sepi pengunjung. What was the cause? [LABELS_CHOICE],1,0
+Anak itu hidup sebatang kara. What was the cause? [LABELS_CHOICE],1,0
+Para pemuda rela mati demi berjuang pada zaman penjajahan. What was the cause? [LABELS_CHOICE],1,0
+Anak SD itu sering sekali pergi ke perpustakaan kota. What was the cause? [LABELS_CHOICE],0,1
+Klien angkat kaki dari rapat. What was the cause? [LABELS_CHOICE],1,1
+Adik terus membangkang perintah bapak. What happened as a result? [LABELS_CHOICE],0,1
+Aku gagal menjadi polisi. What happened as a result? [LABELS_CHOICE],0,1
+Rumah tetangga saya baru saja dibobol maling. What happened as a result? [LABELS_CHOICE],0,1
+Orang itu menjadi kaki tangan teroris. What happened as a result? [LABELS_CHOICE],1,0
+Perusahaan tersebut terus merugi selama 1 tahun terakhir. What happened as a result? [LABELS_CHOICE],1,0
+Orang dari eropa terkena diare. What was the cause? [LABELS_CHOICE],0,0
+Ada anak kecil mual dan muntah. What was the cause? [LABELS_CHOICE],0,0
+Motor itu berlawanan arah jalan. What was the cause? [LABELS_CHOICE],1,0
+Murid sekolah berkumpul di lapangan sekolah setiap jam 7 pagi hari senin. What was the cause? [LABELS_CHOICE],1,1
+Anak itu dimarahi orang tuanya. What was the cause? [LABELS_CHOICE],1,0
+"Menjelang lebaran, langit terlihat tidak kosong dan terdengar bunyi bising. What was the cause? [LABELS_CHOICE]",0,0
+Ibu itu dilarang tawar menawar harga. What was the cause? [LABELS_CHOICE],1,0
+Ibu itu punggungnya merah. What was the cause? [LABELS_CHOICE],0,0
+Kucing itu terkenal sangat ganas. What was the cause? [LABELS_CHOICE],0,1
+Warga kampung Jakarta bahu membahu membersihkan got kampung mereka. What was the cause? [LABELS_CHOICE],0,0
+Siswa-siswa baru SMA sedang dimarahi oleh kakak kelasnya. What was the cause? [LABELS_CHOICE],0,1
+Seorang pemuda laki-laki memakai baju batik. What was the cause? [LABELS_CHOICE],0,0
+Di sekolah tadi saya berada dalam bahaya. What was the cause? [LABELS_CHOICE],0,1
+Ada lomba makan kerupuk. What was the cause? [LABELS_CHOICE],1,0
+Anak-anak itu menggambar kotak-kotak menggunakan kapur di jalan. What was the cause? [LABELS_CHOICE],0,1
+Orang itu ditangkap polisi. What was the cause? [LABELS_CHOICE],0,0
+Ada bendera warna kuning polos di dekat rumah tetangga. What was the cause? [LABELS_CHOICE],0,0
+Orang itu terlalu banyak minum air. What was the cause? [LABELS_CHOICE],0,0
+Orang itu pergi ke McD. What was the cause? [LABELS_CHOICE],1,1
+Orang itu memakai kopiah. What was the cause? [LABELS_CHOICE],0,0
+Seseorang mengenakan sepatu saat ingin masuk ke rumah mertua. What happened as a result? [LABELS_CHOICE],1,1
+Kita diberikan suatu hadiah. What happened as a result? [LABELS_CHOICE],1,1
+Penumpang angkutan umum ingin turun di jalan. What happened as a result? [LABELS_CHOICE],0,1
+Orang itu akan menyebrang jalan raya. What happened as a result? [LABELS_CHOICE],0,0
+Pembuat gedung 20 lantai penganut ajaran fengshui. What happened as a result? [LABELS_CHOICE],1,1
+Pemuda Indonesia tersebut selesai membuang air besar. What happened as a result? [LABELS_CHOICE],1,1
+Anak-anak kampung melihat orang Eropa paruh baya. What happened as a result? [LABELS_CHOICE],0,1
+Saat bulan ramadhan ada tambahan upah diberikan ke karyawan. What happened as a result? [LABELS_CHOICE],1,1
+Sekelompok wisatawan pergi ke Bunaken. What happened as a result? [LABELS_CHOICE],0,1
+Satu keluarga yang tidak mampu ingin menyekolahkan anaknya. What happened as a result? [LABELS_CHOICE],0,1
+40 hari setelah wafatnya seorang muslim di suatu perumahan. What happened as a result? [LABELS_CHOICE],0,1
+Seorang karyawan perusahaan berangkat jam 7 pagi menuju Jakarta Pusat. What happened as a result? [LABELS_CHOICE],0,0
+Orang itu bernama Haryo. What happened as a result? [LABELS_CHOICE],1,1
+Hari ini tanggal 31 Oktober. What happened as a result? [LABELS_CHOICE],1,0
+Guru masuk di awal pelajaran siswa sekolah dasar. What happened as a result? [LABELS_CHOICE],1,0
+Orang itu parkir motor di depan indomaret. What happened as a result? [LABELS_CHOICE],0,0
+Ayah penyayang binatang. What happened as a result? [LABELS_CHOICE],1,0
+Anak kecil itu menaruh tangan ke kepala orang tuanya. What happened as a result? [LABELS_CHOICE],0,1
+Orang itu ingin makan rendang. What happened as a result? [LABELS_CHOICE],0,0
+Anak itu pengecut dalam menghadapi masalah. What happened as a result? [LABELS_CHOICE],0,0
+Siswa-siswa pergi ke Taman Banteng. What was the cause? [LABELS_CHOICE],0,1
+Menkominfo tersangkut korupsi BTS. What was the cause? [LABELS_CHOICE],1,1
+Ada kemacetan di Jalan Pantura di Jawa. What was the cause? [LABELS_CHOICE],1,0
+Siswa SMA dihukum oleh guru sekolah. What was the cause? [LABELS_CHOICE],0,1
+Orang itu menonton video Cak Lontong. What was the cause? [LABELS_CHOICE],0,1
+Keluaga itu belangganan PAM. What was the cause? [LABELS_CHOICE],1,0
+Banyak ondel-ondel di suatu lapangan. What was the cause? [LABELS_CHOICE],0,0
+Orang itu punya alergi ketan. What was the cause? [LABELS_CHOICE],1,0
+Kendaraan tersebut melambatkan jalannya. What was the cause? [LABELS_CHOICE],1,1
+Mahasiswa itu memakai jaket kuning. What was the cause? [LABELS_CHOICE],0,0
+Dosen itu kolestrolnya naik. What was the cause? [LABELS_CHOICE],1,1
+Orang itu disebut tinggal di luar planet. What was the cause? [LABELS_CHOICE],1,1
+Orang itu memilih untuk ke Bandara Halim dibandingkan Bandara Soekarno Hatta. What was the cause? [LABELS_CHOICE],0,1
+Orang itu meminum Tolak Angin. What was the cause? [LABELS_CHOICE],0,0
+Ada kendaraan memutar audio digoreng dadakan. What was the cause? [LABELS_CHOICE],1,0
+Orang itu membutuhkan KBBI. What was the cause? [LABELS_CHOICE],1,0
+Buah itu disemuti oleh semut hitam. What was the cause? [LABELS_CHOICE],1,0
+Orang itu berdagang secara online di Indonesia. What was the cause? [LABELS_CHOICE],0,1
+Seorang kontestan Masterchef dimarahi. What was the cause? [LABELS_CHOICE],0,1
+Langit jakarta sangat gelap. What was the cause? [LABELS_CHOICE],1,1
+Mahasiswa itu ingin berhemat. What happened as a result? [LABELS_CHOICE],0,1
+Sekelompok orang tua ingin merayakan keberhasilan promosinya dengan makanan nuansa lokal. What happened as a result? [LABELS_CHOICE],0,1
+Seorang pemuda pergi ke Pasar Senen di Jakarta. What happened as a result? [LABELS_CHOICE],1,0
+Orang itu masuk angin. What happened as a result? [LABELS_CHOICE],1,0
+Pemuda itu punggungnya pegal. What happened as a result? [LABELS_CHOICE],0,1
+Seorang direktur utama di BUMN membuat postingan di grup WhatsApp. What happened as a result? [LABELS_CHOICE],0,1
+Orang Jakarta itu membeli tisu roll. What happened as a result? [LABELS_CHOICE],1,1
+Kelompok supporter itu mendukung Persija. What happened as a result? [LABELS_CHOICE],0,1
+Warga Indonesia itu bekerja di Indonesia. What happened as a result? [LABELS_CHOICE],0,0
+Anak itu ingin melihat jenis-jenis binatang. What happened as a result? [LABELS_CHOICE],1,1
+Pemuda itu suka lagu dangdut. What happened as a result? [LABELS_CHOICE],0,0
+Orang itu tidak boleh makanan dingin. What happened as a result? [LABELS_CHOICE],0,0
+"Di hari lebaran, laki-laki itu pergi ke puncak di Bogor. What happened as a result? [LABELS_CHOICE]",0,0
+Perempuan itu pergi ke Gramedia. What happened as a result? [LABELS_CHOICE],0,0
+Bapak-bapak membuat grup komunitas untuk chatting. What happened as a result? [LABELS_CHOICE],1,1
+Orang itu perlu memeluk sesuatu saat tidur. What happened as a result? [LABELS_CHOICE],0,1
+Orang itu mementingkan keselematan diri. What happened as a result? [LABELS_CHOICE],0,0
+Masakan itu berasal dari Jawa Tengah. What happened as a result? [LABELS_CHOICE],0,1
+Orang itu bepergian. What happened as a result? [LABELS_CHOICE],1,0
+Piring itu kotor. What happened as a result? [LABELS_CHOICE],1,1
+Anak itu memakan Nasi Padang. What was the cause? [LABELS_CHOICE],1,1
+Pemerintah bagi-bagi sembako LPG ke orang miskin. What was the cause? [LABELS_CHOICE],0,1
+Seorang pengemudi ojek online ingin menurunkan penumpang. What was the cause? [LABELS_CHOICE],1,1
+Orang Muslim Indonesia merasa aman memakan suatu makanan di restoran. What was the cause? [LABELS_CHOICE],1,0
+Orang itu tiba-tiba berkata 'mari pak'. What was the cause? [LABELS_CHOICE],0,0
+Ibu itu memilih untuk tidak berbelanja bahan baku di Indomart. What was the cause? [LABELS_CHOICE],1,0
+Orang itu pergi ke pijat refleksi. What was the cause? [LABELS_CHOICE],0,1
+Orang Jakarta berbaju warna oren datang ke stadium gelora bung karno . What was the cause? [LABELS_CHOICE],0,0
+Transjakarta biayanya menjadi RP 1. What was the cause? [LABELS_CHOICE],1,1
+Paman ingin lebaran dan memilih pesawat Super Jet. What was the cause? [LABELS_CHOICE],0,0
+Orang muslim tersebut ingin minum yang hangat-hangat. What happened as a result? [LABELS_CHOICE],0,1
+Anak itu dimarahi ibunya. What happened as a result? [LABELS_CHOICE],0,1
+Bapak Jokowi datang ke suatu pertemuan. What happened as a result? [LABELS_CHOICE],1,1
+Hari ini lebaran idul adha. What happened as a result? [LABELS_CHOICE],0,1
+Ibu itu ingin merayakan kelulusan dengan nuansa padang. What happened as a result? [LABELS_CHOICE],0,0
+Saat ini berlangsung jam Istirahat Kerja kantor. What happened as a result? [LABELS_CHOICE],0,1
+Anak itu mengisi acara Festival Seni Budaya Bandung. What happened as a result? [LABELS_CHOICE],1,1
+Pegawai PNS sedang beristirahat. What happened as a result? [LABELS_CHOICE],1,1
+Ayam itu berkokok. What happened as a result? [LABELS_CHOICE],0,0
+Orang itu butuh kehangatan di badan. What happened as a result? [LABELS_CHOICE],1,1
+Bos perusahaan itu kebakaran Jenggot. What was the cause? [LABELS_CHOICE],0,1
+Anak itu melakukan apel pagi. What was the cause? [LABELS_CHOICE],1,1
+Berita itu digoreng di media sosial. What was the cause? [LABELS_CHOICE],1,1
+Orang itu masih hijau di dunia karir. What was the cause? [LABELS_CHOICE],1,1
+Professor itu viral di Indonesia. What was the cause? [LABELS_CHOICE],0,0
+Orang itu keras kepala. What happened as a result? [LABELS_CHOICE],1,0
+Anak itu sangat aneh gerak-geriknya. What happened as a result? [LABELS_CHOICE],0,1
+Kita berdua memilih untuk empat mata. What happened as a result? [LABELS_CHOICE],0,1
+Karyawan itu ingin mendapatkan promosi. What happened as a result? [LABELS_CHOICE],1,0
+Pria itu berhidung belang. What happened as a result? [LABELS_CHOICE],0,1
+Banyak orang segan membeli rumah tersebut. What was the cause? [LABELS_CHOICE],1,0
+mereka berjanji untuk bertemu sebelum magrib. What was the cause? [LABELS_CHOICE],0,1
+Dia membuat lontong. What was the cause? [LABELS_CHOICE],1,1
+Di depan rumahnya terpasang bedera kuning. What was the cause? [LABELS_CHOICE],1,1
+"Di depan gedung itu, terpasang janur kuning yang melengkung. What was the cause? [LABELS_CHOICE]",0,0
+Dia nyeker di pasar. What was the cause? [LABELS_CHOICE],0,1
+"Kemarin malam, ia baru selesai jaga lilin. What was the cause? [LABELS_CHOICE]",1,1
+Nama belakangnya adalah Hutabarat. What was the cause? [LABELS_CHOICE],0,0
+Wanita berhijab itu baru saja meninggal. What happened as a result? [LABELS_CHOICE],1,0
+laki-laki itu dikenal sebagai buaya darat. What was the cause? [LABELS_CHOICE],0,1
+Dia dikenal sebagai orang yang ngaret. What was the cause? [LABELS_CHOICE],0,1
+Wanita itu sedang datang bulan. What was the cause? [LABELS_CHOICE],0,0
+Ia memakai masker. What was the cause? [LABELS_CHOICE],1,0
+Ia berusaha menjadi orang yang tidak serakah. What was the cause? [LABELS_CHOICE],1,1
+Namanya keluar di arisan. What happened as a result? [LABELS_CHOICE],0,0
+Banyak orang mulai flu saat ini. What was the cause? [LABELS_CHOICE],0,1
+Mereka ingin bermain cangkulan. What happened as a result? [LABELS_CHOICE],1,1
+Petani mulai menanam padi. What was the cause? [LABELS_CHOICE],0,0
+Ia mengikuti remedial. What was the cause? [LABELS_CHOICE],1,1
+Polisi menutup jalan di kawasan tersebut. What was the cause? [LABELS_CHOICE],0,0
+Mereka mencium bau melati di koridor sekolah sore itu. What happened as a result? [LABELS_CHOICE],1,1
+Dia merasa masuk angin. What happened as a result? [LABELS_CHOICE],1,1
+Lembaga pemerintah dipenuhi dengan tikus berdasi. What happened as a result? [LABELS_CHOICE],0,0
+sekelompok pria keluar gedung pada Jumat siang. What happened as a result? [LABELS_CHOICE],1,0
+Kristian hendak beribadah pada hari minggu. What happened as a result? [LABELS_CHOICE],1,1
+Ia tidak mau menjadi Malin Kundang. What happened as a result? [LABELS_CHOICE],1,0
+BMKG mengumumkan Merapi siaga 4. What happened as a result? [LABELS_CHOICE],0,1
+Hari ini akan diadakan apel pagi. What happened as a result? [LABELS_CHOICE],0,1
+Rumah makan itu menyajikan makanan dengan air koborkan. What happened as a result? [LABELS_CHOICE],1,1
+Hari ini tanggal tujuh belas Agustus. What happened as a result? [LABELS_CHOICE],1,0
+Pasangan itu baru saja melahirkan seorang bayi. What happened as a result? [LABELS_CHOICE],0,0
+Ia pergi mudik ke kampung halaman. What happened as a result? [LABELS_CHOICE],0,1
+Ia pulang dengan penuh keringat. What happened as a result? [LABELS_CHOICE],0,0
+Terdapat banyak nilai merah di rapot nya. What happened as a result? [LABELS_CHOICE],1,0
+Mereka akan mendaftarkan pernikahannya. What happened as a result? [LABELS_CHOICE],0,1
+Ia pergi berlibur. What was the cause? [LABELS_CHOICE],0,1
+Ia melihat polisi tidur. What happened as a result? [LABELS_CHOICE],1,0
+Kepala desa membuat jadwal siskamling. What happened as a result? [LABELS_CHOICE],1,1
+Adik tidak ingin nasinya menangis. What happened as a result? [LABELS_CHOICE],0,1
+Mereka merayakan lebaran. What happened as a result? [LABELS_CHOICE],1,0
+Ibu menyalakan keran dan selang. What was the cause? [LABELS_CHOICE],0,1
+Mereka merayakan tahun baru dua jam lebih cepat dariku. What was the cause? [LABELS_CHOICE],0,1
+Hari ini ia pergi ke sekolah menggunakan seragam berwarna coklat. What was the cause? [LABELS_CHOICE],0,1
+Dia memakai seragam merah putih. What was the cause? [LABELS_CHOICE],1,0
+Ia memesan taxi untuk pergi ke Soekarno-Hatta. What was the cause? [LABELS_CHOICE],0,0
+Ia mengeluarkan uang kertas berwarna pink. What was the cause? [LABELS_CHOICE],0,0
+Ayah membeli bidet baru. What was the cause? [LABELS_CHOICE],0,0
+Mereka membeli kelereng. What was the cause? [LABELS_CHOICE],0,0
+Mereka membeli karet gelang. What was the cause? [LABELS_CHOICE],0,0
+Ia akan membuat sate bakar. What was the cause? [LABELS_CHOICE],0,1
+Ia berfoto di depan monumen hiu dan buaya. What was the cause? [LABELS_CHOICE],0,0
+Dia ingin makan manis. What was the cause? [LABELS_CHOICE],0,0
+Dia ingin makan babi panggang. What was the cause? [LABELS_CHOICE],1,0
+Banyak mobil dengan plat B memenuhi jalanan Bogor. What was the cause? [LABELS_CHOICE],0,1
+Ia pergi menggunakan kendaraan beroda tiga. What was the cause? [LABELS_CHOICE],0,1
+Ia membeli tempe. What was the cause? [LABELS_CHOICE],0,0
+Ia memesan gado-gado. What was the cause? [LABELS_CHOICE],0,1
+Ia pergi ke Semeru. What was the cause? [LABELS_CHOICE],1,1
+Ia membeli sekoteng. What was the cause? [LABELS_CHOICE],1,1
+BJ Habibi adalah idolanya. What happened as a result? [LABELS_CHOICE],1,0
+Langit-langit rumah terlihat sangat berdebu. What happened as a result? [LABELS_CHOICE],0,0
+Ayah memiliki kakaktua. What happened as a result? [LABELS_CHOICE],0,0
+Bank itu memberi bunga yang tinggi. What happened as a result? [LABELS_CHOICE],0,1
+"Setiap akhir pekan, kakak bekerja sebagai tukang ojek. What happened as a result? [LABELS_CHOICE]",1,1
+Ia ingin mengikuti jejak Susi Susanti. What happened as a result? [LABELS_CHOICE],1,0
+Ia masuk ke gang buntu. What happened as a result? [LABELS_CHOICE],0,1
+Ia ingin mendaki Gunung Bromo. What happened as a result? [LABELS_CHOICE],1,1
+Dia memesan menu internet di warkop. What happened as a result? [LABELS_CHOICE],0,1
+Perilaku orang tersebut seperti anjing. What happened as a result? [LABELS_CHOICE],0,1
+"Pagi ini, ia memakai pakaian putih abu-abu. What happened as a result? [LABELS_CHOICE]",1,1
+Ia akan memasak ketupat. What happened as a result? [LABELS_CHOICE],0,1
+Mereka pakai obat anti nyamuk. What was the cause? [LABELS_CHOICE],1,1
+Ia ingin melihat terumbu karang. What happened as a result? [LABELS_CHOICE],1,0
+Ia kecopetan. What happened as a result? [LABELS_CHOICE],1,1
+Ia ingin melihat padi. What happened as a result? [LABELS_CHOICE],1,0
+Ia ingin melihat kuda. What happened as a result? [LABELS_CHOICE],0,1
+Ia ingin berenang di laut. What happened as a result? [LABELS_CHOICE],1,1
+Mereka akan memasak rawon. What happened as a result? [LABELS_CHOICE],1,0
+Mereka ingin melihat api biru. What happened as a result? [LABELS_CHOICE],1,0
+Tsunami 2004 menghancurkan rumahnya. What was the cause? [LABELS_CHOICE],0,1
+Jari kelingkingnya dilumuri tinta. What was the cause? [LABELS_CHOICE],1,0
+Pria itu tidak percaya mitos Pantai Selatan. What was the cause? [LABELS_CHOICE],1,1
+Ia berangkat bekerja menggunakan seragam berwarna coklat. What was the cause? [LABELS_CHOICE],0,1
+Ia memasak ketupat dan opor ayam. What was the cause? [LABELS_CHOICE],1,0
+Mereka menyanyikan lagu Indonesia Raya. What was the cause? [LABELS_CHOICE],1,0
+Mereka masuk ke jalan tikus. What was the cause? [LABELS_CHOICE],1,0
+Mereka memasang bendera merah putih di rumah. What was the cause? [LABELS_CHOICE],0,1
+Perempuan itu membawa mukena. What was the cause? [LABELS_CHOICE],1,0
+Mereka pergi ke Gunung Tangkuban Perahu. What was the cause? [LABELS_CHOICE],0,0
+Ia ingin sarapan. What happened as a result? [LABELS_CHOICE],1,1
+Pelayan menaruh mangkuk kecil berisi air dengan potongan limau. What happened as a result? [LABELS_CHOICE],0,0
+Mereka akan pergi ke Kota Tua siang ini. What happened as a result? [LABELS_CHOICE],0,0
+Mereka ingin belajar musik tradisional Indonesia. What happened as a result? [LABELS_CHOICE],0,0
+Perempuan Jawa itu akan menikah. What happened as a result? [LABELS_CHOICE],1,1
+Adzan Magrib mulai dikumandangkan . What happened as a result? [LABELS_CHOICE],1,1
+"Dari Jakarta, ia ingin ke Surabaya dengan cepat. What happened as a result? [LABELS_CHOICE]",0,1
+Ia membeli tiket bus. What was the cause? [LABELS_CHOICE],0,0
+Jalanan becek akibar hujan. What happened as a result? [LABELS_CHOICE],1,0
+Ia mencari oleh-oleh kain khas Indonesia. What happened as a result? [LABELS_CHOICE],1,1
+ia buang air besar. What was the cause? [LABELS_CHOICE],0,0
+Ia pergi ke salon untuk sulam alis. What was the cause? [LABELS_CHOICE],1,1
+Kakak kesal karena adik terus membeo. What was the cause? [LABELS_CHOICE],0,1
+Ia dibawa ke kantor polisi akibat mencuri televisi. What was the cause? [LABELS_CHOICE],1,0
+ia memiliki banyak teman. What was the cause? [LABELS_CHOICE],0,0
+Ia menyelesaikan konflik tersebut dengan kepala dingin. What happened as a result? [LABELS_CHOICE],0,1
+Ia melihat pedagang kaki lima di pinggir jalan. What happened as a result? [LABELS_CHOICE],1,1
+Rumahnya ditelan si jago merah. What happened as a result? [LABELS_CHOICE],0,0
+kasus perceraian tersebut didiskusikan di meja hijau. What happened as a result? [LABELS_CHOICE],1,1
+perempuan itu pulang kampung setelah berbadan dua. What happened as a result? [LABELS_CHOICE],1,1
+"Sepulang sekolah, anak itu dimarahi oleh ayahnya. What was the cause? [LABELS_CHOICE]",1,1
+Laki-laki itu masuk rumah sakit karena kakinya tersayat pisau dan luka parah. What was the cause? [LABELS_CHOICE],0,1
+Pagi ini ada bus antarkota lewat di depan rumahku. What happened as a result? [LABELS_CHOICE],0,1
+Tetangga sebelah tiba-tiba kaya. What happened as a result? [LABELS_CHOICE],1,0
+Laki-laki itu dianggap sebagai preman di kampung ini. What was the cause? [LABELS_CHOICE],0,0
+Orang itu suka sekali membeli kretek. What happened as a result? [LABELS_CHOICE],0,1
+Dia dijuluki genderuwo di sekolah. What was the cause? [LABELS_CHOICE],0,0
+Nenek telah lama bekerja sebagai tukang urut. What happened as a result? [LABELS_CHOICE],1,0
+Bibi kesulitan menggendong si adik bayi. What was the cause? [LABELS_CHOICE],0,1
+Gigi kakek patah saat makan nasi. What was the cause? [LABELS_CHOICE],1,0
+Perempuan itu sangat malas naik angkot. What was the cause? [LABELS_CHOICE],1,0
+Kolesterol pak haji naik parah. What was the cause? [LABELS_CHOICE],1,0
+Hari ini kami merayakan lebaran haji. What happened as a result? [LABELS_CHOICE],0,0
+Kakinya diperban karena luka bakar. What was the cause? [LABELS_CHOICE],1,0
+"Adik menangis karena, setelah diperiksa, handphonenya diambil ayah. What was the cause? [LABELS_CHOICE]",0,0
+Ia adalah anak yang paling pendek di kelas. What happened as a result? [LABELS_CHOICE],0,0
+"Saat menyetir, Bapak terkena jebakan batman. What happened as a result? [LABELS_CHOICE]",1,0
+"Setelah melahirkan, ibu itu bingung karena dia tinggal di apartemen. What was the cause? [LABELS_CHOICE]",1,1
+Aku dan istriku sedang terjebak macet. What happened as a result? [LABELS_CHOICE],1,1
+Pelayan itu membawakan bejana berisi air dengan irisan jeruk nipis. What happened as a result? [LABELS_CHOICE],0,1
+Tanteku sedang butuh uang dengan cepat. What happened as a result? [LABELS_CHOICE],0,1
+"Seorang ibu-ibu pemotor tidak berhelm, tanpa lampu sen, menabrak sebuah mobil. What happened as a result? [LABELS_CHOICE]",0,0
+Dia mengikuti kompetisi penyampaian kuliah tujuh menit. What was the cause? [LABELS_CHOICE],1,0
+"Di musim penghujan ini, kampungku sedang mengadakan fogging. What was the cause? [LABELS_CHOICE]",1,0
+Seorang ahli nujum memperkirakan rumah sakit ini dihantui oleh suster ngesot. What was the cause? [LABELS_CHOICE],0,1
+Ayah gundah apakah ia harus membawa mobilnya ke tempat cuci sekarang. What was the cause? [LABELS_CHOICE],1,1
+Kakaknya tertangkap basah saat ujian. What was the cause? [LABELS_CHOICE],1,1
+Kakak mengikuti kompetisi olahraga gerak jalan. What happened as a result? [LABELS_CHOICE],1,0
+Ibu takut sakit saat melahirkan. What happened as a result? [LABELS_CHOICE],0,1
+Seorang satpam sedang lapar saat berjaga. What happened as a result? [LABELS_CHOICE],0,1
+Seorang tukang jamu digerebek oleh polisi. What was the cause? [LABELS_CHOICE],0,1
+Tarkam di daerah ini dilarang oleh polisi. What was the cause? [LABELS_CHOICE],1,1
+Ia terkenal sebagai mahasiswa yang kuliah pulang kuliah pulang. What happened as a result? [LABELS_CHOICE],0,1
+Ibu-ibu desa itu mengomel-omel setelah pulang dari restoran steak yang mahal ini. What was the cause? [LABELS_CHOICE],1,0
+Kakak perempuanku yang berumur 25 tahun pergi ke pernikahan sepupunya. What happened as a result? [LABELS_CHOICE],1,0
+Dia adalah anak anggota rohis kampus. What happened as a result? [LABELS_CHOICE],0,1
+Dia adalah anak yang rajin ke gereja. What happened as a result? [LABELS_CHOICE],1,1
+Saldo e-money-nya habis. What happened as a result? [LABELS_CHOICE],0,1
+Almarhumah dikenal sebagai pejuang agama yang baik. What happened as a result? [LABELS_CHOICE],1,1
+Adikku dan teman-temannya mengenakan pakaian adat di sekolahnya. What was the cause? [LABELS_CHOICE],1,1
+Listrik di rumah mati. What was the cause? [LABELS_CHOICE],0,1
+Kakak pergi ke bengkel Yamaha. What was the cause? [LABELS_CHOICE],1,1
+Malam-malam begini saya kelaparan. What happened as a result? [LABELS_CHOICE],1,1
+Ia dijuluki sebagai budak kapitalis. What was the cause? [LABELS_CHOICE],1,0
+Kakak sangat senang olahraga murah di Senayan. What happened as a result? [LABELS_CHOICE],1,1
+Adik dihukum di sekolah. What was the cause? [LABELS_CHOICE],0,1
+Sate kambing yang saya beli tadi rasanya hambar. What was the cause? [LABELS_CHOICE],0,0
+Dia sering mendapatkan nilai jelek di kelasnya. What happened as a result? [LABELS_CHOICE],1,0
+Adik pergi ke dokter karena sakit gigi. What was the cause? [LABELS_CHOICE],0,1
+Pak RT dianggap sebagai orang yang cukup kaya. What was the cause? [LABELS_CHOICE],0,1
+Pak RW adalah seorang hipster. What happened as a result? [LABELS_CHOICE],0,1
+Besok adik akan mengikuti SNMPTN. What happened as a result? [LABELS_CHOICE],0,0
+"Di lampu merah, ada mas-mas yang berjualan Kompas. What happened as a result? [LABELS_CHOICE]",1,1
+Ibu tengah menyemprot rumah dengan anti nyamuk. What happened as a result? [LABELS_CHOICE],1,0
+Pegawai kantor itu tidak punya BPJS. What happened as a result? [LABELS_CHOICE],0,1
+Pandemi COVID-19 menyebabkan banyak ASN bekerja dari rumah. What happened as a result? [LABELS_CHOICE],0,0
+Rumah paman banyak dipasang gambar hewan bermoncong putih. What was the cause? [LABELS_CHOICE],0,1
+Di ruas jalan itu sedang diberlakukan contraflow. What was the cause? [LABELS_CHOICE],1,1
+Anak itu tidak lulus ujian praktek Penjaskes. What was the cause? [LABELS_CHOICE],0,0
+Kakak malas mengurus STNK sendiri. What happened as a result? [LABELS_CHOICE],0,0
+Majapahit adalah kerajaan terbesar dalam sejarah Indonesia. What was the cause? [LABELS_CHOICE],1,1
+Anak itu sering sekali makan Indomie. What happened as a result? [LABELS_CHOICE],0,1
+Perempuan itu sampai ke puncak Gunung Ijen. What happened as a result? [LABELS_CHOICE],1,1
+Ia sedang ingin makanan Jepang. What happened as a result? [LABELS_CHOICE],0,1
+Banyak orang yang suka berbelanja di Shopee. What was the cause? [LABELS_CHOICE],1,1
+Toko ini kehabisan stok ayam. What was the cause? [LABELS_CHOICE],0,0
+Toko ini menjual alkohol. What happened as a result? [LABELS_CHOICE],0,1
+Adik tinggal di bawah SUTET. What happened as a result? [LABELS_CHOICE],1,0
+Budi kecewa saat membeli tahu sumedang di toko itu. What was the cause? [LABELS_CHOICE],0,0
+Ibu membeli santan di pasar. What was the cause? [LABELS_CHOICE],0,0
+Saya mau beli salonpas. What was the cause? [LABELS_CHOICE],1,1
+Bapak ingin menjalani hidup yang halal. What happened as a result? [LABELS_CHOICE],1,0
+Pak Haji bertanya-tanya apakah makanan hari ini halal. What was the cause? [LABELS_CHOICE],0,0
+Nenek tidak suka makan sashimi. What was the cause? [LABELS_CHOICE],0,1
+Ia gatal-gatal setelah makan sup asparagus. What was the cause? [LABELS_CHOICE],1,0
+Temanku sehari minum kopi banyak sekali. What happened as a result? [LABELS_CHOICE],1,0
+Saya ingin naik taksi online mercy. What happened as a result? [LABELS_CHOICE],0,0
+Kerja SAMSAT tersendat dalam memroses banyaknya pembelian mobil pribadi baru. What was the cause? [LABELS_CHOICE],0,1
+Aksi damai mengenang pahlawan reformasi menghambat lalu lintas di lokasi. What happened as a result? [LABELS_CHOICE],1,0
+Pada tanggal 4 Juni kemarin restoran di mall banyak yang ramai. What was the cause? [LABELS_CHOICE],1,1
+Adik sedih setelah membeli telur gulung di depan sekolah. What happened as a result? [LABELS_CHOICE],1,0
+Air minum di rumah habis. What happened as a result? [LABELS_CHOICE],0,0
+Adik senang makanan hari ini. What was the cause? [LABELS_CHOICE],1,0
+Paman hobi main domino. What happened as a result? [LABELS_CHOICE],1,1
+Kakak maju menjadi calon ketua OSIS. What was the cause? [LABELS_CHOICE],1,0
+"Walaupun murah, warung bakso itu sepi pembeli. What was the cause? [LABELS_CHOICE]",0,0
+Warung soto di pojokan selalu ramai dan rasanya sangat enak. What happened as a result? [LABELS_CHOICE],0,1
+"Adik sedang memesan bakso, tapi dia sedang ingin hidup sehat. What happened as a result? [LABELS_CHOICE]",1,0
+Bapak hendak berangkat sholat Jumat. What happened as a result? [LABELS_CHOICE],0,0
+Kakak sedang latihan Paskibra. What was the cause? [LABELS_CHOICE],0,1
+Kakek adalah alumni 212. What happened as a result? [LABELS_CHOICE],0,0
+Paman suka mengoleksi replika kapak 212. What happened as a result? [LABELS_CHOICE],0,1
+Anak SMA itu membawa sabit di dalam tasnya. What was the cause? [LABELS_CHOICE],1,0
+Anak SD Negeri itu berangkat sekolah di hari senin. What happened as a result? [LABELS_CHOICE],1,1
+"Setiap tahun, seringkali tetanggaku merayakan Idul Qurban sehari lebih awal. What was the cause? [LABELS_CHOICE]",0,0
+Ayah pulang malam selepas main karambol. What happened as a result? [LABELS_CHOICE],1,1
+"Setelah pulang, sang suami dimarahi oleh sang istri. What was the cause? [LABELS_CHOICE]",1,0
+"Di tengah Ospek, para mahasiswa baru dimarahi oleh seniornya. What was the cause? [LABELS_CHOICE]",1,0
+"Pada 17 Juli, aku mengendarai mobil dengan plat nomor N9EWE ke jalanan utama Jakarta. What was the cause? [LABELS_CHOICE]",0,0
+Lebaran haji sudah dekat. What happened as a result? [LABELS_CHOICE],0,1
+Ayah sedang kebakaran jenggot. What happened as a result? [LABELS_CHOICE],1,1
+"Tahun lalu, kambing di peternakan paman ada 6 ekor, tapi hari ini sudah 10 ekor saja. What was the cause? [LABELS_CHOICE]",0,0
+Ia ragu-ragu saat ingin membeli komputer bekas secara daring tanpa foto ataupun video yang jelas. What was the cause? [LABELS_CHOICE],1,0
+Pekerjaannya terasa seperti menegakkan benang basah. What happened as a result? [LABELS_CHOICE],1,0
+Aku sedang membantu kakek yang kesulitan mengurus sumur dan ladangnya yang kotor. What happened as a result? [LABELS_CHOICE],0,0
+Ia malu karena merasa dia dan kakaknya bagaikan bumi dan langit. What was the cause? [LABELS_CHOICE],0,0
+Paman membayar temannya untuk mencarikan kambing hitam untuk peristiwa itu. What was the cause? [LABELS_CHOICE],0,0
+Kakak sedang mencari tambatan hati. What happened as a result? [LABELS_CHOICE],0,0
+Di hari yang kelabu ini seluruh warga tengah berkumpul untuk memberikan penghormatan. What happened as a result? [LABELS_CHOICE],1,1
+Adik hari ini tengah mengikuti reuni sekolahnya. What happened as a result? [LABELS_CHOICE],0,0
+Adik menggunakan rumus abc. What was the cause? [LABELS_CHOICE],1,1
+Kakek suka sambil menyelam minum air. What happened as a result? [LABELS_CHOICE],1,0
+Papa dimarahi mama karena terlalu boros. What was the cause? [LABELS_CHOICE],1,0
+Adik mendengar petir di siang bolong. What happened as a result? [LABELS_CHOICE],0,0
+Ia adalah penyelam yang memiliki jam terbang yang tinggi. What was the cause? [LABELS_CHOICE],1,0
+"Akibat cedera, dengan sedih hati pemain bola itu memikirkan untuk mengakhiri karirnya. What happened as a result? [LABELS_CHOICE]",0,1
+Kakak berberat hati mendonorkan hatinya untuk ayah. What was the cause? [LABELS_CHOICE],1,1
+Kampung ini penuh dengan sampah masyarakat. What was the cause? [LABELS_CHOICE],1,0
+Dia adalah preman yang bolak-balik masuk penjara. What happened as a result? [LABELS_CHOICE],0,1
+Pertemuan ini sudah berjalan lama sekali. What was the cause? [LABELS_CHOICE],0,0

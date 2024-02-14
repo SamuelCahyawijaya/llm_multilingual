@@ -1,0 +1,2237 @@
+Input,Pred,Gold
+"Pria itu memangku tasnya saat menaiki angkutan umum. This happened because...
+Help me pick the more plausible option: - choice1: Pria itu berjaga-jaga agar tasnya tidak dicuri., choice2: Tasnya empuk.
+
+[LABELS_CHOICE]",0,0
+"Kulitnya bentol-bentol. This happened because...
+Help me pick the more plausible option: - choice1: Ia digigit nyamuk., choice2: Ia dipatuk ayam .
+
+[LABELS_CHOICE]",0,0
+"Bapak saya masuk angin. This happened because...
+Help me pick the more plausible option: - choice1: Bapak pulang dari salon., choice2: Bapak pulang ronda.
+
+[LABELS_CHOICE]",0,1
+"Jari bocah itu sakit. This happened because...
+Help me pick the more plausible option: - choice1: Ia terlalu banyak main enggrang., choice2: Ia terlalu banyak main kelereng.
+
+[LABELS_CHOICE]",0,1
+"Dia sedih. This happened because...
+Help me pick the more plausible option: - choice1: Nilai rapornya banyak yang merah., choice2: Nilai rapornya banyak yang hijau.
+
+[LABELS_CHOICE]",0,0
+"Ibu itu begitu bahagia. This happened because...
+Help me pick the more plausible option: - choice1: Namanya terpilih di undian arisan., choice2: Namanya tidak terpilih di undian arisan.
+
+[LABELS_CHOICE]",0,0
+"Orang itu makan nasi porsi kuli. This happened because...
+Help me pick the more plausible option: - choice1: Orang itu bosan makan nasi., choice2: Orang itu belum makan dari kemarin.
+
+[LABELS_CHOICE]",0,1
+"Ia merasa geli. This happened because...
+Help me pick the more plausible option: - choice1: Temannya menggosokkan kemoceng di kakinya., choice2: Temannya menggosokkan kentongan di kakinya.
+
+[LABELS_CHOICE]",1,0
+"Ia tidak naik kelas. This happened because...
+Help me pick the more plausible option: - choice1: Ia jarang belajar., choice2: Ia takut ketinggian.
+
+[LABELS_CHOICE]",1,0
+"Pria itu baru saja selesai solat berjamaah. Ia terkejut. This happened because...
+Help me pick the more plausible option: - choice1: Bajunya hilang dicuri., choice2: Sandalnya hilang dicuri.
+
+[LABELS_CHOICE]",1,1
+"Gadis itu ikut latihan saman. This happened because...
+Help me pick the more plausible option: - choice1: Ia senang ilmu mistis., choice2: Ia senang menari.
+
+[LABELS_CHOICE]",0,1
+"Pemuda itu makan di warteg. This happened because...
+Help me pick the more plausible option: - choice1: Dia sedang ingin makan makanan mewah., choice2: Dia sedang berhemat.
+
+[LABELS_CHOICE]",1,1
+"KPR bapak macet. This happened because...
+Help me pick the more plausible option: - choice1: Bapak dipecat dari kantor., choice2: Bapak jarang membersihkan rumah.
+
+[LABELS_CHOICE]",0,0
+"Kakak menjuarai lomba gurindam. This happened because...
+Help me pick the more plausible option: - choice1: Kakak sangat perkasa., choice2: Kakak sangat kreatif.
+
+[LABELS_CHOICE]",0,1
+"Bapak itu memesan ojek. This happened because...
+Help me pick the more plausible option: - choice1: Dia sangat mengantuk., choice2: Dia ingin berangkat ke kantor.
+
+[LABELS_CHOICE]",0,1
+"Ibu kos datang. This happened because...
+Help me pick the more plausible option: - choice1: Ia akan mengadakan lomba memasak., choice2: Ia ingin menagih bayaran.
+
+[LABELS_CHOICE]",0,1
+"Mahasiswa itu terlihat gugup. This happened because...
+Help me pick the more plausible option: - choice1: Sebentar lagi sidang pidana., choice2: Sebentar lagi sidang skripsi.
+
+[LABELS_CHOICE]",0,1
+"Ia berlatih gerakan kuda-kuda. This happened because...
+Help me pick the more plausible option: - choice1: Ia sedang belajar silat., choice2: Ia sedang belajar naik kuda.
+
+[LABELS_CHOICE]",0,0
+"Kakinya kapalan. This happened because...
+Help me pick the more plausible option: - choice1: Ia seorang nahkoda kapal., choice2: Ia jarang pakai alas kaki.
+
+[LABELS_CHOICE]",1,1
+"Pengusaha kelas kakap itu akhirnya jatuh juga. This happened because...
+Help me pick the more plausible option: - choice1: Hotel-hotel miliknya sepi pengunjung karena pandemi., choice2: Ikan kakap yang dijualnya jatuh dari meja.
+
+[LABELS_CHOICE]",1,0
+"Wanita itu sangat ingin menjadi artis. As a consequence...
+Help me pick the more plausible option: - choice1: Ia menekuni seni melukis dan menggambar., choice2: Ia mencoba mengadu nasib dengan mengikuti audisi penyanyi.
+
+[LABELS_CHOICE]",1,1
+"Mahasiswa itu ketahuan titip absen. As a consequence...
+Help me pick the more plausible option: - choice1: Mahasiswa itu dikeluarkan dari kampus., choice2: Dosennya memberikan nilai F.
+
+[LABELS_CHOICE]",0,1
+"Siswa SMA itu rambutnya gondrong. As a consequence...
+Help me pick the more plausible option: - choice1: Gurunya menghukum siswa itu., choice2: Gurunya mengapresiasi siswa itu.
+
+[LABELS_CHOICE]",1,0
+"Pak ogah membantu mobilnya putar balik. As a consequence...
+Help me pick the more plausible option: - choice1: Ia memberikan pak ogah uang receh., choice2: Ia memberikan pak ogah bingkisan parsel.
+
+[LABELS_CHOICE]",0,0
+"Pengunjung itu memberikan tip 5% ke pelayan. As a consequence...
+Help me pick the more plausible option: - choice1: Pelayan itu kesal., choice2: Pelayan itu merasa sangat senang.
+
+[LABELS_CHOICE]",0,1
+"Banyak sekali pungli sepanjang perjalanan. As a consequence...
+Help me pick the more plausible option: - choice1: Ia jadi jengkel., choice2: Perjalanan semakin lancar.
+
+[LABELS_CHOICE]",1,0
+"Ia ingin memberbaharui SIM-C miliknya. As a consequence...
+Help me pick the more plausible option: - choice1: Ia datang ke kantor samsat., choice2: Ia datang ke toko ponsel.
+
+[LABELS_CHOICE]",0,0
+"Sopir truk jarak jauh itu bosan. As a consequence...
+Help me pick the more plausible option: - choice1: Ia menyetel lagu dangdut., choice2: Ia menyetel lagu jazz.
+
+[LABELS_CHOICE]",0,0
+"Pemuda tersebut berlatih angklung setiap hari. As a consequence...
+Help me pick the more plausible option: - choice1: Dia semakin handal bermain musik., choice2: Dia semakin handal dalam menyetir mobil.
+
+[LABELS_CHOICE]",0,0
+"Segerombolan pemuda sedang menjelajah Kalimantan. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka bertemu harimau liar., choice2: Mereka bertemu komodo.
+
+[LABELS_CHOICE]",0,0
+"Saya minum air kobokan. As a consequence...
+Help me pick the more plausible option: - choice1: Saya merasa segar., choice2: Perut saya sakit.
+
+[LABELS_CHOICE]",0,1
+"Got di komplek perumahaan itu tersumbat. As a consequence...
+Help me pick the more plausible option: - choice1: Pak RT menyiramkan cairan pelarut sampah., choice2: Pak RT berinisiasi mengadakan kerja bakti.
+
+[LABELS_CHOICE]",1,1
+"Hari senin, anak SD itu bangun jam 6 pagi. As a consequence...
+Help me pick the more plausible option: - choice1: Anak SD itu langsung bersiap ke sekolah., choice2: Anak SD itu tidur lagi.
+
+[LABELS_CHOICE]",0,0
+"Ia didatangi pengamen. As a consequence...
+Help me pick the more plausible option: - choice1: Ia memberikan receh ke pengamen itu., choice2: Ia memberikan gitar ke pengamen itu.
+
+[LABELS_CHOICE]",0,0
+"Banyak pembegalan di sekitar komplek. As a consequence...
+Help me pick the more plausible option: - choice1: Saya sangat bahagia., choice2: Saya merasa cemas.
+
+[LABELS_CHOICE]",0,1
+"Pelajar itu ingin menembak temannya di sekolah. As a consequence...
+Help me pick the more plausible option: - choice1: Ia membawa bunga., choice2: Ia membawa pistol.
+
+[LABELS_CHOICE]",0,0
+"Anak itu ingin sekali makan nasi dan ayam goreng tepung. As a consequence...
+Help me pick the more plausible option: - choice1: Ia pergi ke Subway., choice2: Ia pergi ke Burger King.
+
+[LABELS_CHOICE]",0,1
+"Ada kasus demam berdarah di komplek itu. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka mengadakan penyemprotan., choice2: Mereka memanggil detektif.
+
+[LABELS_CHOICE]",0,0
+"Kakinya terkilir. As a consequence...
+Help me pick the more plausible option: - choice1: Ia pergi ke tukang urut., choice2: Ia pergi ke tukang bekam.
+
+[LABELS_CHOICE]",1,0
+"Terlihat layang-layang putus. As a consequence...
+Help me pick the more plausible option: - choice1: Segerombolan anak-anak berlali kabur dari layang-layang itu., choice2: Segerombolan anak-anak mengejar layang-layang itu.
+
+[LABELS_CHOICE]",0,1
+"Alergi kacangnya kumat dan ia gatal-gatal. This happened because...
+Help me pick the more plausible option: - choice1: Ia makan cendol., choice2: Ia makan ketoperak.
+
+[LABELS_CHOICE]",1,1
+"Orang itu menangis kepedasan. This happened because...
+Help me pick the more plausible option: - choice1: Ia makan ayam penyet., choice2: Ia makan ayam kremes.
+
+[LABELS_CHOICE]",0,0
+"Listrik di rumahnya padam. This happened because...
+Help me pick the more plausible option: - choice1: Ia lupa mengisi ulang token PLN., choice2: Ia lupa mengisi ulang token PAM.
+
+[LABELS_CHOICE]",0,0
+"Ia kehabisan tinta kuning. This happened because...
+Help me pick the more plausible option: - choice1: Ia mencetak 1000 selebaran promosi PDIP., choice2: Ia mencetak 1000 selebaran promosi Golkar.
+
+[LABELS_CHOICE]",0,1
+"Anak kecil itu menjerit ketakutan. This happened because...
+Help me pick the more plausible option: - choice1: Ia melihat onde-onde., choice2: Ia melihat ondel-ondel.
+
+[LABELS_CHOICE]",1,1
+"Bapak itu merantau ke Jakarta. This happened because...
+Help me pick the more plausible option: - choice1: Ia ingin jalan-jalan., choice2: Ia ingin mencari penghidupan yang lebih baik.
+
+[LABELS_CHOICE]",0,1
+"Pemuda itu dilarikan ke rumah sakit. This happened because...
+Help me pick the more plausible option: - choice1: Ia minum bir oplosan., choice2: Ia minum bir pletok.
+
+[LABELS_CHOICE]",0,0
+"Ia masuk ke Indomaret. This happened because...
+Help me pick the more plausible option: - choice1: Ia kelelahan di luar dan ingin cari tempat duduk., choice2: Ia kepanasan di luar dan ingin mendinginkan diri.
+
+[LABELS_CHOICE]",0,1
+"Ibu pergi ke Pasar Minggu. This happened because...
+Help me pick the more plausible option: - choice1: Ibu ingin belanja., choice2: Hari ini hari minggu.
+
+[LABELS_CHOICE]",0,0
+"Ia merasa gelisah. This happened because...
+Help me pick the more plausible option: - choice1: Orang di sebelahnya terlalu banyak makan jengkol., choice2: Orang di sebelahnya hobi makan tempe orek.
+
+[LABELS_CHOICE]",0,0
+"Ibu beli beras ketan. This happened because...
+Help me pick the more plausible option: - choice1: Ibu mau masak kue lumpur., choice2: Ibu mau masak kue lemper.
+
+[LABELS_CHOICE]",0,1
+"Perempuan itu pergi ke Gambir. This happened because...
+Help me pick the more plausible option: - choice1: Ia ingin makan siang., choice2: Ia ingin pergi ke luar kota.
+
+[LABELS_CHOICE]",0,1
+"Wanita itu pergi ke Puncak. This happened because...
+Help me pick the more plausible option: - choice1: Wanita itu butuh istirahat., choice2: Wanita itu sudah bekerja di perusahaannya selama 10 tahun.
+
+[LABELS_CHOICE]",0,0
+"Bapak itu senang sekali. This happened because...
+Help me pick the more plausible option: - choice1: Ada lemper di kotak makanannya., choice2: Ada lipan di kotak makanannya.
+
+[LABELS_CHOICE]",0,0
+"Ia rajin angkat beban. This happened because...
+Help me pick the more plausible option: - choice1: Ia ingin terlihat seperti Ade Rai., choice2: Ia ingin terlihat seperti Syahrini.
+
+[LABELS_CHOICE]",0,0
+"Ia pergi ke Soekarno Hatta. This happened because...
+Help me pick the more plausible option: - choice1: Ia ada keperluan di Bandung., choice2: Ia ada keperluan di Makassar.
+
+[LABELS_CHOICE]",0,1
+"Anak itu ketakutan. This happened because...
+Help me pick the more plausible option: - choice1: Ia mimpi melihat polri., choice2: Ia mimpi melihat pocong.
+
+[LABELS_CHOICE]",0,1
+"Anak itu menjerit histeris. This happened because...
+Help me pick the more plausible option: - choice1: Ia naik kora-kora., choice2: Ia naik odong-odong.
+
+[LABELS_CHOICE]",0,0
+"Ia berurusan dengan polisi. This happened because...
+Help me pick the more plausible option: - choice1: Ia lupa bawa KK saat berkendara., choice2: Ia lupa bawa STNK saat berkendara.
+
+[LABELS_CHOICE]",0,1
+"Pria itu memperbaharui KK miliknya. This happened because...
+Help me pick the more plausible option: - choice1: Ia baru saja lulus kuliah., choice2: Ia baru saja menikah.
+
+[LABELS_CHOICE]",0,1
+"Dokternya menyarankannya untuk mengurangi konsumsi karbohidrat. As a consequence...
+Help me pick the more plausible option: - choice1: Ia berhenti makan lontong sayur., choice2: Ia berhenti makan rujak buah.
+
+[LABELS_CHOICE]",0,0
+"Ia ingin pergi jalan-jalan ke Ancol. As a consequence...
+Help me pick the more plausible option: - choice1: Ia mengenakan jaket tebal., choice2: Ia mengenakan sunscreen.
+
+[LABELS_CHOICE]",0,1
+"Ia ingin mencari buku bacaan baru. As a consequence...
+Help me pick the more plausible option: - choice1: Ia pergi ke Barnes Noble., choice2: Ia pergi ke Gunung Agung.
+
+[LABELS_CHOICE]",0,1
+"Orang itu sangat mengidolakan Gatot Kaca. As a consequence...
+Help me pick the more plausible option: - choice1: Ia jadi rajin pergi ke salon., choice2: Ia jadi rajin berolahraga.
+
+[LABELS_CHOICE]",1,1
+"Ia diminta membuat laporan tentang pahlawan nasional. As a consequence...
+Help me pick the more plausible option: - choice1: Ia menulis tentang Diponegoro., choice2: Ia menulis tentang Martin Luther King Jr.
+
+[LABELS_CHOICE]",0,0
+"Saya tidak sengaja menumpahkan kuah gulai. As a consequence...
+Help me pick the more plausible option: - choice1: Bajunya menjadi hijau., choice2: Bajunya menjadi kuning.
+
+[LABELS_CHOICE]",0,1
+"Hari ini adalah hari libur Idul Fitri. As a consequence...
+Help me pick the more plausible option: - choice1: Orang-orang pergi mudik., choice2: Orang-orang beritikaf di masjid.
+
+[LABELS_CHOICE]",0,0
+"Diadakan acara keroncong di kampung. As a consequence...
+Help me pick the more plausible option: - choice1: Banyak warga kelaparan., choice2: Banyak warga terhibur.
+
+[LABELS_CHOICE]",0,1
+"Kakakku mengidolakan Joko Anwar. As a consequence...
+Help me pick the more plausible option: - choice1: Kakakku ingin masuk dunia politik., choice2: Kakakku ingin berkarya di dunia film.
+
+[LABELS_CHOICE]",1,1
+"Kakakku mengidolakan Joko Widodo. As a consequence...
+Help me pick the more plausible option: - choice1: Kakakku ingin masuk dunia politik., choice2: Kakakku ingin berkarya di dunia film.
+
+[LABELS_CHOICE]",1,0
+"Siswa SMA itu ingin sekali melanjutkan pendidikan di ITB. As a consequence...
+Help me pick the more plausible option: - choice1: Siswa itu belajar IELTS., choice2: Siswa itu mengikuti bimbel.
+
+[LABELS_CHOICE]",0,1
+"Bapak terlalu banyak mengonsumsi Gudang Garam. As a consequence...
+Help me pick the more plausible option: - choice1: Bapak sakit paru-paru., choice2: Bapak darah tinggi.
+
+[LABELS_CHOICE]",0,0
+"Sekumpulan anak melompat-lompat di TransJakarta. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka ditegur penumpang lainnya., choice2: Banyak anak lainnya yang jadi ikut melompat-lompat.
+
+[LABELS_CHOICE]",0,0
+"Sekumpulan anak melompat-lompat di Trans Studio. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka ditegur penumpang lainnya., choice2: Banyak anak lainnya yang jadi ikut melompat-lompat.
+
+[LABELS_CHOICE]",1,1
+"Ia makan es teler setiap hari. As a consequence...
+Help me pick the more plausible option: - choice1: Ia diabetes., choice2: Ia mabuk.
+
+[LABELS_CHOICE]",0,0
+"Aplikasi QRIS-nya rusak. As a consequence...
+Help me pick the more plausible option: - choice1: Ia panggil tukang servis., choice2: Ia akhirnya pakai kartu debit.
+
+[LABELS_CHOICE]",0,1
+"Ia ingin mendapatkan kursi DPR. As a consequence...
+Help me pick the more plausible option: - choice1: Ia melakukan kampanye besar-besaran., choice2: Ia beli kursi di toko furnitur.
+
+[LABELS_CHOICE]",0,0
+"Pemudi itu ingin sekali makan nasi padang. As a consequence...
+Help me pick the more plausible option: - choice1: Ia pesan tiket pesawat ke Padang., choice2: Ia pesan melalui aplikasi.
+
+[LABELS_CHOICE]",0,1
+"Anak itu berjalan kaki mengelilingi Taman Mini. As a consequence...
+Help me pick the more plausible option: - choice1: Ia tidak lelah., choice2: Ia sangat kelelahan.
+
+[LABELS_CHOICE]",1,1
+"Ia ganteng. As a consequence...
+Help me pick the more plausible option: - choice1: Ia melamar pekerjaan di Tanah Abang., choice2: Ia mengajukan diri sebagai Abang Jakarta.
+
+[LABELS_CHOICE]",0,1
+"Polisi mengamankan stadion. This happened because...
+Help me pick the more plausible option: - choice1: Ada perseteruan Persija dan Persebaya., choice2: Ada perseteruan NU dan Muhammadiyah.
+
+[LABELS_CHOICE]",0,0
+"Mereka sekeluarga sehari-hari makan raskin. This happened because...
+Help me pick the more plausible option: - choice1: Bapaknya seorang pemulung., choice2: Bapaknya direktur Telkomsel.
+
+[LABELS_CHOICE]",0,0
+"Rambut gadis itu seperti mak lampir. This happened because...
+Help me pick the more plausible option: - choice1: Ia jarang mandi., choice2: Ia sering creambath.
+
+[LABELS_CHOICE]",0,0
+"Laporan BMKG membuat warga panik. This happened because...
+Help me pick the more plausible option: - choice1: Akan terjadi inflasi., choice2: Akan terjadi badai.
+
+[LABELS_CHOICE]",0,1
+"Ia senang tinggal di Kebon Jeruk. This happened because...
+Help me pick the more plausible option: - choice1: Akses ke kantornya mudah., choice2: Ia bisa makan jeruk setiap hari.
+
+[LABELS_CHOICE]",1,0
+"Ia tidak suka tinggal di Kelapa Gading. This happened because...
+Help me pick the more plausible option: - choice1: Kelapa membuatnya mual., choice2: Jalanan macet.
+
+[LABELS_CHOICE]",0,1
+"Mahasiswa sedang mengumpulkan dana untuk kegiatan mahasiswa. This happened because...
+Help me pick the more plausible option: - choice1: Mereka terlihat sedang berjualan piscok., choice2: Mereka terlihat sedang berjualan handphone.
+
+[LABELS_CHOICE]",0,0
+"Tiba-tiba bapak didatangi rentenir. This happened because...
+Help me pick the more plausible option: - choice1: Foto KTP-nya bocor., choice2: Foto ijazahnya bocor.
+
+[LABELS_CHOICE]",0,0
+"Dia dibawa ke rumah sakit. This happened because...
+Help me pick the more plausible option: - choice1: Dia tidak sengaja menelan biji salak., choice2: Dia tidak sengaja menelan biji pepaya.
+
+[LABELS_CHOICE]",0,0
+"Ia dirujak teman-temannya. This happened because...
+Help me pick the more plausible option: - choice1: Ia suka buah-buahan., choice2: Ia beropini yang kontroversial.
+
+[LABELS_CHOICE]",0,1
+"Anak itu diterima masuk UI. As a consequence...
+Help me pick the more plausible option: - choice1: Sekeluarga makan nasi uduk., choice2: Sekeluarga makan nasi kuning.
+
+[LABELS_CHOICE]",0,1
+"Ibu belanja di pasar. As a consequence...
+Help me pick the more plausible option: - choice1: Ia membayar dengan ApplePay., choice2: Ia membayar dengan uang kertas.
+
+[LABELS_CHOICE]",0,1
+"Anak itu ingin merantau. As a consequence...
+Help me pick the more plausible option: - choice1: Ibunya membekalinya rendang., choice2: Ibunya membekalinya kerupuk.
+
+[LABELS_CHOICE]",1,0
+"Kelakuannya seperti dajjal. As a consequence...
+Help me pick the more plausible option: - choice1: Dia banyak dimusuhi orang., choice2: Dia banyak teman.
+
+[LABELS_CHOICE]",0,0
+"Orang itu mengalami kecelakaan mobil. As a consequence...
+Help me pick the more plausible option: - choice1: Ia dilarikan ke UGD., choice2: Ia dilarikan ke puskesmas.
+
+[LABELS_CHOICE]",0,0
+"Ibu menyampurkan gula, garam, dan jeruk di masakannya. As a consequence...
+Help me pick the more plausible option: - choice1: Rasa makanannya nano-nano., choice2: Rasa makanannya kopiko.
+
+[LABELS_CHOICE]",0,0
+"Aku sedang berhemat. As a consequence...
+Help me pick the more plausible option: - choice1: Aku naik Damri., choice2: Aku naik Blue Bird.
+
+[LABELS_CHOICE]",0,0
+"Saya terlambat masuk kantor. As a consequence...
+Help me pick the more plausible option: - choice1: Saya segera naik angkot., choice2: Saya segera pesan Gojek.
+
+[LABELS_CHOICE]",0,1
+"Ia suka berjemur. As a consequence...
+Help me pick the more plausible option: - choice1: Ia cukup sering main ke Lombok., choice2: Ia cukup sering main ke Lembang.
+
+[LABELS_CHOICE]",0,0
+"Ada pesta makan rengginang. As a consequence...
+Help me pick the more plausible option: - choice1: Banyak remah-remah di lantai., choice2: Mereka ditangkap aparat.
+
+[LABELS_CHOICE]",0,0
+"Ia dikenal sebagai kembang desa. This happened because...
+Help me pick the more plausible option: - choice1: Parasnya begitu cantik., choice2: Ia banyak menanam kembang di sekitar rumahnya.
+
+[LABELS_CHOICE]",0,0
+"Air seninya bening. This happened because...
+Help me pick the more plausible option: - choice1: Ia terlalu banyak minum air., choice2: Cat warnanya habis.
+
+[LABELS_CHOICE]",0,0
+"Dirinya dijuluki bermuka badak. This happened because...
+Help me pick the more plausible option: - choice1: Dia selalu tampil di depan kelas., choice2: Dia suka pakai topeng badak.
+
+[LABELS_CHOICE]",0,0
+"Rumahnya dimakan si jago merah. This happened because...
+Help me pick the more plausible option: - choice1: Pemilik rumah lupa mematikan kompor., choice2: Si jago merah kelaparan.
+
+[LABELS_CHOICE]",1,0
+"Jalanan macet. This happened because...
+Help me pick the more plausible option: - choice1: Mahasiswa sedang demo praktikum., choice2: Mahasiswa sedang demo.
+
+[LABELS_CHOICE]",0,1
+"Ia mengadu domba tetangganya. As a consequence...
+Help me pick the more plausible option: - choice1: Tetangganya jadi bertengkar., choice2: Domba tetangganya terluka.
+
+[LABELS_CHOICE]",1,0
+"Anak itu ingin sekali menuntut ilmu di negeri sakura. As a consequence...
+Help me pick the more plausible option: - choice1: Ia pergi ke pengadilan Tokyo., choice2: Ia belajar bahasa Jepang.
+
+[LABELS_CHOICE]",0,1
+"Ia selalu jadi mahasiswi kupu-kupu. As a consequence...
+Help me pick the more plausible option: - choice1: Ia jadi cantik., choice2: Ia kurang pengalaman.
+
+[LABELS_CHOICE]",0,1
+"Ia selalu jadi mahasiswa kura-kura. As a consequence...
+Help me pick the more plausible option: - choice1: Ia kurang tidur., choice2: Jalannya lambat.
+
+[LABELS_CHOICE]",0,0
+"Orang itu sudah bau tanah. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu hobi kamping., choice2: Orang itu sering sakit.
+
+[LABELS_CHOICE]",1,1
+"Gadis itu berjalan melewati tukang bakso, tiba-tiba tukang baksonya senyum. This happened because...
+Help me pick the more plausible option: - choice1: Tukang baksonya sedang kesal dengan gadis tersebut., choice2: Tukang baksonya sedang menyapa gadis tersebut.
+
+[LABELS_CHOICE]",0,1
+"Mertua mendapatkan menantu idaman. This happened because...
+Help me pick the more plausible option: - choice1: Menantunya kerja jadi freelancer., choice2: Menantunya kerja jadi PNS.
+
+[LABELS_CHOICE]",0,1
+"Di malam hari jalanan sangat ramai. This happened because...
+Help me pick the more plausible option: - choice1: Hari ini hari sabtu., choice2: Hari ini hari jumat.
+
+[LABELS_CHOICE]",0,0
+"Anak muda itu pakai baju seragam SMA yang sudah dicoret-coret. This happened because...
+Help me pick the more plausible option: - choice1: Anak muda itu baru lulus sekolah., choice2: Anak muda itu baru diterima di sekolahnya.
+
+[LABELS_CHOICE]",0,0
+"Hari minggu pagi warga kompleks berkumpul bersama. This happened because...
+Help me pick the more plausible option: - choice1: Warga kompleks akan nonton pertandingan bola., choice2: Warga kompleks akan kerja bakti.
+
+[LABELS_CHOICE]",0,1
+"Murid itu bisa membangun tenda. This happened because...
+Help me pick the more plausible option: - choice1: Murid itu ikut OSIS., choice2: Murid itu ikut Pramuka.
+
+[LABELS_CHOICE]",0,1
+"Penonton berjoget bersama di lapangan. This happened because...
+Help me pick the more plausible option: - choice1: Penonton sedang menonton konser dangdut., choice2: Penonton sedang menonton konser metal.
+
+[LABELS_CHOICE]",0,0
+"Malam ini orang-orang membakar jagung, sosis, dan ikan. This happened because...
+Help me pick the more plausible option: - choice1: Besok tanggal 1 Januari., choice2: Besok tanggal 17 Agustus.
+
+[LABELS_CHOICE]",0,0
+"Paman sedang sarungan, kokoan, dan pecian. This happened because...
+Help me pick the more plausible option: - choice1: Paman mau ke masjid., choice2: Paman mau pergi memancing.
+
+[LABELS_CHOICE]",0,0
+"Malin kundang jadi batu. This happened because...
+Help me pick the more plausible option: - choice1: Malin kundang mencuri pusaka kerajaan., choice2: Malin kundang durhaka ke ibunya.
+
+[LABELS_CHOICE]",0,1
+"Bawang putih disiksa ibunya. This happened because...
+Help me pick the more plausible option: - choice1: Bawang putih hanyalah anak tiri., choice2: Bawang putih durhaka ke ibunya.
+
+[LABELS_CHOICE]",0,0
+"Saat lebaran, suasana kota Jakarta sangat sepi. This happened because...
+Help me pick the more plausible option: - choice1: Masyarakat sedang nyepi., choice2: Masyarakatnya sedang pulang kampung.
+
+[LABELS_CHOICE]",0,1
+"Laki-laki bugis perlu menabung uang banyak sebelum menikah. This happened because...
+Help me pick the more plausible option: - choice1: Mahar yang diberikan ke keluarga pasangan mahal., choice2: Uangnya untuk disedekahkan ke yang membutuhkan.
+
+[LABELS_CHOICE]",0,0
+"Lantai rumah jarang berdebu. This happened because...
+Help me pick the more plausible option: - choice1: Pengunjung lepas sepatu sebelum masuk rumah., choice2: Rumah sering ditinggal pemilik.
+
+[LABELS_CHOICE]",0,0
+"Sepupuku pakai jaket di siang hari. This happened because...
+Help me pick the more plausible option: - choice1: Sepupuku sedang sakit flu., choice2: Sepupuku takut kulitnya menghitam.
+
+[LABELS_CHOICE]",0,1
+"Saya makan lalapan pakai tangan. This happened because...
+Help me pick the more plausible option: - choice1: Lebih mudah mengambil lalapannya., choice2: Sebagai bentuk rasa syukur ke Tuhan.
+
+[LABELS_CHOICE]",0,0
+"Kakak sedang membuat sambal terasi. This happened because...
+Help me pick the more plausible option: - choice1: Kakak membuat sambalnya dengan diulek., choice2: Kakak membiarkan sambal dan bahan lainnya secara mentah.
+
+[LABELS_CHOICE]",0,0
+"Pelajar jogja dilarang keluar rumah diatas jam 10 malam. This happened because...
+Help me pick the more plausible option: - choice1: Di jogja sering terjadi gempa bumi., choice2: Fenomena klitih sedang marak.
+
+[LABELS_CHOICE]",1,1
+"Aku tidak diperbolehkan menonton pertandingan Persib melawan Persija oleh ibu. This happened because...
+Help me pick the more plausible option: - choice1: Kemungkinan pertandingan menjadi tidak seru., choice2: Kemungkinan akan terjadi kerusuhan.
+
+[LABELS_CHOICE]",0,1
+"Papa mendapat gaji tambahan di hari raya. This happened because...
+Help me pick the more plausible option: - choice1: Gaji tersebut adalah uang pensiun., choice2: Gaji tersebut adalah THR.
+
+[LABELS_CHOICE]",0,1
+"Tahun ini, ujian sekolah pakai LJK. As a consequence...
+Help me pick the more plausible option: - choice1: Murid harus menggunakan pensil., choice2: Murid harus menggunakan pulpen.
+
+[LABELS_CHOICE]",0,0
+"Tiap awal bulan, ibu pergi ke warung. As a consequence...
+Help me pick the more plausible option: - choice1: Ibu mengisi token listrik dirumah., choice2: Ibu ikut minum kopi di warung.
+
+[LABELS_CHOICE]",1,0
+"Orang itu suka bersantai pakai kaos dalam dan sarung. As a consequence...
+Help me pick the more plausible option: - choice1: Dia dijuluki seperti anak muda., choice2: Dia dijuluki seperti bapak-bapak.
+
+[LABELS_CHOICE]",0,1
+"Punggung pakde sedang dikerok. As a consequence...
+Help me pick the more plausible option: - choice1: Badan pakde tidak perih lagi., choice2: Badan pakde tidak masuk angin lagi.
+
+[LABELS_CHOICE]",0,1
+"Bendahara kelas hari ini ulang tahun. As a consequence...
+Help me pick the more plausible option: - choice1: Bendahara kelas dilempar garam oleh temannya., choice2: Bendahara kelas dilempar tepung oleh temannya.
+
+[LABELS_CHOICE]",0,1
+"Kami menghormati pengorbanan para pahlawan. As a consequence...
+Help me pick the more plausible option: - choice1: Kami mengikuti upacara setiap senin., choice2: Kami mengikuti aktivitas kemah setiap minggu.
+
+[LABELS_CHOICE]",1,0
+"Hari ini hari raya nyepi di Bali. As a consequence...
+Help me pick the more plausible option: - choice1: Jalanan di Bali sepi., choice2: Jalanan di Bali ramai.
+
+[LABELS_CHOICE]",0,0
+"Bibi lagi liburan ke Lombok. As a consequence...
+Help me pick the more plausible option: - choice1: Bibi mampir ke pantai., choice2: Bibi mampir ke tempat ski.
+
+[LABELS_CHOICE]",0,0
+"Teman saya tinggal di sekitaran SCBD. As a consequence...
+Help me pick the more plausible option: - choice1: Dia punya biaya hidup murah., choice2: Dia punya biaya hidup mahal.
+
+[LABELS_CHOICE]",1,1
+"Kakak menjaga kebersihan tubuh. As a consequence...
+Help me pick the more plausible option: - choice1: Kakak mandi dua hari sekali., choice2: Kakak mandi dua kali sehari.
+
+[LABELS_CHOICE]",0,1
+"Aku mendadak lapar saat malam hari. As a consequence...
+Help me pick the more plausible option: - choice1: Aku beli nasi goreng., choice2: Aku beli nasi uduk.
+
+[LABELS_CHOICE]",0,0
+"Adik menyapu lantai tidak bersih. As a consequence...
+Help me pick the more plausible option: - choice1: Ibu yang percaya mitos berkata ""Nanti suami kamu gembul, lho""., choice2: Ibu yang percaya mitos berkata, ""Nanti suami kamu brewokan, lho"".
+
+[LABELS_CHOICE]",0,1
+"Keluarga Pak Kades selesai makan di restoran. As a consequence...
+Help me pick the more plausible option: - choice1: Pak Kades memberikan uang tips ke pelayan., choice2: Keluarga Pak Kades kembali pulang ke rumah.
+
+[LABELS_CHOICE]",1,1
+"Dosenku membeli nasi padang untuk dibawa pulang. As a consequence...
+Help me pick the more plausible option: - choice1: Dosenku tidak mendapat daging di nasi padangnya., choice2: Nasi yang didapat lebih banyak.
+
+[LABELS_CHOICE]",0,1
+"Hari ini hari raya kartini. As a consequence...
+Help me pick the more plausible option: - choice1: Anak sekolah cewek pakai baju kebaya., choice2: Anak sekolah cewek diliburkan.
+
+[LABELS_CHOICE]",1,0
+"Adik yang masih TK akan berangkat ke sekolah. As a consequence...
+Help me pick the more plausible option: - choice1: Adik menunggu bis sekolah., choice2: Adik mencium tangan orang tua.
+
+[LABELS_CHOICE]",0,1
+"Keluarga kami mau buka puasa. As a consequence...
+Help me pick the more plausible option: - choice1: Kami berbuka puasa dengan makanan manis., choice2: Kami berbuka puasa dengan makanan asin.
+
+[LABELS_CHOICE]",0,0
+"Adik makan ayam tidak pakai nasi. As a consequence...
+Help me pick the more plausible option: - choice1: Makanannya serasa tidak kenyang., choice2: Makanannya serasa tidak enak.
+
+[LABELS_CHOICE]",0,0
+"Keluarga yang percaya mitos itu punya banyak anak. As a consequence...
+Help me pick the more plausible option: - choice1: Keluarga tersebut yakin akan mendapat banyak ilmu., choice2: Keluarga tersebut yakin akan mendapat banyak rezeki.
+
+[LABELS_CHOICE]",0,1
+"Warung kami tidak punya uang pecahan. As a consequence...
+Help me pick the more plausible option: - choice1: Pakai camilan sebagai pengganti uang pecahan., choice2: Pakai permen sebagai pengganti uang pecahan.
+
+[LABELS_CHOICE]",1,1
+"Paman tidak mau diajak ke Malang. This happened because...
+Help me pick the more plausible option: - choice1: Paman tidak tahan dingin., choice2: Paman tidak tahan panas.
+
+[LABELS_CHOICE]",1,0
+"Aku datang ke acara Mamah Dedeh. This happened because...
+Help me pick the more plausible option: - choice1: Aku ingin berobat., choice2: Aku ingin curhat.
+
+[LABELS_CHOICE]",0,1
+"Pak Jokowi menjadi lebih dekat dengan masyarakat. This happened because...
+Help me pick the more plausible option: - choice1: Pak Jokowi sering blusukan ke pasar., choice2: Pak Jokowi sering tampil di acara TV.
+
+[LABELS_CHOICE]",0,0
+"Cewek itu baru saja makan Seblak. This happened because...
+Help me pick the more plausible option: - choice1: Badannya terasa panas., choice2: Badannya terasa capek.
+
+[LABELS_CHOICE]",0,0
+"Keluargaku kehabisan gas. This happened because...
+Help me pick the more plausible option: - choice1: Kami baru saja naik mobil mengelilingi Jakarta., choice2: Kami baru saja memasak banyak masakan.
+
+[LABELS_CHOICE]",0,1
+"Setelah upacara, saya minum cendol. This happened because...
+Help me pick the more plausible option: - choice1: Badan saya terasa segar., choice2: Badan saya terasa hangat.
+
+[LABELS_CHOICE]",0,0
+"Banyak rombongan study tour mampir ke Monas. This happened because...
+Help me pick the more plausible option: - choice1: Rombongan study tour bisa melihat pemandangan kota., choice2: Rombongan study tour bisa menikmati suasana udara dingin.
+
+[LABELS_CHOICE]",1,0
+"Aku membawa baju renang sebelum berangkat. This happened because...
+Help me pick the more plausible option: - choice1: Aku mau ke Gunung Kidul., choice2: Aku mau ke Ancol.
+
+[LABELS_CHOICE]",0,1
+"Andi F Noya melakukan hal yang gila. This happened because...
+Help me pick the more plausible option: - choice1: Dia membela teroris di sidang hari ini., choice2: Dia mewawancarai teroris di TV nasional.
+
+[LABELS_CHOICE]",0,1
+"Iwan Fals banyak disukai orang orang. This happened because...
+Help me pick the more plausible option: - choice1: Akting Iwan Fals bagus., choice2: Nyanyian Iwan Fals bagus.
+
+[LABELS_CHOICE]",0,1
+"Bos saya tidak banyak makan nasi saat kerja di Papua. This happened because...
+Help me pick the more plausible option: - choice1: Sagu adalah makanan pokok disana., choice2: Jagung adalah makanan pokok dimana.
+
+[LABELS_CHOICE]",1,0
+"Bakpia cocok jadi cemilan. This happened because...
+Help me pick the more plausible option: - choice1: Ukuran Bakpia kecil., choice2: Bakpia sangat renyah.
+
+[LABELS_CHOICE]",0,0
+"Mata paman berkunang-kunang. This happened because...
+Help me pick the more plausible option: - choice1: Paman bekerja keras seharian., choice2: Paman belum mandi seharian.
+
+[LABELS_CHOICE]",0,0
+"Raja Ampat memberikan pesona yang luar biasa. This happened because...
+Help me pick the more plausible option: - choice1: Keindahan bawah lautnya yang luar biasa., choice2: Figur dan sifatnya yang sangat berwibawa.
+
+[LABELS_CHOICE]",0,0
+"Pak Raden menggerakkan boneka si Unyil. This happened because...
+Help me pick the more plausible option: - choice1: Pak Raden sedang berakting., choice2: Pak Raden sedang menceritakan kisah.
+
+[LABELS_CHOICE]",0,1
+"Raul Lemos dan Krisdayanti hidup bersama. This happened because...
+Help me pick the more plausible option: - choice1: Mereka berdua menikah., choice2: Mereka berdua saudara kandung.
+
+[LABELS_CHOICE]",0,0
+"Sate Madura rasanya manis. This happened because...
+Help me pick the more plausible option: - choice1: Bumbunya terbuat dari gula merah., choice2: Bumbunya terbuat dari madu.
+
+[LABELS_CHOICE]",0,0
+"Mama tidak suka menonton topeng monyet. This happened because...
+Help me pick the more plausible option: - choice1: Topeng monyet mengekang kebebasan hewan tersebut., choice2: Bentuk dari topeng monyet yang menyeramkan.
+
+[LABELS_CHOICE]",1,0
+"Bapak mampir ke pom bensin untuk buang air besar. This happened because...
+Help me pick the more plausible option: - choice1: Bapak tadi banyak makan nasi., choice2: Ember di dalam mobil sudah penuh.
+
+[LABELS_CHOICE]",0,0
+"Aku ke bundaran HI untuk cuci mata. This happened because...
+Help me pick the more plausible option: - choice1: Aku ingin bertemu cewek cantik., choice2: Mataku kotor terkena debu.
+
+[LABELS_CHOICE]",0,0
+"Di acara TV, Chef Bondan baru saja selesai memasak . As a consequence...
+Help me pick the more plausible option: - choice1: Dia berkata ""Maknyus""., choice2: Dia berkata ""Chuakz"".
+
+[LABELS_CHOICE]",0,0
+"Bung Tomo berpidato di Surabaya. As a consequence...
+Help me pick the more plausible option: - choice1: Bung Tomo membakar semangat kemerdekaan masyarakat., choice2: Bung Tomo menenangkan amarah jendral Belanda.
+
+[LABELS_CHOICE]",1,0
+"Sore ini cuaca berangin. As a consequence...
+Help me pick the more plausible option: - choice1: Anak-anak bisa main bulutangkis., choice2: Anak-anak bisa main layangan.
+
+[LABELS_CHOICE]",0,1
+"Biji kopinya berasal dari luwak. As a consequence...
+Help me pick the more plausible option: - choice1: Kopi luwak tersebut menjadi enak., choice2: Kopi luwak tersebut menjadi menjijikan.
+
+[LABELS_CHOICE]",1,0
+"Wisatawan pakai kaos hijau ke Pantai Parangtritis. As a consequence...
+Help me pick the more plausible option: - choice1: Orang-orang yang percaya mitos takut dia akan terbakar matahari pantai., choice2: Orang-orang yang percaya mitos takut dia akan terseret ombak.
+
+[LABELS_CHOICE]",0,1
+"Nenek beli pempek kapal selam. As a consequence...
+Help me pick the more plausible option: - choice1: Ia menikmati telur rebus di dalamnya., choice2: Ia melihat pempek tersebut mengapung didalam air.
+
+[LABELS_CHOICE]",0,0
+"Aku berangkat sekolah pakai motor bebek. As a consequence...
+Help me pick the more plausible option: - choice1: Motorku mampu mengapung diatas banjir., choice2: Aku harus pindah gigi secara manual.
+
+[LABELS_CHOICE]",1,1
+"Tutup kaleng kerupuk tidak ditutup dengan rapat. As a consequence...
+Help me pick the more plausible option: - choice1: Kerupuk tersebut melempem., choice2: Kerupuk tersebut basi.
+
+[LABELS_CHOICE]",0,0
+"Aku mau berhemat . As a consequence...
+Help me pick the more plausible option: - choice1: Aku beli pecel lele., choice2: Aku beli ayam goreng KFC.
+
+[LABELS_CHOICE]",0,0
+"Giring Nidji pergi ke atas panggung. As a consequence...
+Help me pick the more plausible option: - choice1: Giring mau menyanyikan lagu., choice2: Nidji dibawa pergi oleh petugas keamanan.
+
+[LABELS_CHOICE]",0,0
+"Pak Tarno menepuk tangannya. As a consequence...
+Help me pick the more plausible option: - choice1: Ia sedang memberikan pujian., choice2: Ia akan memulai sulapnya.
+
+[LABELS_CHOICE]",0,1
+"Anak kompleks sedang bermain gobak sodor. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka berlomba memberikan gobak ke temannya., choice2: Mereka berusaha menghindari halangan temannya.
+
+[LABELS_CHOICE]",0,1
+"Bapak ingin ber-swafoto. As a consequence...
+Help me pick the more plausible option: - choice1: Bapak pakai pose pegangan tangan., choice2: Bapak pakai pose jempol.
+
+[LABELS_CHOICE]",0,1
+"Pedagang itu menjual Kerak Telor. As a consequence...
+Help me pick the more plausible option: - choice1: Dia memutar balikkan wajannya., choice2: Dia menggunakan kulit telor sebagai bahan masakan.
+
+[LABELS_CHOICE]",1,0
+"Istriku ingin beli ikan mas. As a consequence...
+Help me pick the more plausible option: - choice1: Istriku bertransaksi dengan pemuda Jawa., choice2: Istriku akan memasak gulai hari ini.
+
+[LABELS_CHOICE]",0,1
+"Pak Kumis orang Sukabumi. As a consequence...
+Help me pick the more plausible option: - choice1: Pak Kumis menanam pohon., choice2: Pak Kumis bisa bahasa Sunda.
+
+[LABELS_CHOICE]",1,1
+"Abangku sedang di Palu. As a consequence...
+Help me pick the more plausible option: - choice1: Abang berangkat ke Sulawesi., choice2: Abangku terluka dan dibawa kerumah sakit.
+
+[LABELS_CHOICE]",0,0
+"Mbah Surip tiba-tiba mengangkat saya. As a consequence...
+Help me pick the more plausible option: - choice1: Saya dibawa pulang kerumah., choice2: Saya dibawa berkeliling ke berbagai tempat.
+
+[LABELS_CHOICE]",1,1
+"Ariel dan Peterpan sedang naik daun. As a consequence...
+Help me pick the more plausible option: - choice1: Anak-anak semakin sering berimajinasi menjadi tokoh fantasi., choice2: Album mereka semakin banyak yang beli.
+
+[LABELS_CHOICE]",1,1
+"Sapi itu sedang tidak enak badan. As a consequence...
+Help me pick the more plausible option: - choice1: Daging sapinya tidak laku., choice2: Sapinya lemas seharian.
+
+[LABELS_CHOICE]",1,1
+"Kakak kecewa ketika membuka kaleng biskuit. This happened because...
+Help me pick the more plausible option: - choice1: Isinya ternyata Rengginang., choice2: Kalengnya terbuat dari besi.
+
+[LABELS_CHOICE]",0,0
+"Ibu membeli daun janur menjelang lebaran. This happened because...
+Help me pick the more plausible option: - choice1: Ibu mau membuat ketupat., choice2: Ibu mau membuat es buah.
+
+[LABELS_CHOICE]",0,0
+"Ada museum bencana alam di Aceh. This happened because...
+Help me pick the more plausible option: - choice1: Dulu pernah terjadi gempa bumi di Aceh., choice2: Dulu pernah terjadi tsunami di Aceh.
+
+[LABELS_CHOICE]",0,1
+"Pemuda itu berjalan bungkuk ketika lewat depan orang tua. This happened because...
+Help me pick the more plausible option: - choice1: Pemuda tersebut menghormati yang lebih tua., choice2: Pemuda tersebut mengagumi yang lebih tua.
+
+[LABELS_CHOICE]",1,0
+"Pamanku suka memberi cendol di internet. This happened because...
+Help me pick the more plausible option: - choice1: Pamanku bermain 1cak., choice2: Pamanku bermain kaskus.
+
+[LABELS_CHOICE]",0,1
+"Kepolisian angkat tangan menangani kasus Novel Baswedan. This happened because...
+Help me pick the more plausible option: - choice1: Keadilan terhadap Novel Baswedan perlu ditegakkan., choice2: Bukti yang dimiliki sangat sedikit.
+
+[LABELS_CHOICE]",0,1
+"Adik kesemutan setelah tadarusan di masjid. This happened because...
+Help me pick the more plausible option: - choice1: Adik tidak membersihkan gula yang tumpah., choice2: Adik duduk bersila terlalu lama.
+
+[LABELS_CHOICE]",0,1
+"Kami akan sholat di langgar. This happened because...
+Help me pick the more plausible option: - choice1: Kami ingin mendapat pahala yang lebih banyak., choice2: Kami ada acara penting yang mendadak.
+
+[LABELS_CHOICE]",0,0
+"Kota Bandung disebut sebagai kota lautan api. This happened because...
+Help me pick the more plausible option: - choice1: Dulu pernah terjadi perang besar disana., choice2: Dulu pernah terjadi bencana kebakaran besar disana.
+
+[LABELS_CHOICE]",1,0
+"Jalan raya didepan rumah orang tersebut ditutup. This happened because...
+Help me pick the more plausible option: - choice1: Mereka sedang mengadakan pesta hajatan., choice2: Mereka sedang mengadakan pesta ulang tahun.
+
+[LABELS_CHOICE]",1,0
+"Istriku sudah lama tidak datang bulan. As a consequence...
+Help me pick the more plausible option: - choice1: Kami menunggu bulan purnama tiba., choice2: Kami segera ke rumah sakit.
+
+[LABELS_CHOICE]",0,1
+"Lampu merah pancoran terlalu lama. As a consequence...
+Help me pick the more plausible option: - choice1: Lampu merahnya menjadi mati., choice2: Aku jadi terlambat ke seminar.
+
+[LABELS_CHOICE]",0,1
+"Motor matic temanku mogok di jalan. As a consequence...
+Help me pick the more plausible option: - choice1: Aku melakukan stut motor bersamanya., choice2: Aku memanggil mobil derek untuk mengangkut motornya.
+
+[LABELS_CHOICE]",0,0
+"Anak pejabat punya orang dalam. As a consequence...
+Help me pick the more plausible option: - choice1: Dia diterima tanpa ujian., choice2: Dia tidak perlu lagi mengurus rumah.
+
+[LABELS_CHOICE]",0,0
+"Kami melewati simpang empat tanpa lampu merah. As a consequence...
+Help me pick the more plausible option: - choice1: Ada Pak Raden yang mengatur lalu lintas., choice2: Ada Pak Ogah yang mengatur lalu lintas.
+
+[LABELS_CHOICE]",0,1
+"Banyak orang memasukkan nama Pak SBY ke kotak suara. As a consequence...
+Help me pick the more plausible option: - choice1: Pak SBY menjadi presiden., choice2: Pak SBY bernyanyi dengan semangat.
+
+[LABELS_CHOICE]",0,0
+"Acara wisuda ITS dipenuhi dengan arak arakan. As a consequence...
+Help me pick the more plausible option: - choice1: Seluruh mahasiswa mabuk dan tidak sadarkan diri., choice2: Seluruh mahasiswa bersorak kepada wisudawan.
+
+[LABELS_CHOICE]",0,1
+"Aku disuruh membeli beras di supermarket dengan ukuran paling kecil. As a consequence...
+Help me pick the more plausible option: - choice1: Aku membawa pulang beras 3 sendok makan., choice2: Aku membawa pulang beras 5 kg.
+
+[LABELS_CHOICE]",0,1
+"Nasi kemarin malam tidak habis. As a consequence...
+Help me pick the more plausible option: - choice1: Mama masak nasi kebuli pagi ini., choice2: Mama masak nasi goreng pagi ini.
+
+[LABELS_CHOICE]",0,1
+"Sangkuriang menendang perahu. As a consequence...
+Help me pick the more plausible option: - choice1: Perahunya menjadi gunung., choice2: Perahunya hanyut ke laut.
+
+[LABELS_CHOICE]",0,0
+"Hari ini mall sedang sepi pengunjung. This happened because...
+Help me pick the more plausible option: - choice1: Hari ini tanggal tua., choice2: Hari ini tanggal muda.
+
+[LABELS_CHOICE]",0,0
+"Anak itu hidup sebatang kara. This happened because...
+Help me pick the more plausible option: - choice1: Anak itu seorang yatim piatu., choice2: Anak itu bekerja menjadi petani.
+
+[LABELS_CHOICE]",1,0
+"Para pemuda rela mati demi berjuang pada zaman penjajahan. This happened because...
+Help me pick the more plausible option: - choice1: Kemerdekaan NKRI harga mati., choice2: Harga kemerdekaan NKRI mati.
+
+[LABELS_CHOICE]",1,0
+"Anak SD itu sering sekali pergi ke perpustakaan kota. This happened because...
+Help me pick the more plausible option: - choice1: Dia bekerja sebagai pustakawan., choice2: Dia seorang kutu buku.
+
+[LABELS_CHOICE]",0,1
+"Klien angkat kaki dari rapat. This happened because...
+Help me pick the more plausible option: - choice1: Klien merasa kakinya pegal., choice2: Klien kecewa dengan proposal rapat.
+
+[LABELS_CHOICE]",0,1
+"Adik terus membangkang perintah bapak. As a consequence...
+Help me pick the more plausible option: - choice1: Bapak menjadi besar kepala., choice2: Bapak menjadi naik pitam .
+
+[LABELS_CHOICE]",0,1
+"Aku gagal menjadi polisi. As a consequence...
+Help me pick the more plausible option: - choice1: Aku menjadi rusak hati., choice2: Aku menjadi kecil hati.
+
+[LABELS_CHOICE]",0,1
+"Rumah tetangga saya baru saja dibobol maling. As a consequence...
+Help me pick the more plausible option: - choice1: Dia menggigit jarinya., choice2: Dia cuma bisa gigit jari.
+
+[LABELS_CHOICE]",0,1
+"Orang itu menjadi kaki tangan teroris. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu terdakwa bersalah., choice2: Orang itu menjadi tawanan.
+
+[LABELS_CHOICE]",0,0
+"Perusahaan tersebut terus merugi selama 1 tahun terakhir. As a consequence...
+Help me pick the more plausible option: - choice1: Perusahaan tersebut gulung tikar., choice2: Perusahaan tersebut sampah masyarakat.
+
+[LABELS_CHOICE]",0,0
+"Orang dari eropa terkena diare. This happened because...
+Help me pick the more plausible option: - choice1: Orang itu makan makanan yang dibeli di pinggir jalan., choice2: Orang itu makan makanan yang dibeli di Restoran Warteg.
+
+[LABELS_CHOICE]",0,0
+"Ada anak kecil mual dan muntah. This happened because...
+Help me pick the more plausible option: - choice1: Anak itu minum air keran., choice2: Anak itu minum air galon.
+
+[LABELS_CHOICE]",0,0
+"Motor itu berlawanan arah jalan. This happened because...
+Help me pick the more plausible option: - choice1: Destinasi perjalanannya dekat., choice2: Tidak ada mobil di jalan.
+
+[LABELS_CHOICE]",0,0
+"Murid sekolah berkumpul di lapangan sekolah setiap jam 7 pagi hari senin. This happened because...
+Help me pick the more plausible option: - choice1: Ada acara ramah tamah mingguan di sekolah itu., choice2: Ada upacara bendera mingguan di sekolah itu.
+
+[LABELS_CHOICE]",1,1
+"Anak itu dimarahi orang tuanya. This happened because...
+Help me pick the more plausible option: - choice1: Anak itu makan dengan tangan kiri., choice2: Anak itu makan dengan tangan kanan.
+
+[LABELS_CHOICE]",0,0
+"Menjelang lebaran, langit terlihat tidak kosong dan terdengar bunyi bising. This happened because...
+Help me pick the more plausible option: - choice1: Anak-anak banyak bermain petasan di lapangan., choice2: Polusi suara dan udara masif dikeluarkan oleh pabrik.
+
+[LABELS_CHOICE]",1,0
+"Ibu itu dilarang tawar menawar harga. This happened because...
+Help me pick the more plausible option: - choice1: Ibu itu belanja di supermarket., choice2: Ibu itu belanja di pasar.
+
+[LABELS_CHOICE]",0,0
+"Ibu itu punggungnya merah. This happened because...
+Help me pick the more plausible option: - choice1: Ibu itu dikerok oleh anaknya., choice2: Ibu itu ditaburi bedak oleh anaknya.
+
+[LABELS_CHOICE]",0,0
+"Kucing itu terkenal sangat ganas. This happened because...
+Help me pick the more plausible option: - choice1: Kucing itu berwarna hitam., choice2: Kucing itu berwarna oranye.
+
+[LABELS_CHOICE]",0,1
+"Warga kampung Jakarta bahu membahu membersihkan got kampung mereka. This happened because...
+Help me pick the more plausible option: - choice1: Warga tersebut mengaplikasikan semangat gotong royong., choice2: Warga tersebut mengaplikasikan semangat bhinneka tunggal ika.
+
+[LABELS_CHOICE]",0,0
+"Siswa-siswa baru SMA sedang dimarahi oleh kakak kelasnya. This happened because...
+Help me pick the more plausible option: - choice1: Sedang ada upacara bendera., choice2: Sedang ada masa orientasi sekolah.
+
+[LABELS_CHOICE]",0,1
+"Seorang pemuda laki-laki memakai baju batik. This happened because...
+Help me pick the more plausible option: - choice1: Pemuda itu berada di acara pernikahan., choice2: Pemuda itu berada di diskotik.
+
+[LABELS_CHOICE]",0,0
+"Di sekolah tadi saya berada dalam bahaya. This happened because...
+Help me pick the more plausible option: - choice1: Ada insiden penembakan masal di sekolah saya., choice2: Saya hampir tertabrak mobil saat ujian praktek penjaskes.
+
+[LABELS_CHOICE]",0,1
+"Ada lomba makan kerupuk. This happened because...
+Help me pick the more plausible option: - choice1: hari ini hari proklamasi kemerdekaan indonesia., choice2: Hari ini hari pancasila.
+
+[LABELS_CHOICE]",0,0
+"Anak-anak itu menggambar kotak-kotak menggunakan kapur di jalan. This happened because...
+Help me pick the more plausible option: - choice1: Anak-anak itu ingin bermain bekel., choice2: Anak-anak itu ingin bermain engklek.
+
+[LABELS_CHOICE]",1,1
+"Orang itu ditangkap polisi. This happened because...
+Help me pick the more plausible option: - choice1: Orang itu membawa pistol., choice2: Orang itu membawa pisau.
+
+[LABELS_CHOICE]",0,0
+"Ada bendera warna kuning polos di dekat rumah tetangga. This happened because...
+Help me pick the more plausible option: - choice1: ada tetangga yang meninggal., choice2: ada tetangga yang mengingatkan menyetir pelan.
+
+[LABELS_CHOICE]",0,0
+"Orang itu terlalu banyak minum air. This happened because...
+Help me pick the more plausible option: - choice1: Orang itu membuang air seni., choice2: Orang itu membuang air hiasan.
+
+[LABELS_CHOICE]",0,0
+"Orang itu pergi ke McD. This happened because...
+Help me pick the more plausible option: - choice1: Ia ingin memakan ayam dengan sagu., choice2: Ia ingin memakan ayam dengan nasi.
+
+[LABELS_CHOICE]",0,1
+"Orang itu memakai kopiah. This happened because...
+Help me pick the more plausible option: - choice1: Orang itu menjadi penghulu pernikahan., choice2: Orang itu menjadi pembawa acara quiz.
+
+[LABELS_CHOICE]",0,0
+"Seseorang mengenakan sepatu saat ingin masuk ke rumah mertua. As a consequence...
+Help me pick the more plausible option: - choice1: Orang tersebut memakainya sepatunya kerumah., choice2: Orang tersebut melepas sepatunya sebelum masuk kerumah.
+
+[LABELS_CHOICE]",0,1
+"Kita diberikan suatu hadiah. As a consequence...
+Help me pick the more plausible option: - choice1: Kita ambil dengan tangan kiri., choice2: Kita ambil dengan tangan kanan.
+
+[LABELS_CHOICE]",0,1
+"Penumpang angkutan umum ingin turun di jalan. As a consequence...
+Help me pick the more plausible option: - choice1: Penumpang teriak ""kanan""., choice2: Penumpang Teriak “kiri”.
+
+[LABELS_CHOICE]",0,1
+"Orang itu akan menyebrang jalan raya. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu memakai tangannya sebagai tanda akan menyebrang., choice2: Orang itu memakai bendera merah sebagai tanda akan menyebrang.
+
+[LABELS_CHOICE]",0,0
+"Pembuat gedung 20 lantai penganut ajaran fengshui. As a consequence...
+Help me pick the more plausible option: - choice1: Gedung itu tidak memiliki desain khas Nusantara., choice2: Gedung itu tidak memiliki lantai 4.
+
+[LABELS_CHOICE]",0,1
+"Pemuda Indonesia tersebut selesai membuang air besar. As a consequence...
+Help me pick the more plausible option: - choice1: Pemuda tersebut membersihkan pantatnya dengan tisu., choice2: Pemuda tersebut membersihkan pantatnya dengan air.
+
+[LABELS_CHOICE]",0,1
+"Anak-anak kampung melihat orang Eropa paruh baya. As a consequence...
+Help me pick the more plausible option: - choice1: Anak-anak kampung itu memanggil orang tersebut ""mas""., choice2: Anak-anak kampung itu memanggil orang tersebut ""mister"".
+
+[LABELS_CHOICE]",0,1
+"Saat bulan ramadhan ada tambahan upah diberikan ke karyawan. As a consequence...
+Help me pick the more plausible option: - choice1: Perusahaan wajib memberikan uang makan untuk karyawan yang sedang puasa., choice2: Perusahaan wajib memberikan THR ke karyawan.
+
+[LABELS_CHOICE]",1,1
+"Sekelompok wisatawan pergi ke Bunaken. As a consequence...
+Help me pick the more plausible option: - choice1: Sekelompok Wisatawan tersebut mendaki gunung., choice2: Sekelompok wisatawan tersebut menyelam ke laut.
+
+[LABELS_CHOICE]",0,1
+"Satu keluarga yang tidak mampu ingin menyekolahkan anaknya. As a consequence...
+Help me pick the more plausible option: - choice1: Anaknya disekolahkan ke sekolah swasta., choice2: Anaknya disekolahkan ke sekolah negeri.
+
+[LABELS_CHOICE]",0,1
+"40 hari setelah wafatnya seorang muslim di suatu perumahan. As a consequence...
+Help me pick the more plausible option: - choice1: Di perumahan itu diadakan pesta dansa., choice2: Di perumahan itu diadakan tahlilan.
+
+[LABELS_CHOICE]",1,1
+"Seorang karyawan perusahaan berangkat jam 7 pagi menuju Jakarta Pusat. As a consequence...
+Help me pick the more plausible option: - choice1: Karyawan tersebut terjebak macet., choice2: Karyawan tersebut tidak terjebak macet.
+
+[LABELS_CHOICE]",0,0
+"Orang itu bernama Haryo. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu berasal dari Padang., choice2: Orang itu berasal dari Jawa.
+
+[LABELS_CHOICE]",1,1
+"Hari ini tanggal 31 Oktober. As a consequence...
+Help me pick the more plausible option: - choice1: Seisi kota tidak dihiasi alat properti haloween., choice2: Seisi kota dihiasi alat properti haloween.
+
+[LABELS_CHOICE]",0,0
+"Guru masuk di awal pelajaran siswa sekolah dasar. As a consequence...
+Help me pick the more plausible option: - choice1: Ketua kelas memberi aba-aba salam., choice2: Ketua kelas memberi aba-aba belajar.
+
+[LABELS_CHOICE]",0,0
+"Orang itu parkir motor di depan indomaret. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu diminta bayar biaya parkir ke penjaga parkir., choice2: Orang itu bayar biaya parkir ke kasir Indomaret.
+
+[LABELS_CHOICE]",0,0
+"Ayah penyayang binatang. As a consequence...
+Help me pick the more plausible option: - choice1: Ayah punya perkutut di rumah., choice2: Ayah punya wayang di rumah.
+
+[LABELS_CHOICE]",0,0
+"Anak kecil itu menaruh tangan ke kepala orang tuanya. As a consequence...
+Help me pick the more plausible option: - choice1: Anak kecil itu menaruh tangan ke punggung orang tuanya., choice2: Anak kecil itu dimarahi orang tua.
+
+[LABELS_CHOICE]",0,1
+"Orang itu ingin makan rendang. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu ke restoran sederhana., choice2: Orang itu ke restoran warteg.
+
+[LABELS_CHOICE]",0,0
+"Anak itu pengecut dalam menghadapi masalah. As a consequence...
+Help me pick the more plausible option: - choice1: Anak itu dijuluki ayam., choice2: Anak itu dijuluki kucing.
+
+[LABELS_CHOICE]",0,0
+"Siswa-siswa pergi ke Taman Banteng. This happened because...
+Help me pick the more plausible option: - choice1: Mereka berencana wisata kuliner., choice2: Mereka berencana Wisata sejarah.
+
+[LABELS_CHOICE]",0,1
+"Menkominfo tersangkut korupsi BTS. This happened because...
+Help me pick the more plausible option: - choice1: Menkominfo diperiksa KPK terkait pengadaan konser. ., choice2: Menkominfo diperiksa KPK terkait pengadaan pembangunan.
+
+[LABELS_CHOICE]",0,1
+"Ada kemacetan di Jalan Pantura di Jawa. This happened because...
+Help me pick the more plausible option: - choice1: Hari ini hari mudik lebaran., choice2: Hari ini hari kerja.
+
+[LABELS_CHOICE]",0,0
+"Siswa SMA dihukum oleh guru sekolah. This happened because...
+Help me pick the more plausible option: - choice1: Siswa itu baru datang ke sekolah pukul 6., choice2: Siswa itu baru datang ke sekolah pukul 8.
+
+[LABELS_CHOICE]",0,1
+"Orang itu menonton video Cak Lontong. This happened because...
+Help me pick the more plausible option: - choice1: Orang itu mencari pengetahuan makanan., choice2: Orang itu mencari hiburan lawakan.
+
+[LABELS_CHOICE]",0,1
+"Keluaga itu belangganan PAM. This happened because...
+Help me pick the more plausible option: - choice1: Keluarga itu membutuhkan asupan air bersih., choice2: Keluarga itu membutuhkan listrik.
+
+[LABELS_CHOICE]",0,0
+"Banyak ondel-ondel di suatu lapangan. This happened because...
+Help me pick the more plausible option: - choice1: Lapangan tersebut digunakan untuk festival ulang tahun Jakarta., choice2: Lapangan tersebut digunakan untuk festival ulang tahun Surabaya.
+
+[LABELS_CHOICE]",0,0
+"Orang itu punya alergi ketan. This happened because...
+Help me pick the more plausible option: - choice1: Orang itu menghindari makan kue memek., choice2: Orang itu menghindari makan kue lapis.
+
+[LABELS_CHOICE]",0,0
+"Kendaraan tersebut melambatkan jalannya. This happened because...
+Help me pick the more plausible option: - choice1: ada polisi lalu lintas di depan mata., choice2: ada polisi tidur di depan mata.
+
+[LABELS_CHOICE]",0,1
+"Mahasiswa itu memakai jaket kuning. This happened because...
+Help me pick the more plausible option: - choice1: Mahasiswa itu mahasiswa UI., choice2: Mahasiswa itu mahasiswa ITB.
+
+[LABELS_CHOICE]",0,0
+"Dosen itu kolestrolnya naik. This happened because...
+Help me pick the more plausible option: - choice1: Dosen itu baru saja makan gado-gado., choice2: Dosen itu baru saja makan rendang.
+
+[LABELS_CHOICE]",0,1
+"Orang itu disebut tinggal di luar planet. This happened because...
+Help me pick the more plausible option: - choice1: Orang itu tinggal di Kemang., choice2: Orang itu tinggal di Bekasi.
+
+[LABELS_CHOICE]",0,1
+"Orang itu memilih untuk ke Bandara Halim dibandingkan Bandara Soekarno Hatta. This happened because...
+Help me pick the more plausible option: - choice1: Orang itu tinggal di Tangerang., choice2: Orang itu tinggal di Jakarta Timur.
+
+[LABELS_CHOICE]",0,1
+"Orang itu meminum Tolak Angin. This happened because...
+Help me pick the more plausible option: - choice1: Orang itu tidak sehat., choice2: Orang itu ingin kuat di daerah berangin.
+
+[LABELS_CHOICE]",0,0
+"Ada kendaraan memutar audio digoreng dadakan. This happened because...
+Help me pick the more plausible option: - choice1: Penjualnya menandakan berjualan tahu bulat., choice2: Penjualnya menandakan berjualan makanan siap saji.
+
+[LABELS_CHOICE]",0,0
+"Orang itu membutuhkan KBBI. This happened because...
+Help me pick the more plausible option: - choice1: Orang itu ingin mengecek ejaan tulisan bahasa indonesianya., choice2: Orang itu ingin mengecek pengetahuan budaya Indonesia.
+
+[LABELS_CHOICE]",1,0
+"Buah itu disemuti oleh semut hitam. This happened because...
+Help me pick the more plausible option: - choice1: Buat Rambutan itu dibiarkan terbuka di meja makan., choice2: Buah pisang itu dibiarkan terbuka di meja makan.
+
+[LABELS_CHOICE]",0,0
+"Orang itu berdagang secara online di Indonesia. This happened because...
+Help me pick the more plausible option: - choice1: Orang itu berdagang di Amazon., choice2: Orang itu berdagang di Tokopedia.
+
+[LABELS_CHOICE]",0,1
+"Seorang kontestan Masterchef dimarahi. This happened because...
+Help me pick the more plausible option: - choice1: Jurinya yaitu Chef Renata., choice2: Jurinya yaitu Chef Juna.
+
+[LABELS_CHOICE]",0,1
+"Langit jakarta sangat gelap. This happened because...
+Help me pick the more plausible option: - choice1: Saat ini sedang musim dingin., choice2: Jakarta terkena polusi udara.
+
+[LABELS_CHOICE]",1,1
+"Mahasiswa itu ingin berhemat. As a consequence...
+Help me pick the more plausible option: - choice1: Mahasiswa itu makan KFC tiap hari., choice2: Mahasiswa itu makan indomie tiap hari.
+
+[LABELS_CHOICE]",1,1
+"Sekelompok orang tua ingin merayakan keberhasilan promosinya dengan makanan nuansa lokal. As a consequence...
+Help me pick the more plausible option: - choice1: Orang tua itu merayakan dengan memesan Pizza., choice2: Orang tua itu merayakan dengan memesan nasi tumpeng.
+
+[LABELS_CHOICE]",0,1
+"Seorang pemuda pergi ke Pasar Senen di Jakarta. As a consequence...
+Help me pick the more plausible option: - choice1: Pemuda itu naik kereta commuter line., choice2: Pemuda itu naik kereta jarak jauh.
+
+[LABELS_CHOICE]",0,0
+"Orang itu masuk angin. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu minum antangin., choice2: Orang itu minum fresh tea.
+
+[LABELS_CHOICE]",0,0
+"Pemuda itu punggungnya pegal. As a consequence...
+Help me pick the more plausible option: - choice1: Pemuda itu pakai plaster di punggungnya., choice2: Pemuda itu pakai koyo di punggungnya.
+
+[LABELS_CHOICE]",0,1
+"Seorang direktur utama di BUMN membuat postingan di grup WhatsApp. As a consequence...
+Help me pick the more plausible option: - choice1: Karyawan di grup itu merespon dengan emoticon '❤️'., choice2: Karyawan di grup itu merespon dengan emoticon '👍'.
+
+[LABELS_CHOICE]",0,1
+"Orang Jakarta itu membeli tisu roll. As a consequence...
+Help me pick the more plausible option: - choice1: Tisu roll itu digunakan untuk cebok., choice2: Tisu roll itu digunakan untuk lap.
+
+[LABELS_CHOICE]",0,1
+"Kelompok supporter itu mendukung Persija. As a consequence...
+Help me pick the more plausible option: - choice1: Supporter itu memakai baju biru., choice2: Supporter itu memakai baju oren.
+
+[LABELS_CHOICE]",0,1
+"Warga Indonesia itu bekerja di Indonesia. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu daftar NPWP., choice2: Orang itu daftar wajib militer.
+
+[LABELS_CHOICE]",0,0
+"Anak itu ingin melihat jenis-jenis binatang. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu pergi ke TMII., choice2: Orang itu pergi ke Ragunan.
+
+[LABELS_CHOICE]",1,1
+"Pemuda itu suka lagu dangdut. As a consequence...
+Help me pick the more plausible option: - choice1: Pemuda itu suka mendengarkan lagu Dewi Persik., choice2: Pemuda itu suka mendengarkan lagu Sheila On 7.
+
+[LABELS_CHOICE]",0,0
+"Orang itu tidak boleh makanan dingin. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu dilarang membeli Mixue., choice2: Orang itu dilarang membeli Nasi Uduk.
+
+[LABELS_CHOICE]",0,0
+"Di hari lebaran, laki-laki itu pergi ke puncak di Bogor. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu terjebak macet., choice2: Jalanan ke puncah bogor lancar.
+
+[LABELS_CHOICE]",1,0
+"Perempuan itu pergi ke Gramedia. As a consequence...
+Help me pick the more plausible option: - choice1: Perempuan itu ingin membeli buku., choice2: Perempuan itu ingin konsultasi tentang media sosial.
+
+[LABELS_CHOICE]",0,0
+"Bapak-bapak membuat grup komunitas untuk chatting. As a consequence...
+Help me pick the more plausible option: - choice1: Bapak-bapak itu memakai LINE., choice2: Bapak-bapak itu memakai Whatsapp.
+
+[LABELS_CHOICE]",0,1
+"Orang itu perlu memeluk sesuatu saat tidur. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu membeli kucing., choice2: Orang itu membeli guling.
+
+[LABELS_CHOICE]",0,1
+"Orang itu mementingkan keselematan diri. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu naik Transjakarta., choice2: Orang itu naik Kopaja.
+
+[LABELS_CHOICE]",0,0
+"Masakan itu berasal dari Jawa Tengah. As a consequence...
+Help me pick the more plausible option: - choice1: Masakan itu pedas., choice2: Masakan itu tidak pedas.
+
+[LABELS_CHOICE]",1,1
+"Orang itu bepergian. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu memesan dengan aplikasi Gojek., choice2: Orang itu memesan dengan aplikasi uber.
+
+[LABELS_CHOICE]",0,0
+"Piring itu kotor. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu memakai sabun Nuvo untk mencucinya., choice2: Orang itu memakai sabun Sunlight untuk mencucinya.
+
+[LABELS_CHOICE]",0,1
+"Anak itu memakan Nasi Padang. This happened because...
+Help me pick the more plausible option: - choice1: Anak itu makan dengan sumpit., choice2: Anak itu makan dengan tangan.
+
+[LABELS_CHOICE]",1,1
+"Pemerintah bagi-bagi sembako LPG ke orang miskin. This happened because...
+Help me pick the more plausible option: - choice1: Orang miskin itu membutuhkannya untuk memandikan anak., choice2: Orang miskin itu membuthkannya untuk memasak.
+
+[LABELS_CHOICE]",0,1
+"Seorang pengemudi ojek online ingin menurunkan penumpang. This happened because...
+Help me pick the more plausible option: - choice1: Penumpang diturunkan di tempat pangkalan ojek., choice2: Penumpang diturunkan di halte.
+
+[LABELS_CHOICE]",0,1
+"Orang Muslim Indonesia merasa aman memakan suatu makanan di restoran. This happened because...
+Help me pick the more plausible option: - choice1: Restoran tersebut memiliki logo halal MUI., choice2: Penjaga restorannya berjilbab.
+
+[LABELS_CHOICE]",0,0
+"Orang itu tiba-tiba berkata 'mari pak'. This happened because...
+Help me pick the more plausible option: - choice1: Orang itu melewati seorang bapak., choice2: Orang itu memberi petunjuk jalan ke bapaknya.
+
+[LABELS_CHOICE]",0,0
+"Ibu itu memilih untuk tidak berbelanja bahan baku di Indomart. This happened because...
+Help me pick the more plausible option: - choice1: Ibu itu tidak bisa tawar-menawar., choice2: Ibu itu tidak bisa mendapat diskon.
+
+[LABELS_CHOICE]",1,0
+"Orang itu pergi ke pijat refleksi. This happened because...
+Help me pick the more plausible option: - choice1: Orang itu sakit flu., choice2: Orang itu pegal-pegal.
+
+[LABELS_CHOICE]",0,1
+"Orang Jakarta berbaju warna oren datang ke stadium gelora bung karno . This happened because...
+Help me pick the more plausible option: - choice1: Tim Persija sedang bertanding., choice2: Tim Persebaya sedang bertanding.
+
+[LABELS_CHOICE]",0,0
+"Transjakarta biayanya menjadi RP 1. This happened because...
+Help me pick the more plausible option: - choice1: Hari ini hari kemerdekaan Indonesia., choice2: Hari ini ulang tahun Jakarta.
+
+[LABELS_CHOICE]",0,1
+"Paman ingin lebaran dan memilih pesawat Super Jet. This happened because...
+Help me pick the more plausible option: - choice1: Paman ingin berhemat ., choice2: Paman memilih keyamanan.
+
+[LABELS_CHOICE]",1,0
+"Orang muslim tersebut ingin minum yang hangat-hangat. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu minum bir bintang., choice2: Orang itu minum wedang jahe.
+
+[LABELS_CHOICE]",0,1
+"Anak itu dimarahi ibunya. As a consequence...
+Help me pick the more plausible option: - choice1: Anak itu selalu beli minuman panas., choice2: Anak itu selalu beli minuman es.
+
+[LABELS_CHOICE]",0,1
+"Bapak Jokowi datang ke suatu pertemuan. As a consequence...
+Help me pick the more plausible option: - choice1: Tentara membungkukan badannya., choice2: Tentara hormat kepadanya.
+
+[LABELS_CHOICE]",0,1
+"Hari ini lebaran idul adha. As a consequence...
+Help me pick the more plausible option: - choice1: Beberapa orang Jakarta sholat di Santa Maria., choice2: Beberapa orang Jakarta Sholat di Istiqlal.
+
+[LABELS_CHOICE]",0,1
+"Ibu itu ingin merayakan kelulusan dengan nuansa padang. As a consequence...
+Help me pick the more plausible option: - choice1: Ibu itu merayakan di Restoran Sederhana., choice2: Ibu itu merayakan di Restoran Warteg.
+
+[LABELS_CHOICE]",0,0
+"Saat ini berlangsung jam Istirahat Kerja kantor. As a consequence...
+Help me pick the more plausible option: - choice1: Orang orang pergi ke Waterboom., choice2: Orang orang pergi ke Warteg.
+
+[LABELS_CHOICE]",0,1
+"Anak itu mengisi acara Festival Seni Budaya Bandung. As a consequence...
+Help me pick the more plausible option: - choice1: Anak itu mengisi dengan memerankan Ondel-Ondel., choice2: Anak itu mengisi dengan memainkan Angklung.
+
+[LABELS_CHOICE]",0,1
+"Pegawai PNS sedang beristirahat. As a consequence...
+Help me pick the more plausible option: - choice1: Pegawai itu bermain Lompat Tali., choice2: Pegawai itu bermain ZUMA.
+
+[LABELS_CHOICE]",0,1
+"Ayam itu berkokok. As a consequence...
+Help me pick the more plausible option: - choice1: Pasar Tradisional buka jam dagang., choice2: Indomaret buka jam dagang.
+
+[LABELS_CHOICE]",0,0
+"Orang itu butuh kehangatan di badan. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu melumuri badannya dengan lifebouy., choice2: Orang itu melumuri badannya dengan Vix.
+
+[LABELS_CHOICE]",0,1
+"Bos perusahaan itu kebakaran Jenggot. This happened because...
+Help me pick the more plausible option: - choice1: Perusahaan itu naik daun., choice2: Perusahaan itu pailit.
+
+[LABELS_CHOICE]",1,1
+"Anak itu melakukan apel pagi. This happened because...
+Help me pick the more plausible option: - choice1: Apel pagi dilakukan karena budaya sarapan bersama dengan buah Apel., choice2: Apel pagi dilakukan untuk menghormati kemerdekaan Indonesia.
+
+[LABELS_CHOICE]",1,1
+"Berita itu digoreng di media sosial. This happened because...
+Help me pick the more plausible option: - choice1: Perusahaan AI di Indonesia merekrut seorang PHD dari luar negeri., choice2: Perusahaan AI ternama di Indonesia melakukan pemecatan massal.
+
+[LABELS_CHOICE]",0,1
+"Orang itu masih hijau di dunia karir. This happened because...
+Help me pick the more plausible option: - choice1: Orang itu badannya berwarna hijau., choice2: Orang itu baru lulus kuliah.
+
+[LABELS_CHOICE]",1,1
+"Professor itu viral di Indonesia. This happened because...
+Help me pick the more plausible option: - choice1: Professor itu terkena skandal perceraian., choice2: Professor itu publikasi paper di konferensi internasional.
+
+[LABELS_CHOICE]",0,0
+"Orang itu keras kepala. As a consequence...
+Help me pick the more plausible option: - choice1: Orang itu susah diajak kerjasama., choice2: Orang itu bisa bertengkar dengan kepalanya.
+
+[LABELS_CHOICE]",0,0
+"Anak itu sangat aneh gerak-geriknya. As a consequence...
+Help me pick the more plausible option: - choice1: Anak itu menjadi kuda hitam tetangga., choice2: Anak itu menjadi buah bibir tetangga.
+
+[LABELS_CHOICE]",0,1
+"Kita berdua memilih untuk empat mata. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka membeli kacamata., choice2: Mereka menuju ke tempat yang enak untuk berdiskusi.
+
+[LABELS_CHOICE]",0,1
+"Karyawan itu ingin mendapatkan promosi. As a consequence...
+Help me pick the more plausible option: - choice1: Karyawan itu cari muka ke pemimpinnya., choice2: Karyawan itu rendah hati ke pemimpinnya.
+
+[LABELS_CHOICE]",1,0
+"Pria itu berhidung belang. As a consequence...
+Help me pick the more plausible option: - choice1: Pria itu disukai wanita., choice2: Pria itu dibenci wanita.
+
+[LABELS_CHOICE]",0,1
+"Banyak orang segan membeli rumah tersebut. This happened because...
+Help me pick the more plausible option: - choice1: Rumah itu dikenal sebagai rumah tusuk sate., choice2: Posisi rumah tersebut menghadap utara.
+
+[LABELS_CHOICE]",1,0
+"mereka berjanji untuk bertemu sebelum magrib. This happened because...
+Help me pick the more plausible option: - choice1: mereka bertemu pukul 19.00., choice2: mereka bertemu pukul 17.00.
+
+[LABELS_CHOICE]",0,1
+"Dia membuat lontong. This happened because...
+Help me pick the more plausible option: - choice1: Dia memiliki daun kelapa muda., choice2: Dia memiliki daun pisang.
+
+[LABELS_CHOICE]",0,1
+"Di depan rumahnya terpasang bedera kuning. This happened because...
+Help me pick the more plausible option: - choice1: Ada keluarganya yang berulang tahun., choice2: Ada keluarganya yang meninggal.
+
+[LABELS_CHOICE]",0,1
+"Di depan gedung itu, terpasang janur kuning yang melengkung. This happened because...
+Help me pick the more plausible option: - choice1: Ada acara pernikahan di gedung itu., choice2: Ada acara ulang tahun di gedung itu.
+
+[LABELS_CHOICE]",0,0
+"Dia nyeker di pasar. This happened because...
+Help me pick the more plausible option: - choice1: Ia membeli ceker di pasar., choice2: Sandal yang ia pakai rusak.
+
+[LABELS_CHOICE]",0,1
+"Kemarin malam, ia baru selesai jaga lilin. This happened because...
+Help me pick the more plausible option: - choice1: ia adalah orang yang taat beribadah., choice2: ia percaya dengan ilmu hitam.
+
+[LABELS_CHOICE]",0,1
+"Nama belakangnya adalah Hutabarat. This happened because...
+Help me pick the more plausible option: - choice1: Ia adalah orang Batak., choice2: Ia adalah orang Minang.
+
+[LABELS_CHOICE]",0,0
+"Wanita berhijab itu baru saja meninggal. As a consequence...
+Help me pick the more plausible option: - choice1: Jasad wanita itu akan dimakamkan., choice2: Jasad wanita itu akan dibakar.
+
+[LABELS_CHOICE]",0,0
+"laki-laki itu dikenal sebagai buaya darat. This happened because...
+Help me pick the more plausible option: - choice1: laki-laki itu adalah orang yang setia., choice2: laki-laki itu suka selingkuh.
+
+[LABELS_CHOICE]",0,1
+"Dia dikenal sebagai orang yang ngaret. This happened because...
+Help me pick the more plausible option: - choice1: Dia suka bermain karet., choice2: Dia suka datang telat.
+
+[LABELS_CHOICE]",0,1
+"Wanita itu sedang datang bulan. This happened because...
+Help me pick the more plausible option: - choice1: Wanita itu pulang istirahat di rumah., choice2: Wanita itu pergi beribadah ke pura.
+
+[LABELS_CHOICE]",0,0
+"Ia memakai masker. This happened because...
+Help me pick the more plausible option: - choice1: Ia akan mengendarai motor di kota., choice2: Ia ingin terlihat gaul .
+
+[LABELS_CHOICE]",0,0
+"Ia berusaha menjadi orang yang tidak serakah. This happened because...
+Help me pick the more plausible option: - choice1: Ia mengamalkan pesan moral Sang Kuriang., choice2: Ia mengamalkan pesan moral bawang merah bawang putih.
+
+[LABELS_CHOICE]",0,1
+"Namanya keluar di arisan. As a consequence...
+Help me pick the more plausible option: - choice1: Ia pergi makan mewah., choice2: Ia diawasi pegawai pajak.
+
+[LABELS_CHOICE]",1,0
+"Banyak orang mulai flu saat ini. This happened because...
+Help me pick the more plausible option: - choice1: Banyak orang berjemur di pantai pada siang hari., choice2: Sekarang memasuki musim pancaroba.
+
+[LABELS_CHOICE]",0,1
+"Mereka ingin bermain cangkulan. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka pergi ke sawah., choice2: Mereka mengambil kartu.
+
+[LABELS_CHOICE]",0,1
+"Petani mulai menanam padi. This happened because...
+Help me pick the more plausible option: - choice1: Sekarang memasuki musim hujan., choice2: Sekarang memasuki musim kemarau.
+
+[LABELS_CHOICE]",0,0
+"Ia mengikuti remedial. This happened because...
+Help me pick the more plausible option: - choice1: Ia ingin mengerjakan tugas kelompok., choice2: Ia tidak lulus ujian.
+
+[LABELS_CHOICE]",0,1
+"Polisi menutup jalan di kawasan tersebut. This happened because...
+Help me pick the more plausible option: - choice1: Terdapat aksi unjuk rasa di kawasan tersebut., choice2: Kawasan tersebut sedang hujan.
+
+[LABELS_CHOICE]",1,0
+"Mereka mencium bau melati di koridor sekolah sore itu. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka fokus belajar hingga malam., choice2: Mereka bergegas pulang karena takut.
+
+[LABELS_CHOICE]",0,1
+"Dia merasa masuk angin. As a consequence...
+Help me pick the more plausible option: - choice1: Dia membuka jendela untuk meperbaiki sirkulasi udara., choice2: Dia meminta tolong untuk kerokan.
+
+[LABELS_CHOICE]",1,1
+"Lembaga pemerintah dipenuhi dengan tikus berdasi. As a consequence...
+Help me pick the more plausible option: - choice1: Masyarakat mengeluhkan kinerja pemerintah., choice2: Masyarakat gemar mengirim pestisida kepada pemerintah.
+
+[LABELS_CHOICE]",0,0
+"sekelompok pria keluar gedung pada Jumat siang. As a consequence...
+Help me pick the more plausible option: - choice1: mereka pergi ke masjid., choice2: Mereka pulang ke rumah.
+
+[LABELS_CHOICE]",0,0
+"Kristian hendak beribadah pada hari minggu. As a consequence...
+Help me pick the more plausible option: - choice1: Kristian pergi ke mushola., choice2: Kristian pergi ke gereja.
+
+[LABELS_CHOICE]",0,1
+"Ia tidak mau menjadi Malin Kundang. As a consequence...
+Help me pick the more plausible option: - choice1: Ia berbakti kepada orang tua., choice2: Ia belajar dengan giat.
+
+[LABELS_CHOICE]",0,0
+"BMKG mengumumkan Merapi siaga 4. As a consequence...
+Help me pick the more plausible option: - choice1: Masyarakat diperbolehkan kembali ke rumah., choice2: Masyarakat bergegas mengungsi.
+
+[LABELS_CHOICE]",0,1
+"Hari ini akan diadakan apel pagi. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka membawa keranjang buah., choice2: Mereka memakai dasi dan topi.
+
+[LABELS_CHOICE]",0,1
+"Rumah makan itu menyajikan makanan dengan air koborkan. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka marah-marah ke pemilik rumah makan., choice2: Mereka makan dengan tangan.
+
+[LABELS_CHOICE]",1,1
+"Hari ini tanggal tujuh belas Agustus. As a consequence...
+Help me pick the more plausible option: - choice1: Para murid pergi ke sekolah untuk menghadiri upacara., choice2: Para murid pergi ke sekolah untuk belajar.
+
+[LABELS_CHOICE]",0,0
+"Pasangan itu baru saja melahirkan seorang bayi. As a consequence...
+Help me pick the more plausible option: - choice1: Sang ayah menguburkan ari-ari., choice2: Sang ibu mandi kembang tujuh rupa.
+
+[LABELS_CHOICE]",0,0
+"Ia pergi mudik ke kampung halaman. As a consequence...
+Help me pick the more plausible option: - choice1: Ia bertemu kepala desa., choice2: Ia bertemu sanak saudaranya.
+
+[LABELS_CHOICE]",0,1
+"Ia pulang dengan penuh keringat. As a consequence...
+Help me pick the more plausible option: - choice1: Ia bergegas mandi., choice2: Ia bergegas mencuci pakaian.
+
+[LABELS_CHOICE]",0,0
+"Terdapat banyak nilai merah di rapot nya. As a consequence...
+Help me pick the more plausible option: - choice1: Orangtuanya menyuruh ia belajar lebih giat., choice2: Orangtuanya mengajak ia jalan-jalan liburan.
+
+[LABELS_CHOICE]",0,0
+"Mereka akan mendaftarkan pernikahannya. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka pergi ke DPR., choice2: Mereka pergi ke KUA.
+
+[LABELS_CHOICE]",0,1
+"Ia pergi berlibur. This happened because...
+Help me pick the more plausible option: - choice1: Sekarang memasuki musim panas., choice2: Hari ini tanggal merah.
+
+[LABELS_CHOICE]",0,1
+"Ia melihat polisi tidur. As a consequence...
+Help me pick the more plausible option: - choice1: Ia memelankan laju kendaraan., choice2: Ia membangunkan polisi.
+
+[LABELS_CHOICE]",0,0
+"Kepala desa membuat jadwal siskamling. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka menyelenggarakan perlombaan di siang hari., choice2: Mereka menjaga keamanan di malam hari.
+
+[LABELS_CHOICE]",0,1
+"Adik tidak ingin nasinya menangis. As a consequence...
+Help me pick the more plausible option: - choice1: Adik tidak makan nasi., choice2: Adik menghabiskan makanannya.
+
+[LABELS_CHOICE]",0,1
+"Mereka merayakan lebaran. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka shalat dan mengunjungi keluarga., choice2: Mereka berjalan-jalan ke luar negeri.
+
+[LABELS_CHOICE]",1,0
+"Ibu menyalakan keran dan selang. This happened because...
+Help me pick the more plausible option: - choice1: Ibu akan mencuci pakaian., choice2: Ibu akan menyiram tanaman.
+
+[LABELS_CHOICE]",0,1
+"Mereka merayakan tahun baru dua jam lebih cepat dariku. This happened because...
+Help me pick the more plausible option: - choice1: Mereka tinggal di Jakarta dan aku tinggal di Bali., choice2: Mereka tinggal di Papua dan aku tinggal di Medan.
+
+[LABELS_CHOICE]",0,1
+"Hari ini ia pergi ke sekolah menggunakan seragam berwarna coklat. This happened because...
+Help me pick the more plausible option: - choice1: Hari ini adalah Hari Pancasila., choice2: Hari ini ada kegiatan pramuka.
+
+[LABELS_CHOICE]",0,1
+"Dia memakai seragam merah putih. This happened because...
+Help me pick the more plausible option: - choice1: Dia adalah murid SD., choice2: Dia adalah seorang TNI.
+
+[LABELS_CHOICE]",0,0
+"Ia memesan taxi untuk pergi ke Soekarno-Hatta. This happened because...
+Help me pick the more plausible option: - choice1: Ia akan naik pesawat., choice2: Ia akan bertemu presiden.
+
+[LABELS_CHOICE]",1,0
+"Ia mengeluarkan uang kertas berwarna pink. This happened because...
+Help me pick the more plausible option: - choice1: Ia memesan makanan seharga seratus ribu rupiah., choice2: Ia membeli gorengan seharga seribu rupiah.
+
+[LABELS_CHOICE]",0,0
+"Ayah membeli bidet baru. This happened because...
+Help me pick the more plausible option: - choice1: Ayah akan merenovasi toilet., choice2: Ayah akan merenovasi dapur.
+
+[LABELS_CHOICE]",0,0
+"Mereka membeli kelereng. This happened because...
+Help me pick the more plausible option: - choice1: Mereka akan bermain gundu., choice2: Mereka akan bermain congklak.
+
+[LABELS_CHOICE]",0,0
+"Mereka membeli karet gelang. This happened because...
+Help me pick the more plausible option: - choice1: Mereka ingin bermain lompat tali., choice2: Mereka ingin bermain gasing.
+
+[LABELS_CHOICE]",1,0
+"Ia akan membuat sate bakar. This happened because...
+Help me pick the more plausible option: - choice1: Ia memanaskan oven., choice2: Ia mengambil arang dan pemanggang.
+
+[LABELS_CHOICE]",1,1
+"Ia berfoto di depan monumen hiu dan buaya. This happened because...
+Help me pick the more plausible option: - choice1: Ia berwisata ke Surabaya., choice2: Ia berwisata ke Manado.
+
+[LABELS_CHOICE]",0,0
+"Dia ingin makan manis. This happened because...
+Help me pick the more plausible option: - choice1: Dia membeli klepon., choice2: Dia membeli rempeyek.
+
+[LABELS_CHOICE]",1,0
+"Dia ingin makan babi panggang. This happened because...
+Help me pick the more plausible option: - choice1: Dia pergi ke restoran lapo batak., choice2: Dia pergi ke rumah makan padang.
+
+[LABELS_CHOICE]",0,0
+"Banyak mobil dengan plat B memenuhi jalanan Bogor. This happened because...
+Help me pick the more plausible option: - choice1: Penduduk Bogor sedang berjalan-jalan di akhir pekan., choice2: Banyak orang Jakarta pergi berlibur ke Bogor.
+
+[LABELS_CHOICE]",1,1
+"Ia pergi menggunakan kendaraan beroda tiga. This happened because...
+Help me pick the more plausible option: - choice1: Ia menaiki ojek., choice2: Ia menaiki bajaj.
+
+[LABELS_CHOICE]",0,1
+"Ia membeli tempe. This happened because...
+Help me pick the more plausible option: - choice1: Ia mencari sumber protein murah., choice2: Ia mencari sumber karbohidrat murah.
+
+[LABELS_CHOICE]",0,0
+"Ia memesan gado-gado. This happened because...
+Help me pick the more plausible option: - choice1: Ia suka makan daging sapi., choice2: Ia suka makan sayur.
+
+[LABELS_CHOICE]",0,1
+"Ia pergi ke Semeru. This happened because...
+Help me pick the more plausible option: - choice1: Ia ingin berenang di laut., choice2: Ia ingin mendaki gunung.
+
+[LABELS_CHOICE]",0,1
+"Ia membeli sekoteng. This happened because...
+Help me pick the more plausible option: - choice1: Siang ini cuaca sangat panas., choice2: Malam ini udara terasa dingin.
+
+[LABELS_CHOICE]",0,1
+"BJ Habibi adalah idolanya. As a consequence...
+Help me pick the more plausible option: - choice1: Ia mencari beasiswa ke German., choice2: Ia mencari kerja ke Singapura.
+
+[LABELS_CHOICE]",0,0
+"Langit-langit rumah terlihat sangat berdebu. As a consequence...
+Help me pick the more plausible option: - choice1: Ia mengambil kemoceng., choice2: Ia mengambil sapu lidi.
+
+[LABELS_CHOICE]",0,0
+"Ayah memiliki kakaktua. As a consequence...
+Help me pick the more plausible option: - choice1: Ayah memberi makan burung peliharaanya setiap pagi., choice2: Ayah membawa kakak mengungjungi doktor.
+
+[LABELS_CHOICE]",0,0
+"Bank itu memberi bunga yang tinggi. As a consequence...
+Help me pick the more plausible option: - choice1: Ia membeli vas baru., choice2: Uang di tabungannya bertambah.
+
+[LABELS_CHOICE]",0,1
+"Setiap akhir pekan, kakak bekerja sebagai tukang ojek. As a consequence...
+Help me pick the more plausible option: - choice1: Kakak mendorong gerobak untuk menjual makanan., choice2: Kaka mengeluarkan motornya dari garasi.
+
+[LABELS_CHOICE]",0,1
+"Ia ingin mengikuti jejak Susi Susanti. As a consequence...
+Help me pick the more plausible option: - choice1: Ia berlatih dengan giat menggunakan raket dan kok., choice2: Ia pergi ke kolam renang setiap hari.
+
+[LABELS_CHOICE]",0,0
+"Ia masuk ke gang buntu. As a consequence...
+Help me pick the more plausible option: - choice1: Ia terus berjalan hingga menemukan jalan besar., choice2: Ia putar arah untuk keluar.
+
+[LABELS_CHOICE]",0,1
+"Ia ingin mendaki Gunung Bromo. As a consequence...
+Help me pick the more plausible option: - choice1: Ia pergi ke Kota Lampung., choice2: Ia pergi ke Kota Surabaya.
+
+[LABELS_CHOICE]",0,1
+"Dia memesan menu internet di warkop. As a consequence...
+Help me pick the more plausible option: - choice1: Dia minum kopi., choice2: Dia makan mie.
+
+[LABELS_CHOICE]",0,1
+"Perilaku orang tersebut seperti anjing. As a consequence...
+Help me pick the more plausible option: - choice1: banyak orang yang suka dengannya., choice2: banyak orang yang tidak suka dengannya.
+
+[LABELS_CHOICE]",0,1
+"Pagi ini, ia memakai pakaian putih abu-abu. As a consequence...
+Help me pick the more plausible option: - choice1: Ia pergi ke Mall., choice2: Ia pergi ke SMA.
+
+[LABELS_CHOICE]",0,1
+"Ia akan memasak ketupat. As a consequence...
+Help me pick the more plausible option: - choice1: Ia membeli daun pisang dan kentang., choice2: Ia membeli daun kelapa dan beras.
+
+[LABELS_CHOICE]",0,1
+"Mereka pakai obat anti nyamuk. This happened because...
+Help me pick the more plausible option: - choice1: Mereka pergi ke sungai di siang hari., choice2: Mereka pergi ke kebun di malam hari.
+
+[LABELS_CHOICE]",1,1
+"Ia ingin melihat terumbu karang. As a consequence...
+Help me pick the more plausible option: - choice1: Ia pergi ke berenang ke pantai., choice2: Ia pergi belanja ke supermarket.
+
+[LABELS_CHOICE]",0,0
+"Ia kecopetan. As a consequence...
+Help me pick the more plausible option: - choice1: Ia mendapat bunga., choice2: Barangnya hilang.
+
+[LABELS_CHOICE]",0,1
+"Ia ingin melihat padi. As a consequence...
+Help me pick the more plausible option: - choice1: Ia pergi ke sawah., choice2: Ia pergi ke kebun.
+
+[LABELS_CHOICE]",0,0
+"Ia ingin melihat kuda. As a consequence...
+Help me pick the more plausible option: - choice1: Ia menaiki becak., choice2: Ia menaiki delman.
+
+[LABELS_CHOICE]",0,1
+"Ia ingin berenang di laut. As a consequence...
+Help me pick the more plausible option: - choice1: Ia pergi ke Taman Nasional Kelimutu., choice2: Ia pergi ke Taman Nasional Bunaken.
+
+[LABELS_CHOICE]",0,1
+"Mereka akan memasak rawon. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka membeli biji keluak., choice2: Mereka membeli kacang kedelai.
+
+[LABELS_CHOICE]",0,0
+"Mereka ingin melihat api biru. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka pergi ke Ijen., choice2: Mereka pergi ke Bromo.
+
+[LABELS_CHOICE]",1,0
+"Tsunami 2004 menghancurkan rumahnya. This happened because...
+Help me pick the more plausible option: - choice1: Pada tahun 2004, ia tinggal di Jakarta., choice2: Pada tahun 2004, ia tinggal di Aceh.
+
+[LABELS_CHOICE]",0,1
+"Jari kelingkingnya dilumuri tinta. This happened because...
+Help me pick the more plausible option: - choice1: Ia baru selesai menyoblos pemilu., choice2: Ia baru selesai menabung uang di bank.
+
+[LABELS_CHOICE]",1,0
+"Pria itu tidak percaya mitos Pantai Selatan. This happened because...
+Help me pick the more plausible option: - choice1: Pria itu membawa tas putih., choice2: Pria itu memakai baju hijau.
+
+[LABELS_CHOICE]",0,1
+"Ia berangkat bekerja menggunakan seragam berwarna coklat. This happened because...
+Help me pick the more plausible option: - choice1: Ia adalah seorang karyawan swasta., choice2: Ia adalah seorang PNS.
+
+[LABELS_CHOICE]",0,1
+"Ia memasak ketupat dan opor ayam. This happened because...
+Help me pick the more plausible option: - choice1: Sebentar lagi akan Idul Fitri., choice2: Sebentar lagi akan tahun baru.
+
+[LABELS_CHOICE]",0,0
+"Mereka menyanyikan lagu Indonesia Raya. This happened because...
+Help me pick the more plausible option: - choice1: Mereka mengikuti upacara bendera., choice2: Mereka berwisata ke museum.
+
+[LABELS_CHOICE]",1,0
+"Mereka masuk ke jalan tikus. This happened because...
+Help me pick the more plausible option: - choice1: Jalanan hari ini sangat macet., choice2: Mereka ingin membasmi tikus.
+
+[LABELS_CHOICE]",0,0
+"Mereka memasang bendera merah putih di rumah. This happened because...
+Help me pick the more plausible option: - choice1: Saat ini bulan Januari., choice2: Saat ini bulan Agustus.
+
+[LABELS_CHOICE]",0,1
+"Perempuan itu membawa mukena. This happened because...
+Help me pick the more plausible option: - choice1: Perempuan itu akan pergi shalat., choice2: Perempuan itu akan berulang tahun.
+
+[LABELS_CHOICE]",1,0
+"Mereka pergi ke Gunung Tangkuban Perahu. This happened because...
+Help me pick the more plausible option: - choice1: Mereka ingin mengunjungi lokasi cerita Sangkuriang., choice2: Mereka ingin mengunjungi lokasi cerita Timun Mas.
+
+[LABELS_CHOICE]",0,0
+"Ia ingin sarapan. As a consequence...
+Help me pick the more plausible option: - choice1: Ia membeli sate taican., choice2: Ia membeli nasi uduk.
+
+[LABELS_CHOICE]",0,1
+"Pelayan menaruh mangkuk kecil berisi air dengan potongan limau. As a consequence...
+Help me pick the more plausible option: - choice1: ia mencuci tangan dengan air itu., choice2: ia meminun air itu.
+
+[LABELS_CHOICE]",0,0
+"Mereka akan pergi ke Kota Tua siang ini. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka membawa topi., choice2: Mereka memakai mantel.
+
+[LABELS_CHOICE]",0,0
+"Mereka ingin belajar musik tradisional Indonesia. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka belajar gamelan., choice2: Mereka belajar biola.
+
+[LABELS_CHOICE]",0,0
+"Perempuan Jawa itu akan menikah. As a consequence...
+Help me pick the more plausible option: - choice1: Perempuan itu berlatih piano., choice2: Perempuan itu membeli kebaya.
+
+[LABELS_CHOICE]",0,1
+"Adzan Magrib mulai dikumandangkan . As a consequence...
+Help me pick the more plausible option: - choice1: Saat ini sekitar pukul delapan malam., choice2: Saat ini sekitar pukul enam sore.
+
+[LABELS_CHOICE]",1,1
+"Dari Jakarta, ia ingin ke Surabaya dengan cepat. As a consequence...
+Help me pick the more plausible option: - choice1: Ia membeli tiket kereta., choice2: Ia membeli tiket pesawat.
+
+[LABELS_CHOICE]",1,1
+"Ia membeli tiket bus. This happened because...
+Help me pick the more plausible option: - choice1: Dari Bekasi, ia ingin ke Semarang dengan murah., choice2: Dari Palembang, ia akan ke Pontianak dengan cepat.
+
+[LABELS_CHOICE]",0,0
+"Jalanan becek akibar hujan. As a consequence...
+Help me pick the more plausible option: - choice1: Ia pergi menggunakan sandal jepit., choice2: Ia pergi menggunakan sepatu boot.
+
+[LABELS_CHOICE]",0,0
+"Ia mencari oleh-oleh kain khas Indonesia. As a consequence...
+Help me pick the more plausible option: - choice1: Ia membeli kimono., choice2: Ia membeli batik.
+
+[LABELS_CHOICE]",0,1
+"ia buang air besar. This happened because...
+Help me pick the more plausible option: - choice1: perutnya mulas., choice2: rumahnya kebanjiran.
+
+[LABELS_CHOICE]",0,0
+"Ia pergi ke salon untuk sulam alis. This happened because...
+Help me pick the more plausible option: - choice1: Ia ingin belajar menyulam., choice2: ia ingin terlihat lebih cantik.
+
+[LABELS_CHOICE]",0,1
+"Kakak kesal karena adik terus membeo. This happened because...
+Help me pick the more plausible option: - choice1: Adik membawa burung beo., choice2: Adik mengulang perkataan kakak.
+
+[LABELS_CHOICE]",0,1
+"Ia dibawa ke kantor polisi akibat mencuri televisi. This happened because...
+Help me pick the more plausible option: - choice1: Ia tertangkap basah membawa televisi., choice2: Ia membawa televisi dengan tangan merah.
+
+[LABELS_CHOICE]",0,0
+"ia memiliki banyak teman. This happened because...
+Help me pick the more plausible option: - choice1: ia dikenal sebagai orang yang rendah hati., choice2: ia dikenal sebagai orang yang tinggi hati.
+
+[LABELS_CHOICE]",1,0
+"Ia menyelesaikan konflik tersebut dengan kepala dingin. As a consequence...
+Help me pick the more plausible option: - choice1: Ia mengeringkan kepalanya yang basah., choice2: Banyak orang mengapresiasi kesabaranya.
+
+[LABELS_CHOICE]",0,1
+"Ia melihat pedagang kaki lima di pinggir jalan. As a consequence...
+Help me pick the more plausible option: - choice1: Ia menelpon polisi untuk menangkap pedagang itu., choice2: Ia menghampiri pedagang dan membeli makanan.
+
+[LABELS_CHOICE]",0,1
+"Rumahnya ditelan si jago merah. As a consequence...
+Help me pick the more plausible option: - choice1: Ia memanggil pemadam kebakaran., choice2: Ia memanggil dukun pengusir setan.
+
+[LABELS_CHOICE]",0,0
+"kasus perceraian tersebut didiskusikan di meja hijau. As a consequence...
+Help me pick the more plausible option: - choice1: mereka membeli meja baru., choice2: mereka membayar pengacara.
+
+[LABELS_CHOICE]",0,1
+"perempuan itu pulang kampung setelah berbadan dua. As a consequence...
+Help me pick the more plausible option: - choice1: banyak orang meminta bantuannya karena mampu bekerja cepat ., choice2: tetangganya mencibir perilaku perempuan itu.
+
+[LABELS_CHOICE]",1,1
+"Sepulang sekolah, anak itu dimarahi oleh ayahnya. This happened because...
+Help me pick the more plausible option: - choice1: Dia lupa cium dahi ayah sebelum berangkat sekolah., choice2: Dia lupa cium tangan ayah sebelum berangkat sekolah.
+
+[LABELS_CHOICE]",1,1
+"Laki-laki itu masuk rumah sakit karena kakinya tersayat pisau dan luka parah. This happened because...
+Help me pick the more plausible option: - choice1: Dia kurang hati-hati saat ikut tarkam., choice2: Dia kurang hati-hati saat main sabung ayam.
+
+[LABELS_CHOICE]",0,1
+"Pagi ini ada bus antarkota lewat di depan rumahku. As a consequence...
+Help me pick the more plausible option: - choice1: Anak-anak merubungi bus tersebut minta menumpang ke luar kota., choice2: Anak-anak merubungi bus tersebut minta dimainkan lagu klakson.
+
+[LABELS_CHOICE]",0,1
+"Tetangga sebelah tiba-tiba kaya. As a consequence...
+Help me pick the more plausible option: - choice1: Teman-temannya mengira dia memelihara babi ngepet., choice2: Teman-temannya mengira dia memelihara ayam kampus.
+
+[LABELS_CHOICE]",0,0
+"Laki-laki itu dianggap sebagai preman di kampung ini. This happened because...
+Help me pick the more plausible option: - choice1: Laki-laki itu sering menagih uang keamanan., choice2: Laki-laki itu sering menagih uang kebersihan.
+
+[LABELS_CHOICE]",0,0
+"Orang itu suka sekali membeli kretek. As a consequence...
+Help me pick the more plausible option: - choice1: Dia terkilir., choice2: Dia terkena sakit paru-paru.
+
+[LABELS_CHOICE]",0,1
+"Dia dijuluki genderuwo di sekolah. This happened because...
+Help me pick the more plausible option: - choice1: Dia bongsor., choice2: Dia suka mengganggu teman-temannya.
+
+[LABELS_CHOICE]",0,0
+"Nenek telah lama bekerja sebagai tukang urut. As a consequence...
+Help me pick the more plausible option: - choice1: Nenek jadi sangat pandai memijat., choice2: Nenek jadi sangat pandai berhitung.
+
+[LABELS_CHOICE]",0,0
+"Bibi kesulitan menggendong si adik bayi. This happened because...
+Help me pick the more plausible option: - choice1: Bibir Bibi sobek., choice2: Selendang Bibi sobek.
+
+[LABELS_CHOICE]",1,1
+"Gigi kakek patah saat makan nasi. This happened because...
+Help me pick the more plausible option: - choice1: Ada kerikil yang tersembunyi di karung beras., choice2: Ada udang yang tersembunyi di karung beras.
+
+[LABELS_CHOICE]",0,0
+"Perempuan itu sangat malas naik angkot. This happened because...
+Help me pick the more plausible option: - choice1: Angkot terlalu sering mengetem., choice2: Angkot terlalu sering mengebut.
+
+[LABELS_CHOICE]",0,0
+"Kolesterol pak haji naik parah. This happened because...
+Help me pick the more plausible option: - choice1: Dia terlalu semangat merayakan idul adha., choice2: Dia terlalu semangat merayakan tahun baru Islam.
+
+[LABELS_CHOICE]",0,0
+"Hari ini kami merayakan lebaran haji. As a consequence...
+Help me pick the more plausible option: - choice1: Kulkas kami penuh dengan daging., choice2: Kulkas kami penuh dengan ketupat.
+
+[LABELS_CHOICE]",0,0
+"Kakinya diperban karena luka bakar. This happened because...
+Help me pick the more plausible option: - choice1: Dia tidak sengaja terkena knalpot., choice2: Dia jatuh ke atas kompor.
+
+[LABELS_CHOICE]",0,0
+"Adik menangis karena, setelah diperiksa, handphonenya diambil ayah. This happened because...
+Help me pick the more plausible option: - choice1: Dia ketahuan banyak koleksi 3gp., choice2: Dia ketahuan banyak koleksi mp3 bajakan.
+
+[LABELS_CHOICE]",0,0
+"Ia adalah anak yang paling pendek di kelas. As a consequence...
+Help me pick the more plausible option: - choice1: Saat upacara bendera, ia berdiri paling depan., choice2: Saat upacara bendera, ia berdiri paling belakang.
+
+[LABELS_CHOICE]",0,0
+"Saat menyetir, Bapak terkena jebakan batman. As a consequence...
+Help me pick the more plausible option: - choice1: Dia rugi harus membayar uang pelicin., choice2: Dia rugi harus membayar uang berobat.
+
+[LABELS_CHOICE]",0,0
+"Setelah melahirkan, ibu itu bingung karena dia tinggal di apartemen. This happened because...
+Help me pick the more plausible option: - choice1: Dia takut anaknya takut ketinggian., choice2: Dia ingin mengubur ari-ari anaknya.
+
+[LABELS_CHOICE]",0,1
+"Aku dan istriku sedang terjebak macet. As a consequence...
+Help me pick the more plausible option: - choice1: Dia mengeluh, ""Aku ingin mesin waktu.""., choice2: Dia mengeluh, ""Aku ingin pintu ke mana saja."".
+
+[LABELS_CHOICE]",0,1
+"Pelayan itu membawakan bejana berisi air dengan irisan jeruk nipis. As a consequence...
+Help me pick the more plausible option: - choice1: Aku menyegarkan dahaku dengan meminum air jeruk nipis., choice2: Aku mencuci tanganku menggunakan kobokan itu.
+
+[LABELS_CHOICE]",0,1
+"Tanteku sedang butuh uang dengan cepat. As a consequence...
+Help me pick the more plausible option: - choice1: Ia membuka rekening bank., choice2: Ia membuka akun pinjol.
+
+[LABELS_CHOICE]",0,1
+"Seorang ibu-ibu pemotor tidak berhelm, tanpa lampu sen, menabrak sebuah mobil. As a consequence...
+Help me pick the more plausible option: - choice1: Ibu itu mengomeli pengemudi mobil., choice2: Ibu itu langsung meminta maaf dan bersedia mengganti rugi.
+
+[LABELS_CHOICE]",0,0
+"Dia mengikuti kompetisi penyampaian kuliah tujuh menit. This happened because...
+Help me pick the more plausible option: - choice1: Dia mengikuti seleksi ketua rohis., choice2: Dia mengikuti seleksi masuk mahasiswa.
+
+[LABELS_CHOICE]",0,0
+"Di musim penghujan ini, kampungku sedang mengadakan fogging. This happened because...
+Help me pick the more plausible option: - choice1: Pemerintah ingin membasmi demam berdarah., choice2: Pemerintah ingin membasmi malaria.
+
+[LABELS_CHOICE]",0,0
+"Seorang ahli nujum memperkirakan rumah sakit ini dihantui oleh suster ngesot. This happened because...
+Help me pick the more plausible option: - choice1: Mata batinnya melihat ada noda darah di pintu ruang operasi., choice2: Mata batinnya melihat ada noda darah terseret-seret di lantai.
+
+[LABELS_CHOICE]",0,1
+"Ayah gundah apakah ia harus membawa mobilnya ke tempat cuci sekarang. This happened because...
+Help me pick the more plausible option: - choice1: Cuaca sedang terik menyengat., choice2: Cuaca sedang mendung gelap.
+
+[LABELS_CHOICE]",1,1
+"Kakaknya tertangkap basah saat ujian. This happened because...
+Help me pick the more plausible option: - choice1: Ia ketahuan ikut sebagai calo., choice2: Ia ketahuan ikut sebagai joki.
+
+[LABELS_CHOICE]",1,1
+"Kakak mengikuti kompetisi olahraga gerak jalan. As a consequence...
+Help me pick the more plausible option: - choice1: Kakak mengenakan seragam sekolahnya., choice2: Kakak mengenakan pakaian olahraganya.
+
+[LABELS_CHOICE]",0,0
+"Ibu takut sakit saat melahirkan. As a consequence...
+Help me pick the more plausible option: - choice1: Ibu memilih untuk melahirkan normal., choice2: Ibu memilih untuk operasi sesar.
+
+[LABELS_CHOICE]",0,1
+"Seorang satpam sedang lapar saat berjaga. As a consequence...
+Help me pick the more plausible option: - choice1: Dia ke warteg membeli ikan salmon., choice2: Dia ke warteg membeli ikan kembung.
+
+[LABELS_CHOICE]",0,1
+"Seorang tukang jamu digerebek oleh polisi. This happened because...
+Help me pick the more plausible option: - choice1: Ia membuat jamu khusus dewasa., choice2: Ia membuat miras oplosan.
+
+[LABELS_CHOICE]",0,1
+"Tarkam di daerah ini dilarang oleh polisi. This happened because...
+Help me pick the more plausible option: - choice1: Polisi sedang menyelediki kasus korupsi penyelanggara kompetisi., choice2: Tarkam sering berujung tawuran.
+
+[LABELS_CHOICE]",0,1
+"Ia terkenal sebagai mahasiswa yang kuliah pulang kuliah pulang. As a consequence...
+Help me pick the more plausible option: - choice1: Ia mendapatkan nilai yang buruk., choice2: Ia tidak banyak teman di luar perkuliahan.
+
+[LABELS_CHOICE]",0,1
+"Ibu-ibu desa itu mengomel-omel setelah pulang dari restoran steak yang mahal ini. This happened because...
+Help me pick the more plausible option: - choice1: Ia memesan steak well-done dan teksturnya terlalu keras., choice2: Ia memesan steak rare tapi rasanya tidak enak.
+
+[LABELS_CHOICE]",0,0
+"Kakak perempuanku yang berumur 25 tahun pergi ke pernikahan sepupunya. As a consequence...
+Help me pick the more plausible option: - choice1: Ia ditanya-tanya gandengannya mana., choice2: Ia ditanya-tanya agamanya apa.
+
+[LABELS_CHOICE]",0,0
+"Dia adalah anak anggota rohis kampus. As a consequence...
+Help me pick the more plausible option: - choice1: Di kampus, dia mengenakan tasbih., choice2: Di kampus, dia mengenakan celana semata kaki.
+
+[LABELS_CHOICE]",0,1
+"Dia adalah anak yang rajin ke gereja. As a consequence...
+Help me pick the more plausible option: - choice1: Dia pintar mengaji., choice2: Dia pintar bernyanyi.
+
+[LABELS_CHOICE]",0,1
+"Saldo e-money-nya habis. As a consequence...
+Help me pick the more plausible option: - choice1: Ia tertahan di hotel., choice2: Ia tertahan di area parkir.
+
+[LABELS_CHOICE]",0,1
+"Almarhumah dikenal sebagai pejuang agama yang baik. As a consequence...
+Help me pick the more plausible option: - choice1: Banyak warga yang hadir untuk takbiran., choice2: Banyak warga yang hadir untuk yasinan.
+
+[LABELS_CHOICE]",0,1
+"Adikku dan teman-temannya mengenakan pakaian adat di sekolahnya. This happened because...
+Help me pick the more plausible option: - choice1: Hari ini mereka merayakan Tujuhbelasan., choice2: Hari ini mereka merayakan Kartinian.
+
+[LABELS_CHOICE]",1,1
+"Listrik di rumah mati. This happened because...
+Help me pick the more plausible option: - choice1: PDAM menghentikan servis., choice2: PLN sedang melakukan pemadaman.
+
+[LABELS_CHOICE]",0,1
+"Kakak pergi ke bengkel Yamaha. This happened because...
+Help me pick the more plausible option: - choice1: Piano kakak rusak., choice2: Motor kakak rusak.
+
+[LABELS_CHOICE]",0,1
+"Malam-malam begini saya kelaparan. As a consequence...
+Help me pick the more plausible option: - choice1: Saya keluar berburu nasi uduk warteg., choice2: Saya keluar berburu nasi kucing angkringan.
+
+[LABELS_CHOICE]",0,1
+"Ia dijuluki sebagai budak kapitalis. This happened because...
+Help me pick the more plausible option: - choice1: Ia bekerja di SCBD., choice2: Ia bekerja sebagai ART.
+
+[LABELS_CHOICE]",0,0
+"Kakak sangat senang olahraga murah di Senayan. As a consequence...
+Help me pick the more plausible option: - choice1: Hari ini dia pergi main bola di sana., choice2: Hari ini dia pergi jogging di sana .
+
+[LABELS_CHOICE]",0,1
+"Adik dihukum di sekolah. This happened because...
+Help me pick the more plausible option: - choice1: Dia ketahuan banyak menyimpan banyak foto Kota Bandung., choice2: Dia ketahuan banyak menyimpan banyak foto Chika Bandung.
+
+[LABELS_CHOICE]",0,1
+"Sate kambing yang saya beli tadi rasanya hambar. This happened because...
+Help me pick the more plausible option: - choice1: Bumbu kecapnya tumpah semua., choice2: Bumbu saus bbq-nya tumpah semua.
+
+[LABELS_CHOICE]",0,0
+"Dia sering mendapatkan nilai jelek di kelasnya. As a consequence...
+Help me pick the more plausible option: - choice1: Ibunya marah, ""Kamu mau jadi Nobita?""., choice2: Ibunya marah, ""Kamu mau jadi Conan?"".
+
+[LABELS_CHOICE]",0,0
+"Adik pergi ke dokter karena sakit gigi. This happened because...
+Help me pick the more plausible option: - choice1: Dia terlalu sering jajan ke Burger King., choice2: Dia terlalu sering jajan ke J.Co.
+
+[LABELS_CHOICE]",0,1
+"Pak RT dianggap sebagai orang yang cukup kaya. This happened because...
+Help me pick the more plausible option: - choice1: Dia membawa mobil Avanza., choice2: Dia membawa mobil Fortuner.
+
+[LABELS_CHOICE]",0,1
+"Pak RW adalah seorang hipster. As a consequence...
+Help me pick the more plausible option: - choice1: Dia memilih untuk membeli mobil BMW., choice2: Dia memilih untuk membeli mobil Volkswagen.
+
+[LABELS_CHOICE]",0,1
+"Besok adik akan mengikuti SNMPTN. As a consequence...
+Help me pick the more plausible option: - choice1: Adik merasa gugup., choice2: Adik merasa senang.
+
+[LABELS_CHOICE]",0,0
+"Di lampu merah, ada mas-mas yang berjualan Kompas. As a consequence...
+Help me pick the more plausible option: - choice1: Beberapa pengemudi membeli karena tidak ingin tersasar., choice2: Beberapa pengemudi membeli karena ingin mengikuti berita.
+
+[LABELS_CHOICE]",0,1
+"Ibu tengah menyemprot rumah dengan anti nyamuk. As a consequence...
+Help me pick the more plausible option: - choice1: Rumahku bau Baygon., choice2: Rumahku bau Autan.
+
+[LABELS_CHOICE]",0,0
+"Pegawai kantor itu tidak punya BPJS. As a consequence...
+Help me pick the more plausible option: - choice1: Ia jatuh sakit., choice2: Kantornya diaudit dan ditindak oleh pemerintah.
+
+[LABELS_CHOICE]",0,1
+"Pandemi COVID-19 menyebabkan banyak ASN bekerja dari rumah. As a consequence...
+Help me pick the more plausible option: - choice1: Mereka melakukan pertemuan daring menggunakan Zoom., choice2: Mereka melakukan pertemuan daring menggunakan Teams.
+
+[LABELS_CHOICE]",0,0
+"Rumah paman banyak dipasang gambar hewan bermoncong putih. This happened because...
+Help me pick the more plausible option: - choice1: Paman adalah kader Demokrat., choice2: Paman adalah kader PDIP.
+
+[LABELS_CHOICE]",0,1
+"Di ruas jalan itu sedang diberlakukan contraflow. This happened because...
+Help me pick the more plausible option: - choice1: Pemerintah ingin Busway jalannya lancar., choice2: Pemerintah ingin menghindari macet.
+
+[LABELS_CHOICE]",0,1
+"Anak itu tidak lulus ujian praktek Penjaskes. This happened because...
+Help me pick the more plausible option: - choice1: Ia lari terlalu lambat., choice2: Jawabannya terlalu banyak yang salah.
+
+[LABELS_CHOICE]",0,0
+"Kakak malas mengurus STNK sendiri. As a consequence...
+Help me pick the more plausible option: - choice1: Ia membayar calo., choice2: Ia membayar joki.
+
+[LABELS_CHOICE]",0,0
+"Majapahit adalah kerajaan terbesar dalam sejarah Indonesia. This happened because...
+Help me pick the more plausible option: - choice1: Raja Gajah Mada dengan Sumpah Palapanya berhasil menguasai Nusantara., choice2: Raja Hayam Wuruk berhasil berekspansi ke penjuru Nusantara.
+
+[LABELS_CHOICE]",0,1
+"Anak itu sering sekali makan Indomie. As a consequence...
+Help me pick the more plausible option: - choice1: Ibunya membelikan makin banyak Indomie agar anaknya bisa makan Indomie setiap hari., choice2: Saat ujiannya jelek, Ibunya bilang dia bodoh karena terlalu banyak makan Indomie.
+
+[LABELS_CHOICE]",0,1
+"Perempuan itu sampai ke puncak Gunung Ijen. As a consequence...
+Help me pick the more plausible option: - choice1: Ia lalu memikul berkilo-kilo belerang turun gunung., choice2: Ia tersedak bau belerang yang menyengat.
+
+[LABELS_CHOICE]",0,1
+"Ia sedang ingin makanan Jepang. As a consequence...
+Help me pick the more plausible option: - choice1: Ia memesan Kintan., choice2: Ia memesan Hokben.
+
+[LABELS_CHOICE]",0,1
+"Banyak orang yang suka berbelanja di Shopee. This happened because...
+Help me pick the more plausible option: - choice1: Kualitas barang lebih baik di Shopee., choice2: Banyak promo di Shopee.
+
+[LABELS_CHOICE]",0,1
+"Toko ini kehabisan stok ayam. This happened because...
+Help me pick the more plausible option: - choice1: CFC baru saja memborong semuanya., choice2: Mixue baru saja memborong semuanya.
+
+[LABELS_CHOICE]",0,0
+"Toko ini menjual alkohol. As a consequence...
+Help me pick the more plausible option: - choice1: MUI menggerebek toko tersebut., choice2: FPI menggerebek toko tersebut.
+
+[LABELS_CHOICE]",0,1
+"Adik tinggal di bawah SUTET. As a consequence...
+Help me pick the more plausible option: - choice1: Dia terpapar radiasi penyebab kanker., choice2: Dia terpapar polusi penyebab kanker.
+
+[LABELS_CHOICE]",0,0
+"Budi kecewa saat membeli tahu sumedang di toko itu. This happened because...
+Help me pick the more plausible option: - choice1: Cabai hijaunya habis., choice2: Cabai merahnya habis.
+
+[LABELS_CHOICE]",0,0
+"Ibu membeli santan di pasar. This happened because...
+Help me pick the more plausible option: - choice1: Ibu ingin memasak opor ayam., choice2: Ibu ingin memasak Soto Madura.
+
+[LABELS_CHOICE]",0,0
+"Saya mau beli salonpas. This happened because...
+Help me pick the more plausible option: - choice1: Saya kegerahan., choice2: Saya sakit pinggang.
+
+[LABELS_CHOICE]",0,1
+"Bapak ingin menjalani hidup yang halal. As a consequence...
+Help me pick the more plausible option: - choice1: Bapak menabung di BSI., choice2: Bapak menabung di MUI.
+
+[LABELS_CHOICE]",1,0
+"Pak Haji bertanya-tanya apakah makanan hari ini halal. This happened because...
+Help me pick the more plausible option: - choice1: Ia disuguhi bakmi medan., choice2: Ia disuguhi bubur ayam cirebon.
+
+[LABELS_CHOICE]",0,0
+"Nenek tidak suka makan sashimi. This happened because...
+Help me pick the more plausible option: - choice1: Nenek punya prasangka terhadap makanan laut., choice2: Nenek punya prasangka terhadap makanan mentah.
+
+[LABELS_CHOICE]",0,1
+"Ia gatal-gatal setelah makan sup asparagus. This happened because...
+Help me pick the more plausible option: - choice1: Ia alergi makanan laut., choice2: Ia alergi jamur.
+
+[LABELS_CHOICE]",1,0
+"Temanku sehari minum kopi banyak sekali. As a consequence...
+Help me pick the more plausible option: - choice1: Ia diwanti-wanti berhati-hati agar tidak seperti Mbah Surip., choice2: Ia diwanti-wanti berhati-hati agar tidak seperti Ivan Gunawan.
+
+[LABELS_CHOICE]",1,0
+"Saya ingin naik taksi online mercy. As a consequence...
+Help me pick the more plausible option: - choice1: Saya memesan melalui aplikasi Blue Bird., choice2: Saya memesan melalui aplikasi Gojek.
+
+[LABELS_CHOICE]",0,0
+"Kerja SAMSAT tersendat dalam memroses banyaknya pembelian mobil pribadi baru. This happened because...
+Help me pick the more plausible option: - choice1: Samsat kehabisan cat berwarna merah., choice2: Samsat kehabisan cat berwarna putih.
+
+[LABELS_CHOICE]",0,1
+"Aksi damai mengenang pahlawan reformasi menghambat lalu lintas di lokasi. As a consequence...
+Help me pick the more plausible option: - choice1: Area Jakarta Barat macet parah., choice2: Area Jakarta Selatan macet parah.
+
+[LABELS_CHOICE]",0,0
+"Pada tanggal 4 Juni kemarin restoran di mall banyak yang ramai. This happened because...
+Help me pick the more plausible option: - choice1: Standard Chartered sedang menawarkan banyak promo., choice2: BNI sedang menawarkan banyak promo.
+
+[LABELS_CHOICE]",1,1
+"Adik sedih setelah membeli telur gulung di depan sekolah. As a consequence...
+Help me pick the more plausible option: - choice1: Telurnya lepas dari sunduknya., choice2: Penjualnya kehabisan garpu untuk makannya.
+
+[LABELS_CHOICE]",0,0
+"Air minum di rumah habis. As a consequence...
+Help me pick the more plausible option: - choice1: Kakak disuruh ibu beli galon., choice2: Kakak disuruh ibu menelpon PDAM.
+
+[LABELS_CHOICE]",0,0
+"Adik senang makanan hari ini. This happened because...
+Help me pick the more plausible option: - choice1: Menu makanannya ikan kaleng ABC yang enak., choice2: Menu makanannya kecap ABC yang enak.
+
+[LABELS_CHOICE]",1,0
+"Paman hobi main domino. As a consequence...
+Help me pick the more plausible option: - choice1: Dia kehabisan uang karena terlalu sering beli pizza., choice2: Dia kehabisan uang karena dipakai judi.
+
+[LABELS_CHOICE]",0,1
+"Kakak maju menjadi calon ketua OSIS. This happened because...
+Help me pick the more plausible option: - choice1: Dia ingin eksis., choice2: Dia ingin pintar.
+
+[LABELS_CHOICE]",1,0
+"Walaupun murah, warung bakso itu sepi pembeli. This happened because...
+Help me pick the more plausible option: - choice1: Beredar isu maraknya bakso tikus., choice2: Beredar isu maraknya bakso sapi.
+
+[LABELS_CHOICE]",1,0
+"Warung soto di pojokan selalu ramai dan rasanya sangat enak. As a consequence...
+Help me pick the more plausible option: - choice1: Warung itu digosipkan memakai MSG., choice2: Warung itu digosipkan memakai penglaris.
+
+[LABELS_CHOICE]",0,1
+"Adik sedang memesan bakso, tapi dia sedang ingin hidup sehat. As a consequence...
+Help me pick the more plausible option: - choice1: Dia berteriak, ""Jangan pakai micin ya bang!""., choice2: Dia lari tanpa membayar baksonya.
+
+[LABELS_CHOICE]",1,0
+"Bapak hendak berangkat sholat Jumat. As a consequence...
+Help me pick the more plausible option: - choice1: Ibu menitip uang tunai untuk celengan masjid., choice2: Ibu menitip GoPay untuk infaq masjid.
+
+[LABELS_CHOICE]",0,0
+"Kakak sedang latihan Paskibra. This happened because...
+Help me pick the more plausible option: - choice1: Kakak hendak merayakan sumpah pemuda., choice2: Kakak hendak merayakan dirgahayu Republik Indonesia.
+
+[LABELS_CHOICE]",0,1
+"Kakek adalah alumni 212. As a consequence...
+Help me pick the more plausible option: - choice1: Dia akan mengadiri reuni akbar di Monas., choice2: Dia akan mengikuti cosplay menjadi Wiro Sableng.
+
+[LABELS_CHOICE]",0,0
+"Paman suka mengoleksi replika kapak 212. As a consequence...
+Help me pick the more plausible option: - choice1: Dia ingin membawa kapak itu pada reuni akbar 212 di Monas. ., choice2: Dia ingin membawa kapak itu untuk cosplay Wiro Sableng.
+
+[LABELS_CHOICE]",0,1
+"Anak SMA itu membawa sabit di dalam tasnya. This happened because...
+Help me pick the more plausible option: - choice1: Anak itu ingin ikut tawuran., choice2: Anak itu ingin memotong rumput.
+
+[LABELS_CHOICE]",1,0
+"Anak SD Negeri itu berangkat sekolah di hari senin. As a consequence...
+Help me pick the more plausible option: - choice1: Dia tidak lupa memakai dasi merah., choice2: Dia tidak lupa memakai topi merah.
+
+[LABELS_CHOICE]",1,1
+"Setiap tahun, seringkali tetanggaku merayakan Idul Qurban sehari lebih awal. This happened because...
+Help me pick the more plausible option: - choice1: Dia adalah penganut Muhammadiyah., choice2: Dia adalah penganut NU.
+
+[LABELS_CHOICE]",0,0
+"Ayah pulang malam selepas main karambol. As a consequence...
+Help me pick the more plausible option: - choice1: Tangannya kotor, banyak debu kelabu seperti Tiga Roda., choice2: Tangannya kotor, banyak debu putih seperti Rose Brand.
+
+[LABELS_CHOICE]",0,1
+"Setelah pulang, sang suami dimarahi oleh sang istri. This happened because...
+Help me pick the more plausible option: - choice1: Ia baru pulang dari Gunung Kemukus., choice2: Ia baru pulang dari Gunung Bromo.
+
+[LABELS_CHOICE]",0,0
+"Di tengah Ospek, para mahasiswa baru dimarahi oleh seniornya. This happened because...
+Help me pick the more plausible option: - choice1: Mereka dianggap tidak kompak., choice2: Mereka tidak mengerjakan tugas kuliah.
+
+[LABELS_CHOICE]",0,0
+"Pada 17 Juli, aku mengendarai mobil dengan plat nomor N9EWE ke jalanan utama Jakarta. This happened because...
+Help me pick the more plausible option: - choice1: Aku diberhentikan karena plat nomorku vulgar., choice2: Aku diberhentikan karena aturan ganjil-genap.
+
+[LABELS_CHOICE]",0,0
+"Lebaran haji sudah dekat. As a consequence...
+Help me pick the more plausible option: - choice1: Jokowi membeli sapi ukuran 250 Kg., choice2: Jokowi membeli sapi ukuran 997 Kg.
+
+[LABELS_CHOICE]",0,1
+"Ayah sedang kebakaran jenggot. As a consequence...
+Help me pick the more plausible option: - choice1: Jenggot ayah habis terbakar., choice2: Ibu mencoba menenangkan Ayah.
+
+[LABELS_CHOICE]",0,1
+"Tahun lalu, kambing di peternakan paman ada 6 ekor, tapi hari ini sudah 10 ekor saja. This happened because...
+Help me pick the more plausible option: - choice1: Kambing adalah hewan yang berkembang biak., choice2: Kambing adalah hewan pemamah biak.
+
+[LABELS_CHOICE]",1,0
+"Ia ragu-ragu saat ingin membeli komputer bekas secara daring tanpa foto ataupun video yang jelas. This happened because...
+Help me pick the more plausible option: - choice1: Ia tidak mau membeli kucing dalam karung., choice2: Ia tidak mau membeli laptop dalam gelap.
+
+[LABELS_CHOICE]",1,0
+"Pekerjaannya terasa seperti menegakkan benang basah. As a consequence...
+Help me pick the more plausible option: - choice1: Ia menyerah., choice2: Ia tenggelam.
+
+[LABELS_CHOICE]",1,0
+"Aku sedang membantu kakek yang kesulitan mengurus sumur dan ladangnya yang kotor. As a consequence...
+Help me pick the more plausible option: - choice1: Aku senang karena ini adalah ladang amal., choice2: Aku senang karena jadi bisa menumpang mandi.
+
+[LABELS_CHOICE]",0,0
+"Ia malu karena merasa dia dan kakaknya bagaikan bumi dan langit. This happened because...
+Help me pick the more plausible option: - choice1: Prestasi sekolahnya jauh lebih buruk daripada kakaknya., choice2: Dia adalah seorang astronot sementara kakaknya adalah CEO.
+
+[LABELS_CHOICE]",1,0
+"Paman membayar temannya untuk mencarikan kambing hitam untuk peristiwa itu. This happened because...
+Help me pick the more plausible option: - choice1: Paman terlibat kasus konspirasi., choice2: Teman paman kambingnya kabur.
+
+[LABELS_CHOICE]",0,0
+"Kakak sedang mencari tambatan hati. As a consequence...
+Help me pick the more plausible option: - choice1: Kakak mengunduh aplikasi temu jodoh., choice2: Kakak mengunduh aplikasi olshop untuk membeli tali.
+
+[LABELS_CHOICE]",0,0
+"Di hari yang kelabu ini seluruh warga tengah berkumpul untuk memberikan penghormatan. As a consequence...
+Help me pick the more plausible option: - choice1: Rintik dari mendungnya hujan sesekali terdengar., choice2: Isak tangis sesekali pecah terdengar.
+
+[LABELS_CHOICE]",1,1
+"Adik hari ini tengah mengikuti reuni sekolahnya. As a consequence...
+Help me pick the more plausible option: - choice1: Ia menemukan cinta lama yang bersemi kembali., choice2: Ia menemukan api lama yang belum pernah padam.
+
+[LABELS_CHOICE]",0,0
+"Adik menggunakan rumus abc. This happened because...
+Help me pick the more plausible option: - choice1: Adik sedang belajar alfabet., choice2: Adik sedang mengerjakan soal matematika.
+
+[LABELS_CHOICE]",0,1
+"Kakek suka sambil menyelam minum air. As a consequence...
+Help me pick the more plausible option: - choice1: Pekerjaan kakek seringkali cepat selesai semuanya., choice2: Kakek sering tersedak air.
+
+[LABELS_CHOICE]",0,0
+"Papa dimarahi mama karena terlalu boros. This happened because...
+Help me pick the more plausible option: - choice1: Hidupnya besar pasak daripada tiang., choice2: Hidupnya seperti gali lubang tutup lubang.
+
+[LABELS_CHOICE]",0,0
+"Adik mendengar petir di siang bolong. As a consequence...
+Help me pick the more plausible option: - choice1: Adik panik dan bingung harus berbuat apa., choice2: Adik terkejut dan bersembunyi di balik kakak.
+
+[LABELS_CHOICE]",0,0
+"Ia adalah penyelam yang memiliki jam terbang yang tinggi. This happened because...
+Help me pick the more plausible option: - choice1: Ia sudah makan asam garam di 20 laut di 5 benua., choice2: Selain sertifikat menyelam, dia sudah lama memiliki sertifikat penerbang.
+
+[LABELS_CHOICE]",0,0
+"Akibat cedera, dengan sedih hati pemain bola itu memikirkan untuk mengakhiri karirnya. As a consequence...
+Help me pick the more plausible option: - choice1: Ia memutuskan untuk gantung diri., choice2: Ia memutuskan untuk gantung sepatu.
+
+[LABELS_CHOICE]",0,1
+"Kakak berberat hati mendonorkan hatinya untuk ayah. This happened because...
+Help me pick the more plausible option: - choice1: Kakak hatinya bengkak dan berat karena kelainan., choice2: Kakak takut operasi.
+
+[LABELS_CHOICE]",1,1
+"Kampung ini penuh dengan sampah masyarakat. This happened because...
+Help me pick the more plausible option: - choice1: Banyak residivis pindah ke sini., choice2: Banyak warga buang sampah sembarangan di sini.
+
+[LABELS_CHOICE]",0,0
+"Dia adalah preman yang bolak-balik masuk penjara. As a consequence...
+Help me pick the more plausible option: - choice1: Dia dianggap sebagai kanker sosial., choice2: Dia dianggap sebagai sampah masyarakat.
+
+[LABELS_CHOICE]",0,1
+"Pertemuan ini sudah berjalan lama sekali. This happened because...
+Help me pick the more plausible option: - choice1: Pembicara berputar-putar tanpa jelas ujungnya., choice2: Pembicara terus memukul-mukul di sekeliling semak belukar.
+
+[LABELS_CHOICE]",0,0
