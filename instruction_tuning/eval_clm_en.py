@@ -118,10 +118,6 @@ def eval():
             ckpt = 28000
         else:
             ckpt = int(ckpt.split('-')[1])
-        
-    # if os.path.exists(f'eval_loss/{mdl_name}${ckpt}.csv'):
-    #     print(f'Skipping evaluation for {mdl_name}${ckpt}')
-    #     exit()
     
     # Setup logging
     logging.basicConfig(
@@ -248,7 +244,7 @@ def eval():
 
     test_loss = predictions.metrics['test_loss']
     eval_data = { 'model': [mdl_name], 'checkpoint': [ckpt], 'loss': [test_loss] }
-    pd.DataFrame(eval_data).to_csv(f'eval_loss/{mdl_name}${ckpt}.csv', index=False)
+    pd.DataFrame(eval_data).to_csv(f'eval_loss_en/{mdl_name}${ckpt}.csv', index=False)
 
 if __name__ == "__main__":
     eval()
