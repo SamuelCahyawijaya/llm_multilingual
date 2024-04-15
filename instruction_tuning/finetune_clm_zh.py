@@ -177,6 +177,8 @@ def train():
     # Load Dataset
     zho_dset = datasets.load_from_disk(os.path.join(data_args.data_path, "zho_train")) # Load Zho
     print(f'Zho Size: {len(zho_dset)}')
+
+    raw_datasets = zho_dset
     if training_args.lang == 'multi':
         aug_size = int(training_args.multilingual_size * len(zho_dset))
         train_langs = ['eng', 'deu', 'fra', 'ind', 'por', 'rus', 'tam']
@@ -187,7 +189,7 @@ def train():
         aug_datasets = datasets.concatenate_datasets(aug_datasets)
         aug_datasets = aug_datasets.shuffle(seed=random_seed).select(range(aug_size))
         print(f'Multilingual Augmentation Size: {len(aug_datasets)}')
-    raw_datasets = datasets.concatenate_datasets([zho_dset, aug_datasets])
+        raw_datasets = datasets.concatenate_datasets([zho_dset, aug_datasets])
     print(f'Total Size: {len(raw_datasets)}')
 
     # Splitting
