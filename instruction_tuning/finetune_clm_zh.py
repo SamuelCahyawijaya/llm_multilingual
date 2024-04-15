@@ -175,14 +175,14 @@ def train():
         model.print_trainable_parameters()
     
     # Load Dataset
-    zho_dset = datasets.load_dataset(os.path.join(data_args.data_path, "zho_train")) # Load Zho
+    zho_dset = datasets.load_from_disk(os.path.join(data_args.data_path, "zho_train")) # Load Zho
     print(f'Zho Size: {len(zho_dset)}')
     if training_args.lang == 'multi':
         aug_size = int(training_args.multilingual_size * len(zho_dset))
         train_langs = ['eng', 'deu', 'fra', 'ind', 'por', 'rus', 'tam']
         aug_datasets = []
         for lang in train_langs:
-            dset = datasets.load_dataset(os.path.join(data_args.data_path, f"{lang}_train"))
+            dset = datasets.load_from_disk(os.path.join(data_args.data_path, f"{lang}_train"))
             aug_datasets.append(dset)
         aug_datasets = datasets.concatenate_datasets(aug_datasets)
         aug_datasets = aug_datasets.shuffle(seed=random_seed).select(range(aug_size))
