@@ -28,13 +28,13 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch finetune_clm_zh.py \
     --per_device_train_batch_size ${batch_size} \
     --per_device_eval_batch_size ${batch_size} \
     --gradient_accumulation_steps ${grad_accum} \
-    --num_train_epochs 2 \
-    --model_max_length 768 \
+    --num_train_epochs 1 \
+    --model_max_length 512 \
     --val_set_size 5000 \
     --save_steps 10000 \
     --eval_steps 10000 \
     --logging_steps 100 \
-    --preprocessing_num_workers 64 \
+    --preprocessing_num_workers 128 \
     --dataloader_num_workers 64 \
     --gradient_checkpointing \
     --use_lora True \
@@ -46,6 +46,7 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch finetune_clm_zh.py \
     --torch_compile \
     --save_total_limit 3 \
     --group_by_length \
+    --length_column_name 'length' \
     --report_to wandb \
     --wandb_project llm_multi_zho \
     --run_name falcon-7b-lang-zho-only
@@ -64,12 +65,12 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch finetune_clm_zh.py \
     --per_device_eval_batch_size ${batch_size} \
     --gradient_accumulation_steps ${grad_accum} \
     --num_train_epochs 1 \
-    --model_max_length 768 \
+    --model_max_length 512 \
     --val_set_size 5000 \
     --save_steps 10000 \
     --eval_steps 10000 \
     --logging_steps 100 \
-    --preprocessing_num_workers 64 \
+    --preprocessing_num_workers 128 \
     --dataloader_num_workers 64 \
     --gradient_checkpointing \
     --use_lora True \
@@ -81,6 +82,7 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch finetune_clm_zh.py \
     --torch_compile \
     --save_total_limit 3 \
     --group_by_length \
+    --length_column_name 'length' \
     --report_to wandb \
     --wandb_project llm_multi_zho \
     --run_name falcon-7b-lang-zho-multi_10p
@@ -99,12 +101,12 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch finetune_clm_zh.py \
     --per_device_eval_batch_size ${batch_size} \
     --gradient_accumulation_steps ${grad_accum} \
     --num_train_epochs 1 \
-    --model_max_length 768 \
+    --model_max_length 512 \
     --val_set_size 5000 \
     --save_steps 10000 \
     --eval_steps 10000 \
     --logging_steps 100 \
-    --preprocessing_num_workers 64 \
+    --preprocessing_num_workers 128 \
     --dataloader_num_workers 64 \
     --gradient_checkpointing \
     --use_lora True \
@@ -116,6 +118,7 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch finetune_clm_zh.py \
     --torch_compile \
     --save_total_limit 3 \
     --group_by_length \
+    --length_column_name 'length' \
     --report_to wandb \
     --wandb_project llm_multi_zho \
     --run_name falcon-7b-lang-zho-multi_20p
@@ -134,12 +137,12 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch finetune_clm_zh.py \
     --per_device_eval_batch_size ${batch_size} \
     --gradient_accumulation_steps ${grad_accum} \
     --num_train_epochs 1 \
-    --model_max_length 768 \
+    --model_max_length 512 \
     --val_set_size 5000 \
     --save_steps 10000 \
     --eval_steps 10000 \
     --logging_steps 100 \
-    --preprocessing_num_workers 64 \
+    --preprocessing_num_workers 128 \
     --dataloader_num_workers 64 \
     --gradient_checkpointing \
     --use_lora True \
@@ -151,6 +154,7 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch finetune_clm_zh.py \
     --torch_compile \
     --save_total_limit 3 \
     --group_by_length \
+    --length_column_name 'length' \
     --report_to wandb \
     --wandb_project llm_multi_zho \
     --run_name falcon-7b-lang-zho-multi_50p
@@ -169,12 +173,12 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch finetune_clm_zh.py \
     --per_device_eval_batch_size ${batch_size} \
     --gradient_accumulation_steps ${grad_accum} \
     --num_train_epochs 1 \
-    --model_max_length 768 \
+    --model_max_length 512 \
     --val_set_size 5000 \
     --save_steps 10000 \
     --eval_steps 10000 \
     --logging_steps 100 \
-    --preprocessing_num_workers 64 \
+    --preprocessing_num_workers 128 \
     --dataloader_num_workers 64 \
     --gradient_checkpointing \
     --use_lora True \
@@ -186,6 +190,7 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch finetune_clm_zh.py \
     --torch_compile \
     --save_total_limit 3 \
     --group_by_length \
+    --length_column_name 'length' \
     --report_to wandb \
     --wandb_project llm_multi_zho \
     --run_name falcon-7b-lang-zho-multi_100p
@@ -204,12 +209,12 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch finetune_clm_zh.py \
     --per_device_eval_batch_size ${batch_size} \
     --gradient_accumulation_steps ${grad_accum} \
     --num_train_epochs 1 \
-    --model_max_length 768 \
+    --model_max_length 512 \
     --val_set_size 5000 \
     --save_steps 10000 \
     --eval_steps 10000 \
     --logging_steps 100 \
-    --preprocessing_num_workers 64 \
+    --preprocessing_num_workers 128 \
     --dataloader_num_workers 64 \
     --gradient_checkpointing \
     --use_lora True \
@@ -221,6 +226,7 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch finetune_clm_zh.py \
     --torch_compile \
     --save_total_limit 3 \
     --group_by_length \
+    --length_column_name 'length' \
     --report_to wandb \
     --wandb_project llm_multi_zho \
     --run_name falcon-7b-lang-zho-multi_200p
@@ -239,12 +245,12 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch finetune_clm_zh.py \
     --per_device_eval_batch_size ${batch_size} \
     --gradient_accumulation_steps ${grad_accum} \
     --num_train_epochs 1 \
-    --model_max_length 768 \
+    --model_max_length 512 \
     --val_set_size 5000 \
     --save_steps 10000 \
     --eval_steps 10000 \
     --logging_steps 100 \
-    --preprocessing_num_workers 64 \
+    --preprocessing_num_workers 128 \
     --dataloader_num_workers 64 \
     --gradient_checkpointing \
     --use_lora True \
@@ -256,6 +262,7 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch finetune_clm_zh.py \
     --torch_compile \
     --save_total_limit 3 \
     --group_by_length \
+    --length_column_name 'length' \
     --report_to wandb \
     --wandb_project llm_multi_zho \
     --run_name falcon-7b-lang-zho-multi_300p
@@ -274,12 +281,12 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch finetune_clm_zh.py \
     --per_device_eval_batch_size ${batch_size} \
     --gradient_accumulation_steps ${grad_accum} \
     --num_train_epochs 1 \
-    --model_max_length 768 \
+    --model_max_length 512 \
     --val_set_size 5000 \
     --save_steps 10000 \
     --eval_steps 10000 \
     --logging_steps 100 \
-    --preprocessing_num_workers 64 \
+    --preprocessing_num_workers 128 \
     --dataloader_num_workers 64 \
     --gradient_checkpointing \
     --use_lora True \
@@ -291,6 +298,7 @@ CUDA_VISIBLE_DEVICES=0,1 accelerate launch finetune_clm_zh.py \
     --torch_compile \
     --save_total_limit 3 \
     --group_by_length \
+    --length_column_name 'length' \
     --report_to wandb \
     --wandb_project llm_multi_zho \
     --run_name falcon-7b-lang-zho-multi_500p

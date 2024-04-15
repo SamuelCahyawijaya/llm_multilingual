@@ -210,6 +210,7 @@ def train():
         tokenized_full_prompt = tokenizer(full_prompt + tokenizer.eos_token, truncation=True, max_length=model_max_length)
         tokenized_full_prompt["labels"] = tokenized_full_prompt["input_ids"]
         tokenized_full_prompt.pop('attention_mask')
+        tokenized_full_prompt["length"] = len(tokenized_full_prompt["input_ids"])
         return tokenized_full_prompt
 
     #with training_args.main_process_first(desc="dataset map tokenization"):
