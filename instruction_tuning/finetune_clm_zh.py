@@ -68,6 +68,7 @@ class CendolTrainingArguments(TrainingArguments):
         default=False, metadata={"help": "Whether to use fp16 16-bit (mixed) precision training instead of 32-bit training."}
     )
     lang: str = field(default="zh", metadata={"help": "The language or language list separated by `,`, dataset will be downlaoded from HF Hub."})
+    multilingual_size: float = field(default=0.1, metadata={"help": "The proportion of multilingual data compared to the zho one"})
     evaluation_strategy: str = field(default="steps", metadata={"help": ""})
     save_strategy: str = field(default="steps", metadata={"help": ""})
     wandb_project: str = field(default="bactrian", metadata={"help": "Weight & Bias (W&B) project name."})
@@ -172,21 +173,22 @@ def train():
         )
         model = get_peft_model(model, config)
         model.print_trainable_parameters()
-
-    # Load dataset from HF Hub
-    num_lang_to_size_map = {
-        1: 2090000,
-        2: 2009000,
-    }
     
     # Load Dataset
-    train_langs = training_args.lang.split(',')
-    raw_datasets = []    
-    for lang in train_langs:
-        dset = datasets.load_dataset(data_args.data_path, split='train')['train']
-        size = num_lang_to_size_map[len(train_langs)]
-        raw_datasets.append(dset.train_test_split(test_size=size, shuffle=True, seed=14045)['test'])
-    raw_datasets = datasets.concatenate_datasets(raw_datasets)
+    zho_dset = datasets.load_dataset(os.path.join(data_args.data_path, "zho_train")) # Load Zho
+    print(f'Zho Size: {len(zho_dset)}')
+    if training_args.lang == 'multi':
+        aug_size = int(training_args.multilingual_size * len(zho_dset))
+        train_langs = ['eng', 'deu', 'fra', 'ind', 'por', 'rus', 'tam']
+        aug_datasets = []
+        for lang in train_langs:
+            dset = datasets.load_dataset(os.path.join(data_args.data_path, f"{lang}_train"))
+            aug_datasets.append(dset)
+        aug_datasets = datasets.concatenate_datasets(aug_datasets)
+        aug_datasets = aug_datasets.shuffle(seed=random_seed).select(range(aug_size))
+        print(f'Multilingual Augmentation Size: {len(aug_datasets)}')
+    raw_datasets = datasets.concatenate_datasets([zho_dset, aug_datasets])
+    print(f'Total Size: {len(raw_datasets)}')
 
     # Splitting
     if data_args.val_set_size > 0:
@@ -200,8 +202,8 @@ def train():
     model_max_length = data_args.model_max_length
 
     def generate_and_tokenize_prompt(data_point):
-        full_prompt = f'{data_point["inputs"]}\n{data_point["output"]}'
-        user_prompt = f'{data_point["inputs"]} '
+        full_prompt = f'{data_point["input"]} {data_point["output"]}'
+        user_prompt = data_point["input"]
         user_prompt_len = len(tokenizer(user_prompt, truncation=True, max_length=model_max_length)["input_ids"])
         tokenized_full_prompt = tokenizer(full_prompt + tokenizer.eos_token, truncation=True, max_length=model_max_length)
         tokenized_full_prompt["labels"] = tokenized_full_prompt["input_ids"]
